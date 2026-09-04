@@ -11,11 +11,17 @@
 要让“同一个链接”自动更新，不要把网站当成一次性上传，而要绑定成一个可更新的站点。两种做法：
 
 （A）Git 自动部署（真正自动：改完数据 → git push → 链接自动更新）
-1. 把这个文件夹做成 Git 仓库，并推到 GitHub/Gitee。
-2. 在 Netlify 新建站点时选“导入现有 Git 仓库”，绑定该仓库。
-3. Netlify 会读取根目录的 netlify.toml：自动执行 generate_html.py（读取已提交的 data.json），
-   并把「部署_Netlify」作为发布目录。之后每次本地更新数据并 git push，链接自动更新，无需手动上传。
-   （注意：data.json 必须一起提交；新增/更新的“双周基础数据MMDD-MMDD”文件夹可不提交。）
+1. 本项目已经初始化好 Git 仓库（分支 main），并已提交第一版。
+2. 在 GitHub/Gitee 新建一个空仓库，然后把本目录推上去：
+   git remote add origin <你的仓库地址>
+   git push -u origin main
+3. 到 Netlify → Add new site → Import an existing project → 选 GitHub/Gitee 仓库。
+   Netlify 会自动读取根目录 netlify.toml，构建命令为：
+   python generate_html.py && cp dashboard.html 部署_Netlify/index.html
+   发布目录为「部署_Netlify」。
+4. 之后每次更新数据：本地生成新 data.json → git add data.json && git commit && git push，
+   同一个链接就会自动更新，无需再手动上传。
+   （注意：data.json 要提交；“双周基础数据MMDD-MMDD”文件夹不提交，避免仓库过大。）
 
 （B）命令行一键发布（免 Git：更新数据后双击一次「发布_Netlify.bat」）
 1. 首次：安装 Netlify CLI（npm i -g netlify-cli），执行 netlify login 登录，
