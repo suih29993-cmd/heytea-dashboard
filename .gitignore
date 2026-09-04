@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+_data_cache/
+.workbuddy/
+_pw_*.js
+_pw_*.cjs
+_shot_*.png
+_v2check.py
+_v2check_out.txt
+_v2report.txt
+_validate.py
+_validate_out.txt
+双周基础数据*/
+dashboard.html
+部署_Netlify/index.html

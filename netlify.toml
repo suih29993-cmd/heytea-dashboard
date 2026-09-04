@@ -1,0 +1,6 @@
+[build]
+  command = "python generate_html.py && cp dashboard.html 部署_Netlify/index.html"
+  publish = "部署_Netlify"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
