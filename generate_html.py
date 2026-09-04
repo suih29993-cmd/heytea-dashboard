@@ -115,8 +115,8 @@ HTML = r'''<!DOCTYPE html>
 
   /* ============ 表格 ============ */
   table.tbl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}
-  table.tbl th{background:var(--th-bg);color:var(--ink);text-align:left;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans)}
-  table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans)}
+  table.tbl th{background:var(--th-bg);color:var(--ink);text-align:left;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle}
+  table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);vertical-align:middle}
   table.tbl td.num,table.tbl td .num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
   table.tbl td b.num{font-family:var(--font-num)}
   table.tbl tr:last-child td{border-bottom:none}
