@@ -334,11 +334,8 @@ HTML = r'''<!DOCTYPE html>
     </div>
 
     <div class="legend">说明：评分 / 回复率 / 满意度类指标 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。</div>
-    <h3>Top 10 门店</h3>
-    <div class="panel" id="top3"></div>
-    <h3 style="margin-top:22px">Bottom 10 门店</h3>
-    <div class="panel" id="bottom10"></div>
-    <div class="panel" id="storeDetail" style="margin-top:18px;display:none"></div>
+    <h3>门店明细</h3>
+    <div class="panel" id="storeView"></div>
   </section>
 
   <!-- 视图3 -->
@@ -436,9 +433,9 @@ const METRIC_HELP={
 const REGION_METRICS=['mt_score','mt_reply','sg_score','sg_reply','sg_cancel'];
 const CORE5=['mt_score','mt_reply','sg_score','sg_reply','sg_cancel'];
 const ALL_M=Object.keys(METRICS);
-const V3_MT_ORDER=['mt_score','mt_exp','mt_quality','mt_service','mt_prod_sat','mt_pack_sat','mt_reply'];
+const V3_MT_ORDER=['mt_score','mt_reply'];
 const V3_SG_ORDER=['sg_score','sg_reply','sg_bad_reply','sg_cancel'];
-const V3_MT_HEADERS=['商家评分','综合体验分','商品质量分','服务体验分','商品满意度','包装满意度','消息回复率'];
+const V3_MT_HEADERS=['商家评分','消息回复率'];
 const V3_SG_HEADERS=['商家评分','消息回复率','差评回复率','商责取消率'];
 
 const CITY_TO_PROV={
@@ -565,7 +562,6 @@ function renderBottom3(){
 // ---- 视图2 ----
 const PLATFORMS={'美团':['mt_score','mt_reply','mt_exp','mt_quality','mt_service','mt_prod_sat','mt_pack_sat'],
                  '闪购':['sg_score','sg_reply','sg_bad_reply','sg_cancel']};
-const SUB5=['mt_exp','mt_quality','mt_service','mt_prod_sat','mt_pack_sat'];
 // ---- 通用门店树形多选组件（视图2/视图3 复用）----
 function makeStoreTree(cfg){
   // cfg: {box, count, trigTxt, panel, getAvailable, onChange}
@@ -819,10 +815,8 @@ function metricGroups(pool){
   return groups;
 }
 let v2SelMets=[];
-let v2ShowSub=false; // 美团商家评分（综合）表头点击展开/收起 5 项二级指标
 function fillMetrics(){
   const pool=getMetricPool();
-  v2ShowSub=false; // 切换平台时收起明细
   // 保留仍属于当前平台 pool 的已选指标；若清空则默认选第一个
   v2SelMets=v2SelMets.filter(m=>pool.includes(m));
   if(v2SelMets.length===0 && pool.length) v2SelMets=[pool[0]];
@@ -846,7 +840,6 @@ function renderMetricBox(){
       cb.type='checkbox'; cb.className='tree-cb'; cb.checked=v2SelMets.includes(mk);
       cb.onchange=(e)=>{
         e.stopPropagation();
-        v2ShowSub=false; // 重新选择指标时收起明细
         if(e.target.checked){ if(!v2SelMets.includes(mk)) v2SelMets.push(mk); }
         else { v2SelMets=v2SelMets.filter(x=>x!==mk); }
         // 按 pool 顺序保持选中顺序（首个=主排序指标）
@@ -884,96 +877,32 @@ function getFiltered(mets){
     mets.every(m=>s.metrics[m].cur!==null)
   );
 }
-function rankBg(idx,n,isBottom){
-  return 'transparent';
-}
-function rankRows(arr,mets,showSub,isBottom){
-  const n=arr.length;
-  const primary=mets[0];
-  const canExpand=(primary==='mt_score');
-  const subCols=showSub?SUB5.slice():[];
-  // 表头：固定列 + 主指标 + [展开的5项二级指标紧邻其后] + 其余已选指标
+function storeDetailRows(arr,mets){
   let h='<table class="tbl"><thead><tr><th>#</th><th>门店</th><th>城市</th><th>督导</th>';
-  mets.forEach((m,mi)=>{
-    let thAttr=''; let arrow='';
-    if(mi===0 && canExpand){
-      thAttr=' style="cursor:pointer" title="点击展开/收起 5 项明细指标" data-v2sub="toggle"';
-      arrow=' <span class="sort-acc">'+(showSub?'▾':'▸')+'</span>';
-    } else if(mi===0){
-      arrow=' <span class="sort-acc">↓</span>';
-    }
-    h+='<th'+thAttr+'>'+METRICS[m].name+helpIcon(m)+arrow+'</th>';
-    if(mi===0 && subCols.length){
-      subCols.forEach(s=>h+='<th>'+METRICS[s].name+helpIcon(s)+'</th>');
-    }
-  });
+  mets.forEach(m=>{h+='<th>'+METRICS[m].name+helpIcon(m)+'</th>';});
   h+='</tr></thead><tbody>';
-  // 数据行：固定列 + 主指标 + [展开的5项二级指标紧邻其后] + 其余已选指标
   arr.forEach((s,idx)=>{
-    const rank=isBottom?(n-idx):(idx+1);
-    h+='<tr><td class="rank-no">'+String(rank).padStart(2,'0')+'</td><td class="txt">'+s.name+'</td><td class="txt">'+s.city+'</td><td class="txt">'+s.supervisor+'</td>';
-    mets.forEach((m,mi)=>{
+    h+='<tr><td>'+String(idx+1).padStart(2,'0')+'</td><td class="txt">'+s.name+'</td><td class="txt">'+s.city+'</td><td class="txt">'+s.supervisor+'</td>';
+    mets.forEach(m=>{
       const cur=s.metrics[m].cur;
       const warn=isWarn(m,cur)?' class="warn"':'';
-      h+='<td'+warn+'><b class="num">'+fmt(m,cur)+'</b><br>'+dtext(m,s.metrics[m].delta)+'</td>';
-      if(mi===0 && subCols.length){
-        subCols.forEach(su=>{const w=isWarn(su,s.metrics[su].cur)?' class="warn"':'';h+='<td'+w+'><span class="num">'+fmt(su,s.metrics[su].cur)+'</span></td>';});
-      }
+      h+='<td'+warn+'><span class="num">'+fmt(m,cur)+'</span><br>'+dtext(m,s.metrics[m].delta)+'</td>';
     });
     h+='</tr>';
   });
   return h+'</tbody></table>';
 }
-function v2ToggleSub(){ v2ShowSub=!v2ShowSub; renderStore(); }
-function renderStoreDetail(name){
-  const s=DATA.stores.find(x=>x.name===name);
-  if(!s) return;
-  let html='<h3>门店详情：'+name+'</h3>';
-  html+='<p style="color:var(--sub);font-size:13px">区域：'+s.region+'　|　城市：'+s.city+'　|　督导：'+s.supervisor+'　|　类型：'+s.type+'</p>';
-  html+='<table class="tbl"><thead><tr><th>指标</th><th>本期</th><th>环比</th><th>区域排名</th></tr></thead><tbody>';
-  ALL_M.forEach(m=>{
-    const mv=s.metrics[m].cur;
-    const peers=DATA.stores.filter(x=>x.region===s.region&&x.status==='营业中'&&x.metrics[m].cur!==null);
-    const dir=METRICS[m].dir;
-    peers.sort((a,b)=>dir==='high'?b.metrics[m].cur-a.metrics[m].cur:a.metrics[m].cur-b.metrics[m].cur);
-    const rank=peers.findIndex(x=>x.name===name)+1;
-    const pct=(rank/peers.length*100).toFixed(0);
-    html+='<tr><td>'+METRICS[m].name+'<span class="tag">'+METRICS[m].ch+'</span></td>'+
-      '<td><b class="num">'+fmt(m,mv)+'</b></td><td>'+dtext(m,s.metrics[m].delta)+'</td>'+
-      '<td>第 '+rank+' / '+peers.length+'（前 '+pct+'%）</td></tr>';
-  });
-  html+='</tbody></table>';
-  document.getElementById('storeDetail').innerHTML=html;
-  document.getElementById('storeDetail').style.display='block';
-  document.getElementById('top3').innerHTML=''; document.getElementById('bottom10').innerHTML='';
-}
 function renderStore(){
   if(v2SelMets.length===0){
-    const tip='<div style="color:var(--sub);padding:10px 0">请在「指标」下拉中至少勾选一个指标。</div>';
-    document.getElementById('top3').innerHTML=tip;
-    document.getElementById('bottom10').innerHTML='';
-    document.getElementById('storeDetail').style.display='none';
+    document.getElementById('storeView').innerHTML='<div style="color:var(--sub);padding:10px 0">请在「指标」下拉中至少勾选一个指标。</div>';
     return;
   }
-  const mk=v2SelMets[0];
-  if(mk!=='mt_score') v2ShowSub=false;
   const filtered=getFiltered(v2SelMets);
   if(filtered.length===0){
-    const tip='<div style="color:var(--sub);padding:10px 0">当前筛选条件下无匹配门店，请在左侧「门店筛选」树中至少勾选一家门店。</div>';
-    document.getElementById('top3').innerHTML=tip;
-    document.getElementById('bottom10').innerHTML='';
-    document.getElementById('storeDetail').style.display='none';
+    document.getElementById('storeView').innerHTML='<div style="color:var(--sub);padding:10px 0">当前筛选条件下无匹配门店，请调整筛选或至少勾选一家门店。</div>';
     return;
   }
-  document.getElementById('storeDetail').style.display='none';
-  const dir=METRICS[mk].dir;
-  const st=filtered.slice().sort((a,b)=>dir==='high'?b.metrics[mk].cur-a.metrics[mk].cur:a.metrics[mk].cur-b.metrics[mk].cur);
-  const top=st.slice(0,10);
-  const bottom=st.slice(-10).reverse();
-  const showSub=(mk==='mt_score' && v2ShowSub);
-  const hint=(mk==='mt_score')?'<div style="color:var(--sub);font-size:12px;margin-bottom:8px">提示：点击 Top/Bottom 表中「美团商家评分」表头可展开/收起 综合体验分、商品质量分、服务体验分、商品满意度、包装满意度 5 项明细。</div>':'';
-  document.getElementById('top3').innerHTML=hint+rankRows(top,v2SelMets,showSub,false);
-  document.getElementById('bottom10').innerHTML=rankRows(bottom,v2SelMets,showSub,true);
+  document.getElementById('storeView').innerHTML=storeDetailRows(filtered,v2SelMets);
 }
 
 // ---- 视图3 ----
@@ -1111,12 +1040,10 @@ function init(){
   if(metricPanel) metricPanel.onclick=(e)=>e.stopPropagation();
   document.getElementById('metricAll').onclick=()=>{
     const pool=getMetricPool();
-    v2ShowSub=false;
     v2SelMets=pool.slice().sort((a,b)=>pool.indexOf(a)-pool.indexOf(b));
     renderMetricBox(); updateMetricTrigger(); renderStore();
   };
   document.getElementById('metricClear').onclick=()=>{
-    v2ShowSub=false;
     v2SelMets=[];
     renderMetricBox(); updateMetricTrigger(); renderStore();
   };
@@ -1129,11 +1056,6 @@ function init(){
   document.getElementById('treeTrigger').onclick=(e)=>{e.stopPropagation();closeTreePanelsExcept(document.getElementById('treePanel'));v2Tree.toggle();};
   const tp=document.getElementById('treePanel'); if(tp) tp.onclick=(e)=>e.stopPropagation();
   if(document.addEventListener) document.addEventListener('click', closeTreeOutside);
-  // 视图2 表头点击展开/收起二级指标（事件委托，兼容动态表格）
-  document.addEventListener('click', function(e){
-    const th=e.target.closest('th[data-v2sub="toggle"]');
-    if(th) v2ToggleSub();
-  });
   // 视图3
   v3RegTree.rebuild(REGION_OPTS,[]);
   v3SupTree.rebuild([],[]);
