@@ -562,6 +562,7 @@ function renderBottom3(){
 // ---- 视图2 ----
 const PLATFORMS={'美团':['mt_score','mt_reply','mt_exp','mt_quality','mt_service','mt_prod_sat','mt_pack_sat'],
                  '闪购':['sg_score','sg_reply','sg_bad_reply','sg_cancel']};
+const SUB5=['mt_exp','mt_quality','mt_service','mt_prod_sat','mt_pack_sat'];
 // ---- 通用门店树形多选组件（视图2/视图3 复用）----
 function makeStoreTree(cfg){
   // cfg: {box, count, trigTxt, panel, getAvailable, onChange}
@@ -815,8 +816,10 @@ function metricGroups(pool){
   return groups;
 }
 let v2SelMets=[];
+let v2ShowSub=false; // 美团商家评分（综合）表头点击展开/收起 5 项二级指标
 function fillMetrics(){
   const pool=getMetricPool();
+  v2ShowSub=false; // 切换平台时收起明细
   // 保留仍属于当前平台 pool 的已选指标；若清空则默认选第一个
   v2SelMets=v2SelMets.filter(m=>pool.includes(m));
   if(v2SelMets.length===0 && pool.length) v2SelMets=[pool[0]];
@@ -840,6 +843,7 @@ function renderMetricBox(){
       cb.type='checkbox'; cb.className='tree-cb'; cb.checked=v2SelMets.includes(mk);
       cb.onchange=(e)=>{
         e.stopPropagation();
+        v2ShowSub=false; // 重新选择指标时收起明细
         if(e.target.checked){ if(!v2SelMets.includes(mk)) v2SelMets.push(mk); }
         else { v2SelMets=v2SelMets.filter(x=>x!==mk); }
         // 按 pool 顺序保持选中顺序（首个=主排序指标）
@@ -878,25 +882,47 @@ function getFiltered(mets){
   );
 }
 function storeDetailRows(arr,mets){
+  const primary=mets[0];
+  const canExpand=(primary==='mt_score');
+  const showSub=(canExpand && v2ShowSub);
+  const subCols=showSub?SUB5.slice():[];
   let h='<table class="tbl"><thead><tr><th>#</th><th>门店</th><th>城市</th><th>督导</th>';
-  mets.forEach(m=>{h+='<th>'+METRICS[m].name+helpIcon(m)+'</th>';});
+  mets.forEach((m,mi)=>{
+    let thAttr=''; let arrow='';
+    if(mi===0 && canExpand){
+      thAttr=' style="cursor:pointer" title="点击展开/收起 5 项明细指标" data-v2sub="toggle"';
+      arrow=' <span class="sort-acc">'+(showSub?'▾':'▸')+'</span>';
+    } else if(mi===0){
+      arrow=' <span class="sort-acc">↓</span>';
+    }
+    h+='<th'+thAttr+'>'+METRICS[m].name+helpIcon(m)+arrow+'</th>';
+    if(mi===0 && subCols.length){
+      subCols.forEach(s=>h+='<th>'+METRICS[s].name+helpIcon(s)+'</th>');
+    }
+  });
   h+='</tr></thead><tbody>';
   arr.forEach((s,idx)=>{
     h+='<tr><td>'+String(idx+1).padStart(2,'0')+'</td><td class="txt">'+s.name+'</td><td class="txt">'+s.city+'</td><td class="txt">'+s.supervisor+'</td>';
-    mets.forEach(m=>{
+    mets.forEach((m,mi)=>{
       const cur=s.metrics[m].cur;
       const warn=isWarn(m,cur)?' class="warn"':'';
       h+='<td'+warn+'><span class="num">'+fmt(m,cur)+'</span><br>'+dtext(m,s.metrics[m].delta)+'</td>';
+      if(mi===0 && subCols.length){
+        subCols.forEach(su=>{const w=isWarn(su,s.metrics[su].cur)?' class="warn"':'';h+='<td'+w+'><span class="num">'+fmt(su,s.metrics[su].cur)+'</span></td>';});
+      }
     });
     h+='</tr>';
   });
   return h+'</tbody></table>';
 }
+function v2ToggleSub(){ v2ShowSub=!v2ShowSub; renderStore(); }
 function renderStore(){
   if(v2SelMets.length===0){
     document.getElementById('storeView').innerHTML='<div style="color:var(--sub);padding:10px 0">请在「指标」下拉中至少勾选一个指标。</div>';
     return;
   }
+  const mk=v2SelMets[0];
+  if(mk!=='mt_score') v2ShowSub=false;
   const filtered=getFiltered(v2SelMets);
   if(filtered.length===0){
     document.getElementById('storeView').innerHTML='<div style="color:var(--sub);padding:10px 0">当前筛选条件下无匹配门店，请调整筛选或至少勾选一家门店。</div>';
@@ -1040,10 +1066,12 @@ function init(){
   if(metricPanel) metricPanel.onclick=(e)=>e.stopPropagation();
   document.getElementById('metricAll').onclick=()=>{
     const pool=getMetricPool();
+    v2ShowSub=false;
     v2SelMets=pool.slice().sort((a,b)=>pool.indexOf(a)-pool.indexOf(b));
     renderMetricBox(); updateMetricTrigger(); renderStore();
   };
   document.getElementById('metricClear').onclick=()=>{
+    v2ShowSub=false;
     v2SelMets=[];
     renderMetricBox(); updateMetricTrigger(); renderStore();
   };
@@ -1056,6 +1084,11 @@ function init(){
   document.getElementById('treeTrigger').onclick=(e)=>{e.stopPropagation();closeTreePanelsExcept(document.getElementById('treePanel'));v2Tree.toggle();};
   const tp=document.getElementById('treePanel'); if(tp) tp.onclick=(e)=>e.stopPropagation();
   if(document.addEventListener) document.addEventListener('click', closeTreeOutside);
+  // 视图2 表头点击展开/收起二级指标（事件委托，兼容动态表格）
+  document.addEventListener('click', function(e){
+    const th=e.target.closest('th[data-v2sub="toggle"]');
+    if(th) v2ToggleSub();
+  });
   // 视图3
   v3RegTree.rebuild(REGION_OPTS,[]);
   v3SupTree.rebuild([],[]);
