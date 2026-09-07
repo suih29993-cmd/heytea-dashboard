@@ -114,10 +114,10 @@ HTML = r'''<!DOCTYPE html>
   .help-tip{position:fixed;z-index:60;display:none;max-width:320px;width:max-content;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(23,23,23,.12);padding:10px 12px;font-size:12px;line-height:1.6;color:var(--ink);white-space:normal}
 
   /* ============ 表格 ============ */
-  table th,table td{vertical-align:middle}
-    table.tbl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}
-  table.tbl th{background:var(--th-bg);color:var(--ink);text-align:left;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle}
-  table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);vertical-align:middle}
+  table th,table td{vertical-align:middle;text-align:center}
+  table.tbl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}
+  table.tbl th{background:var(--th-bg);color:var(--ink);text-align:center;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle}
+  table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);text-align:center;vertical-align:middle}
   table.tbl td.num,table.tbl td .num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
   table.tbl td b.num{font-family:var(--font-num)}
   table.tbl tr:last-child td{border-bottom:none}
