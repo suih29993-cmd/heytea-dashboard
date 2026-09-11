@@ -392,7 +392,7 @@ HTML = r'''<!DOCTYPE html>
         </div>
       </div>
     </div>
-    <div class="legend">说明：商品质量分 / 服务体验分 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。<br>商品质量分 =（商品满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，服务体验分 =（消息回复率×10% + 服务负反馈率×10%）÷ 20%，均为 5 分制；评分 = 商品质量分×80% + 服务体验分×20%（闪购取口味满意度）。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>。选择督导后可进一步勾选其下属门店查看明细。</div>
+    <div class="legend">说明：评分 / 商品质量分 / 服务体验分 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。<br>商品质量分 =（商品满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，服务体验分 =（消息回复率×10% + 服务负反馈率×10%）÷ 20%，均为 5 分制；评分 = 商品质量分×80% + 服务体验分×20%（闪购取口味满意度）。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>。选择督导后可进一步勾选其下属门店查看明细。</div>
     <h3>督导表现</h3>
     <div class="panel" id="supTable"></div>
     <div class="panel" id="supStoreTable" style="margin-top:18px;display:none"></div>
@@ -461,10 +461,10 @@ const METRIC_HELP={
 const REGION_METRICS=['mt_score','mt_repeat','sg_score','sg_cancel'];   // 区域周报总览 KPI
 const BOTTOM_METRICS=['mt_score','mt_repeat','sg_score','sg_cancel'];   // Bottom 5 表
 const ALL_M=Object.keys(METRICS);
-const V3_MT_ORDER=['mt_quality','mt_service'];
-const V3_SG_ORDER=['sg_quality','sg_service','sg_cancel'];
-const V3_MT_HEADERS=['商品质量分','服务体验分'];
-const V3_SG_HEADERS=['商品质量分','服务体验分','商责取消率'];
+const V3_MT_ORDER=['mt_score','mt_quality','mt_service'];
+const V3_SG_ORDER=['sg_score','sg_quality','sg_service','sg_cancel'];
+const V3_MT_HEADERS=['评分','商品质量分','服务体验分'];
+const V3_SG_HEADERS=['评分','商品质量分','服务体验分','商责取消率'];
 
 const CITY_TO_PROV={
   '福州市':'福建省','厦门市':'福建省','泉州市':'福建省','漳州市':'福建省','莆田市':'福建省','三明市':'福建省','南平市':'福建省','龙岩市':'福建省','宁德市':'福建省',
