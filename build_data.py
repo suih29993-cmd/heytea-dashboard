@@ -57,9 +57,10 @@ SUP_COLS = {
 ALL_M = (list(STORE_COLS['美团']['pair']) + list(STORE_COLS['美团']['single'])
          + list(STORE_COLS['闪购']['pair']) + list(STORE_COLS['闪购']['single']))
 
-# 督导视图派生指标：由二级指标按平台公式合成 (指标名, 权重)
-# 商品质量分/服务体验分 = 各分项加权和 ÷ 该分项权重合计（归一化到 0-5 分），
-# 使得 评分 = 商品质量分×80% + 服务体验分×20% 恒成立。
+# 督导视图派生指标：由二级指标按平台公式加权求和 (指标名, 权重)
+# 商品质量分 = 满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%（满分 4 分）
+# 服务体验分 = 消息回复率×10% + 服务负反馈率×10%（满分 1 分）
+# 评分 = 商品质量分 + 服务体验分（满分 5 分），即各分项按权重直接相加，不做归一化。
 COMPOSITE = {
     'mt_quality': (('mt_goods_sat', 0.30), ('mt_pack_sat', 0.10),
                    ('mt_repeat_score', 0.20), ('mt_food_safe', 0.20)),
@@ -165,17 +166,16 @@ def _wavg(rows, mk, which):
 
 
 def _composite(metrics, parts):
-    """按权重合成派生指标；任一分项缺失则记 None"""
-    tw = sum(w for _, w in parts)
+    """按权重直接求和（商品质量分满分 4 分、服务体验分满分 1 分）；任一分项缺失则记 None"""
 
     def calc(which):
-        num = 0.0
+        total = 0.0
         for k, w in parts:
             v = (metrics.get(k) or {}).get(which)
             if v is None:
                 return None
-            num += v * w
-        return round(num / tw, 4)
+            total += v * w
+        return round(total, 4)
 
     cur, prev = calc('cur'), calc('prev')
     return {'cur': cur, 'prev': prev,

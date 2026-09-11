@@ -98,22 +98,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5721,
+       "cur": 3.6577,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4514,
+       "cur": 0.8903,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7022,
+       "cur": 3.7618,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9719,
+       "cur": 0.7944,
        "prev": null,
        "delta": null
       }
@@ -203,22 +203,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5915,
+       "cur": 3.6732,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2896,
+       "cur": 0.8579,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6376,
+       "cur": 3.7101,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9548,
+       "cur": 0.791,
        "prev": null,
        "delta": null
       }
@@ -308,22 +308,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.579,
+       "cur": 3.6632,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5027,
+       "cur": 0.9005,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6588,
+       "cur": 3.727,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9333,
+       "cur": 0.7867,
        "prev": null,
        "delta": null
       }
@@ -416,22 +416,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5502,
-       "prev": 4.5723,
-       "delta": -0.0221
+       "cur": 3.6402,
+       "prev": 3.6579,
+       "delta": -0.0177
       },
       "mt_service": {
-       "cur": 4.5,
-       "prev": 4.4987,
-       "delta": 0.0013
+       "cur": 0.9,
+       "prev": 0.8997,
+       "delta": 0.0003
       },
       "sg_quality": {
-       "cur": 4.5417,
+       "cur": 3.6333,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0084,
+       "cur": 0.8017,
        "prev": null,
        "delta": null
       }
@@ -522,22 +522,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6076,
-       "prev": 4.621,
-       "delta": -0.0134
+       "cur": 3.686,
+       "prev": 3.6968,
+       "delta": -0.0108
       },
       "mt_service": {
-       "cur": 4.401,
-       "prev": 4.3328,
-       "delta": 0.0682
+       "cur": 0.8802,
+       "prev": 0.8666,
+       "delta": 0.0136
       },
       "sg_quality": {
-       "cur": 4.5792,
+       "cur": 3.6633,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -628,22 +628,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6287,
-       "prev": 4.623,
-       "delta": 0.0057
+       "cur": 3.703,
+       "prev": 3.6984,
+       "delta": 0.0046
       },
       "mt_service": {
-       "cur": 4.0384,
-       "prev": 4.3301,
-       "delta": -0.2917
+       "cur": 0.8077,
+       "prev": 0.866,
+       "delta": -0.0583
       },
       "sg_quality": {
-       "cur": 4.5229,
+       "cur": 3.6183,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8167,
+       "cur": 0.7633,
        "prev": null,
        "delta": null
       }
@@ -734,22 +734,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5248,
-       "prev": 4.5956,
-       "delta": -0.0708
+       "cur": 3.6199,
+       "prev": 3.6765,
+       "delta": -0.0566
       },
       "mt_service": {
-       "cur": 4.3942,
-       "prev": 4.3777,
-       "delta": 0.0165
+       "cur": 0.8788,
+       "prev": 0.8755,
+       "delta": 0.0033
       },
       "sg_quality": {
-       "cur": 4.5225,
+       "cur": 3.618,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.93,
+       "cur": 0.786,
        "prev": null,
        "delta": null
       }
@@ -840,22 +840,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5633,
-       "prev": 4.6187,
-       "delta": -0.0554
+       "cur": 3.6506,
+       "prev": 3.695,
+       "delta": -0.0444
       },
       "mt_service": {
-       "cur": 4.369,
-       "prev": 4.3991,
-       "delta": -0.0301
+       "cur": 0.8738,
+       "prev": 0.8798,
+       "delta": -0.006
       },
       "sg_quality": {
-       "cur": 4.7146,
+       "cur": 3.7717,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9833,
+       "cur": 0.7967,
        "prev": null,
        "delta": null
       }
@@ -946,22 +946,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5981,
-       "prev": 4.5998,
-       "delta": -0.0017
+       "cur": 3.6784,
+       "prev": 3.6798,
+       "delta": -0.0014
       },
       "mt_service": {
-       "cur": 4.2525,
-       "prev": 4.2842,
-       "delta": -0.0317
+       "cur": 0.8505,
+       "prev": 0.8568,
+       "delta": -0.0063
       },
       "sg_quality": {
-       "cur": 4.6148,
+       "cur": 3.6918,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -1052,22 +1052,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6151,
-       "prev": 4.6548,
-       "delta": -0.0397
+       "cur": 3.6921,
+       "prev": 3.7238,
+       "delta": -0.0317
       },
       "mt_service": {
-       "cur": 4.2548,
-       "prev": 4.3318,
-       "delta": -0.077
+       "cur": 0.851,
+       "prev": 0.8664,
+       "delta": -0.0154
       },
       "sg_quality": {
-       "cur": 4.6554,
+       "cur": 3.7243,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9893,
+       "cur": 0.7979,
        "prev": null,
        "delta": null
       }
@@ -1158,22 +1158,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6819,
-       "prev": 4.7097,
-       "delta": -0.0278
+       "cur": 3.7455,
+       "prev": 3.7677,
+       "delta": -0.0222
       },
       "mt_service": {
-       "cur": 4.3123,
-       "prev": 4.3866,
-       "delta": -0.0743
+       "cur": 0.8625,
+       "prev": 0.8773,
+       "delta": -0.0148
       },
       "sg_quality": {
-       "cur": 4.69,
+       "cur": 3.752,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0367,
+       "cur": 0.8073,
        "prev": null,
        "delta": null
       }
@@ -1264,22 +1264,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5129,
-       "prev": 4.648,
-       "delta": -0.1351
+       "cur": 3.6103,
+       "prev": 3.7184,
+       "delta": -0.1081
       },
       "mt_service": {
-       "cur": 4.2992,
-       "prev": 4.4028,
-       "delta": -0.1036
+       "cur": 0.8598,
+       "prev": 0.8806,
+       "delta": -0.0208
       },
       "sg_quality": {
-       "cur": 4.6933,
+       "cur": 3.7547,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9733,
+       "cur": 0.7947,
        "prev": null,
        "delta": null
       }
@@ -1370,22 +1370,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.606,
-       "prev": 4.6124,
-       "delta": -0.0064
+       "cur": 3.6848,
+       "prev": 3.6899,
+       "delta": -0.0051
       },
       "mt_service": {
-       "cur": 4.206,
-       "prev": 4.296,
-       "delta": -0.09
+       "cur": 0.8412,
+       "prev": 0.8592,
+       "delta": -0.018
       },
       "sg_quality": {
-       "cur": 4.6125,
+       "cur": 3.69,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9214,
+       "cur": 0.7843,
        "prev": null,
        "delta": null
       }
@@ -1476,22 +1476,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5517,
-       "prev": 4.5843,
-       "delta": -0.0326
+       "cur": 3.6414,
+       "prev": 3.6675,
+       "delta": -0.0261
       },
       "mt_service": {
-       "cur": 4.5142,
-       "prev": 4.4621,
-       "delta": 0.0521
+       "cur": 0.9028,
+       "prev": 0.8924,
+       "delta": 0.0104
       },
       "sg_quality": {
-       "cur": 4.5075,
+       "cur": 3.606,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.875,
+       "cur": 0.775,
        "prev": null,
        "delta": null
       }
@@ -1582,22 +1582,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5867,
-       "prev": 4.559,
-       "delta": 0.0277
+       "cur": 3.6694,
+       "prev": 3.6472,
+       "delta": 0.0222
       },
       "mt_service": {
-       "cur": 4.4942,
-       "prev": 4.2442,
-       "delta": 0.25
+       "cur": 0.8988,
+       "prev": 0.8488,
+       "delta": 0.05
       },
       "sg_quality": {
-       "cur": 4.5786,
+       "cur": 3.6629,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8857,
+       "cur": 0.7771,
        "prev": null,
        "delta": null
       }
@@ -1688,22 +1688,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5825,
-       "prev": 4.6308,
-       "delta": -0.0483
+       "cur": 3.666,
+       "prev": 3.7046,
+       "delta": -0.0386
       },
       "mt_service": {
-       "cur": 4.4103,
-       "prev": 4.4958,
-       "delta": -0.0855
+       "cur": 0.8821,
+       "prev": 0.8992,
+       "delta": -0.0171
       },
       "sg_quality": {
-       "cur": 4.6425,
+       "cur": 3.714,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9125,
+       "cur": 0.7825,
        "prev": null,
        "delta": null
       }
@@ -1794,22 +1794,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5892,
-       "prev": 4.6225,
-       "delta": -0.0333
+       "cur": 3.6713,
+       "prev": 3.698,
+       "delta": -0.0267
       },
       "mt_service": {
-       "cur": 4.7024,
-       "prev": 4.6749,
-       "delta": 0.0275
+       "cur": 0.9405,
+       "prev": 0.935,
+       "delta": 0.0055
       },
       "sg_quality": {
-       "cur": 4.6829,
+       "cur": 3.7463,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.979,
+       "cur": 0.7958,
        "prev": null,
        "delta": null
       }
@@ -1900,22 +1900,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5602,
-       "prev": 4.6073,
-       "delta": -0.0471
+       "cur": 3.6482,
+       "prev": 3.6859,
+       "delta": -0.0377
       },
       "mt_service": {
-       "cur": 4.5438,
-       "prev": 4.5221,
-       "delta": 0.0217
+       "cur": 0.9088,
+       "prev": 0.9044,
+       "delta": 0.0044
       },
       "sg_quality": {
-       "cur": 4.7347,
+       "cur": 3.7877,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9887,
+       "cur": 0.7977,
        "prev": null,
        "delta": null
       }
@@ -2006,22 +2006,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6313,
-       "prev": 4.585,
-       "delta": 0.0463
+       "cur": 3.705,
+       "prev": 3.668,
+       "delta": 0.037
       },
       "mt_service": {
-       "cur": 4.4155,
-       "prev": 4.4281,
-       "delta": -0.0126
+       "cur": 0.8831,
+       "prev": 0.8856,
+       "delta": -0.0025
       },
       "sg_quality": {
-       "cur": 4.7167,
+       "cur": 3.7733,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8271,
+       "cur": 0.7654,
        "prev": null,
        "delta": null
       }
@@ -2112,22 +2112,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5703,
-       "prev": 4.607,
-       "delta": -0.0367
+       "cur": 3.6563,
+       "prev": 3.6856,
+       "delta": -0.0293
       },
       "mt_service": {
-       "cur": 4.2658,
-       "prev": 4.3238,
-       "delta": -0.058
+       "cur": 0.8532,
+       "prev": 0.8648,
+       "delta": -0.0116
       },
       "sg_quality": {
-       "cur": 4.6306,
+       "cur": 3.7044,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -2221,12 +2221,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.637,
+       "cur": 3.7096,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.345,
+       "cur": 0.869,
        "prev": null,
        "delta": null
       },
@@ -2328,12 +2328,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6109,
+       "cur": 3.6887,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2462,
+       "cur": 0.8492,
        "prev": null,
        "delta": null
       },
@@ -2435,12 +2435,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.614,
+       "cur": 3.6912,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2362,
+       "cur": 0.8472,
        "prev": null,
        "delta": null
       },
@@ -2542,12 +2542,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5344,
+       "cur": 3.6275,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2369,
+       "cur": 0.8474,
        "prev": null,
        "delta": null
       },
@@ -2649,12 +2649,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5611,
+       "cur": 3.6488,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4258,
+       "cur": 0.8852,
        "prev": null,
        "delta": null
       },
@@ -2756,12 +2756,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4067,
+       "cur": 3.5254,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1737,
+       "cur": 0.8347,
        "prev": null,
        "delta": null
       },
@@ -2863,12 +2863,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6055,
+       "cur": 3.6844,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5125,
+       "cur": 0.9025,
        "prev": null,
        "delta": null
       },
@@ -2970,12 +2970,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5614,
+       "cur": 3.6491,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2169,
+       "cur": 0.8434,
        "prev": null,
        "delta": null
       },
@@ -3077,12 +3077,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.448,
+       "cur": 3.5584,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5145,
+       "cur": 0.9029,
        "prev": null,
        "delta": null
       },
@@ -3184,12 +3184,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5861,
+       "cur": 3.6688,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3991,
+       "cur": 0.8798,
        "prev": null,
        "delta": null
       },
@@ -3291,12 +3291,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5486,
+       "cur": 3.6389,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3591,
+       "cur": 0.8718,
        "prev": null,
        "delta": null
       },
@@ -3398,12 +3398,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5218,
+       "cur": 3.6174,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9048,
+       "cur": 0.781,
        "prev": null,
        "delta": null
       },
@@ -3505,12 +3505,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8145,
+       "cur": 3.8516,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7645,
+       "cur": 0.9529,
        "prev": null,
        "delta": null
       },
@@ -3612,12 +3612,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8887,
+       "cur": 3.911,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3806,
+       "cur": 0.8761,
        "prev": null,
        "delta": null
       },
@@ -3719,12 +3719,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6815,
+       "cur": 3.7452,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4968,
+       "cur": 0.8994,
        "prev": null,
        "delta": null
       },
@@ -3826,12 +3826,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6105,
+       "cur": 3.6884,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4048,
+       "cur": 0.881,
        "prev": null,
        "delta": null
       },
@@ -3933,12 +3933,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6035,
+       "cur": 3.6828,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5404,
+       "cur": 0.9081,
        "prev": null,
        "delta": null
       },
@@ -4040,12 +4040,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6131,
+       "cur": 3.6905,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3452,
+       "cur": 0.869,
        "prev": null,
        "delta": null
       },
@@ -4147,12 +4147,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6444,
+       "cur": 3.7155,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7542,
+       "cur": 0.9508,
        "prev": null,
        "delta": null
       },
@@ -4254,12 +4254,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4793,
+       "cur": 3.5834,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4197,
+       "cur": 0.8839,
        "prev": null,
        "delta": null
       },
@@ -4361,12 +4361,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5841,
+       "cur": 3.6673,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5224,
+       "cur": 0.9045,
        "prev": null,
        "delta": null
       },
@@ -4468,12 +4468,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5424,
+       "cur": 3.634,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.506,
+       "cur": 0.9012,
        "prev": null,
        "delta": null
       },
@@ -4575,12 +4575,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5652,
+       "cur": 3.6522,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5679,
+       "cur": 0.9136,
        "prev": null,
        "delta": null
       },
@@ -4682,12 +4682,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5637,
+       "cur": 3.651,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7935,
+       "cur": 0.9587,
        "prev": null,
        "delta": null
       },
@@ -4789,12 +4789,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5998,
+       "cur": 3.6798,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7831,
+       "cur": 0.9566,
        "prev": null,
        "delta": null
       },
@@ -4896,12 +4896,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.299,
+       "cur": 3.4392,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5169,
+       "cur": 0.9034,
        "prev": null,
        "delta": null
       },
@@ -5003,12 +5003,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.3351,
+       "cur": 3.4681,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6435,
+       "cur": 0.9287,
        "prev": null,
        "delta": null
       },
@@ -5110,12 +5110,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5577,
+       "cur": 3.6461,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6274,
+       "cur": 0.9255,
        "prev": null,
        "delta": null
       },
@@ -5227,12 +5227,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6446,
+       "cur": 3.7157,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0196,
+       "cur": 0.8039,
        "prev": null,
        "delta": null
       }
@@ -5334,12 +5334,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6136,
+       "cur": 3.6909,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9087,
+       "cur": 0.7817,
        "prev": null,
        "delta": null
       }
@@ -5441,12 +5441,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6039,
+       "cur": 3.6832,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8368,
+       "cur": 0.7674,
        "prev": null,
        "delta": null
       }
@@ -5548,12 +5548,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6385,
+       "cur": 3.7108,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9769,
+       "cur": 0.7954,
        "prev": null,
        "delta": null
       }
@@ -5655,12 +5655,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7018,
+       "cur": 3.7614,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0786,
+       "cur": 0.8157,
        "prev": null,
        "delta": null
       }
@@ -5762,12 +5762,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.64,
+       "cur": 3.712,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -5869,12 +5869,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7625,
+       "cur": 3.81,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -5976,12 +5976,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5781,
+       "cur": 3.6625,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -6083,12 +6083,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.1,
+       "cur": 0.82,
        "prev": null,
        "delta": null
       }
@@ -6190,12 +6190,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6364,
+       "cur": 3.7091,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9273,
+       "cur": 0.7855,
        "prev": null,
        "delta": null
       }
@@ -6297,12 +6297,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6037,
+       "cur": 3.683,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.775,
+       "cur": 0.755,
        "prev": null,
        "delta": null
       }
@@ -6404,12 +6404,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.4,
+       "cur": 0.88,
        "prev": null,
        "delta": null
       }
@@ -6511,12 +6511,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8375,
+       "cur": 3.87,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.35,
+       "cur": 0.87,
        "prev": null,
        "delta": null
       }
@@ -6618,12 +6618,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -6725,12 +6725,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -6832,12 +6832,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8875,
+       "cur": 3.91,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -6939,12 +6939,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6329,
+       "cur": 3.7063,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9967,
+       "cur": 0.7993,
        "prev": null,
        "delta": null
       }
@@ -7046,12 +7046,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6031,
+       "cur": 3.6825,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -7153,12 +7153,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6525,
+       "cur": 3.722,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.94,
+       "cur": 0.788,
        "prev": null,
        "delta": null
       }
@@ -7260,12 +7260,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5975,
+       "cur": 3.678,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -7367,12 +7367,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6719,
+       "cur": 3.7375,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9625,
+       "cur": 0.7925,
        "prev": null,
        "delta": null
       }
@@ -7474,12 +7474,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7812,
+       "cur": 3.825,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.975,
+       "cur": 0.795,
        "prev": null,
        "delta": null
       }
@@ -7581,12 +7581,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0333,
+       "cur": 0.8067,
        "prev": null,
        "delta": null
       }
@@ -7688,12 +7688,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7833,
+       "cur": 0.7567,
        "prev": null,
        "delta": null
       }
@@ -7795,12 +7795,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9125,
+       "cur": 3.93,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -7902,12 +7902,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7313,
+       "cur": 3.785,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.925,
+       "cur": 0.785,
        "prev": null,
        "delta": null
       }
@@ -8009,12 +8009,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.525,
+       "cur": 3.62,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.825,
+       "cur": 0.765,
        "prev": null,
        "delta": null
       }
@@ -8116,12 +8116,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6562,
+       "cur": 3.725,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -8220,22 +8220,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.716,
+       "cur": 3.7728,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -8332,22 +8332,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5427,
+       "cur": 3.6342,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1823,
+       "cur": 0.8365,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7125,
+       "cur": 3.77,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -8444,22 +8444,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5952,
+       "cur": 3.6761,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5677,
+       "cur": 0.9135,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -8556,22 +8556,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.544,
+       "cur": 3.6352,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3145,
+       "cur": 0.8629,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -8668,22 +8668,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5323,
+       "cur": 3.6258,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5742,
+       "cur": 0.9148,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3625,
+       "cur": 3.49,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -8780,22 +8780,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8177,
+       "cur": 3.8542,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3952,
+       "cur": 0.879,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -8892,22 +8892,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6952,
+       "cur": 3.7561,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2419,
+       "cur": 0.8484,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5625,
+       "cur": 3.65,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -9004,22 +9004,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6323,
+       "cur": 3.7058,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3839,
+       "cur": 0.8768,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.525,
+       "cur": 3.62,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -9116,22 +9116,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.579,
+       "cur": 3.6632,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2806,
+       "cur": 0.8561,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -9228,22 +9228,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6952,
+       "cur": 3.7561,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1194,
+       "cur": 0.8239,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -9340,22 +9340,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.429,
+       "cur": 3.5432,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5758,
+       "cur": 0.9152,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.275,
+       "cur": 3.42,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -9452,22 +9452,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5685,
+       "cur": 3.6548,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5742,
+       "cur": 0.9148,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.375,
+       "cur": 3.5,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -9564,22 +9564,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.321,
+       "cur": 3.4568,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5194,
+       "cur": 0.9039,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4875,
+       "cur": 3.59,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -9676,22 +9676,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5113,
+       "cur": 3.609,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6839,
+       "cur": 0.9368,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -9788,22 +9788,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.646,
+       "cur": 3.7168,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6355,
+       "cur": 0.9271,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -9900,22 +9900,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5323,
+       "cur": 3.6258,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7323,
+       "cur": 0.9465,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3625,
+       "cur": 3.49,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -10012,22 +10012,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5371,
+       "cur": 3.6297,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5823,
+       "cur": 0.9165,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.625,
+       "cur": 3.7,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -10124,22 +10124,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6194,
+       "cur": 3.6955,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5484,
+       "cur": 0.9097,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3625,
+       "cur": 3.49,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -10236,22 +10236,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4931,
+       "cur": 3.5945,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2435,
+       "cur": 0.8487,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.375,
+       "cur": 3.5,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -10348,22 +10348,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5298,
+       "cur": 3.6239,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.571,
+       "cur": 0.9142,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.275,
+       "cur": 3.42,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -10460,22 +10460,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.3927,
+       "cur": 3.5142,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6323,
+       "cur": 0.9265,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3625,
+       "cur": 3.49,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.15,
+       "cur": 0.83,
        "prev": null,
        "delta": null
       }
@@ -10572,22 +10572,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6315,
+       "cur": 3.7052,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.65,
+       "cur": 0.93,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -10684,22 +10684,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7371,
+       "cur": 3.7897,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4032,
+       "cur": 0.8806,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -10796,22 +10796,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5819,
+       "cur": 3.6655,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3565,
+       "cur": 0.8713,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.675,
+       "cur": 3.74,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.1,
+       "cur": 0.82,
        "prev": null,
        "delta": null
       }
@@ -10908,22 +10908,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6185,
+       "cur": 3.6948,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5403,
+       "cur": 0.9081,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4375,
+       "cur": 3.55,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -11020,22 +11020,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4823,
+       "cur": 3.5858,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4952,
+       "cur": 0.899,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -11132,22 +11132,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5153,
+       "cur": 3.6123,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.65,
+       "cur": 0.93,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -11244,22 +11244,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5828,
+       "cur": 3.6662,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.881,
+       "cur": 0.9762,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.75,
+       "cur": 3.8,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -11356,22 +11356,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6258,
+       "cur": 3.7006,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9226,
+       "cur": 0.7845,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -11468,22 +11468,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.229,
+       "cur": 3.3832,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.7258,
+       "cur": 0.7452,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.325,
+       "cur": 3.46,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -11580,22 +11580,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6601,
+       "cur": 3.7281,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7371,
+       "cur": 0.9474,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6375,
+       "cur": 3.71,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -11692,22 +11692,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5952,
+       "cur": 3.6761,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1823,
+       "cur": 0.8365,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6375,
+       "cur": 3.71,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -11804,22 +11804,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4984,
+       "cur": 3.5987,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5435,
+       "cur": 0.9087,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -11916,22 +11916,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6403,
+       "cur": 3.7123,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4371,
+       "cur": 0.8874,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.325,
+       "cur": 3.46,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -12028,22 +12028,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6363,
+       "cur": 3.709,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.7581,
+       "cur": 0.7516,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.45,
+       "cur": 3.56,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -12140,22 +12140,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6395,
+       "cur": 3.7116,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3613,
+       "cur": 0.8723,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5,
+       "cur": 3.6,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -12252,22 +12252,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5798,
+       "cur": 3.6639,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -12364,22 +12364,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5972,
+       "cur": 3.6777,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6032,
+       "cur": 0.9206,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.75,
+       "cur": 3.8,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -12476,22 +12476,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7117,
+       "cur": 3.7694,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.8274,
+       "cur": 0.9655,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7875,
+       "cur": 3.83,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.55,
+       "cur": 0.91,
        "prev": null,
        "delta": null
       }
@@ -12588,22 +12588,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5387,
+       "cur": 3.631,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4274,
+       "cur": 0.8855,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7125,
+       "cur": 3.77,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -12700,22 +12700,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5351,
+       "cur": 3.6281,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2903,
+       "cur": 0.8581,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.675,
+       "cur": 3.74,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -12812,12 +12812,12 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.8177,
+       "cur": 0.7635,
        "prev": null,
        "delta": null
       },
@@ -12924,22 +12924,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.3762,
+       "cur": 3.501,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.821,
+       "cur": 0.7642,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.55,
+       "cur": 0.71,
        "prev": null,
        "delta": null
       }
@@ -13036,22 +13036,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4266,
+       "cur": 3.5413,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3677,
+       "cur": 0.8735,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.6,
+       "cur": 0.72,
        "prev": null,
        "delta": null
       }
@@ -13148,22 +13148,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.505,
+       "cur": 3.604,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2,
+       "cur": 0.84,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -13260,22 +13260,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4722,
+       "cur": 3.5777,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2516,
+       "cur": 0.8503,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -13372,22 +13372,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6694,
+       "cur": 3.7355,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4919,
+       "cur": 0.8984,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5125,
+       "cur": 3.61,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.2,
+       "cur": 0.84,
        "prev": null,
        "delta": null
       }
@@ -13484,22 +13484,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.746,
+       "cur": 3.7968,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4516,
+       "cur": 0.8903,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4875,
+       "cur": 3.59,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.25,
+       "cur": 0.85,
        "prev": null,
        "delta": null
       }
@@ -13596,22 +13596,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5919,
+       "cur": 3.6735,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2532,
+       "cur": 0.8506,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.375,
+       "cur": 3.5,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -13708,22 +13708,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6113,
+       "cur": 3.689,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.5839,
+       "cur": 0.7168,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -13820,22 +13820,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.2504,
+       "cur": 3.4003,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.8984,
+       "cur": 0.7797,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.475,
+       "cur": 3.58,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -13932,22 +13932,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.698,
+       "cur": 3.7584,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7145,
+       "cur": 0.9429,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -14044,22 +14044,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5887,
+       "cur": 3.671,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.621,
+       "cur": 0.7242,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -14156,22 +14156,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8097,
+       "cur": 3.8477,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6339,
+       "cur": 0.9268,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -14268,22 +14268,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5625,
+       "cur": 3.65,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3581,
+       "cur": 0.8716,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.75,
+       "cur": 3.8,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -14380,22 +14380,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6589,
+       "cur": 3.7271,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2387,
+       "cur": 0.8477,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -14492,22 +14492,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6331,
+       "cur": 3.7065,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3565,
+       "cur": 0.8713,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7125,
+       "cur": 3.77,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -14604,22 +14604,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4504,
+       "cur": 3.5603,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3823,
+       "cur": 0.8765,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.65,
+       "cur": 3.72,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -14716,22 +14716,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6089,
+       "cur": 3.6871,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5016,
+       "cur": 0.9003,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.2,
+       "cur": 0.84,
        "prev": null,
        "delta": null
       }
@@ -14828,22 +14828,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6113,
+       "cur": 3.689,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0274,
+       "cur": 0.8055,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -14940,22 +14940,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7222,
+       "cur": 3.7777,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4677,
+       "cur": 0.8935,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.525,
+       "cur": 3.62,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -15052,22 +15052,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5899,
+       "cur": 3.6719,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4968,
+       "cur": 0.8994,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.25,
+       "cur": 0.85,
        "prev": null,
        "delta": null
       }
@@ -15164,22 +15164,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4992,
+       "cur": 3.5994,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9177,
+       "cur": 0.7835,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.1,
+       "cur": 0.82,
        "prev": null,
        "delta": null
       }
@@ -15276,22 +15276,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6484,
+       "cur": 3.7187,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2726,
+       "cur": 0.8545,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.65,
+       "cur": 3.72,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.6,
+       "cur": 0.92,
        "prev": null,
        "delta": null
       }
@@ -15388,22 +15388,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4895,
+       "cur": 3.5916,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5065,
+       "cur": 0.9013,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.575,
+       "cur": 3.66,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -15500,22 +15500,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5569,
+       "cur": 3.6455,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.6081,
+       "cur": 0.7216,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4875,
+       "cur": 3.59,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -15612,22 +15612,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5508,
+       "cur": 3.6406,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4806,
+       "cur": 0.8961,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -15724,22 +15724,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5677,
+       "cur": 0.9135,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.275,
+       "cur": 3.42,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -15836,22 +15836,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8214,
+       "cur": 3.8571,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.279,
+       "cur": 0.8558,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7875,
+       "cur": 3.83,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -15948,22 +15948,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.9403,
+       "cur": 3.9523,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6548,
+       "cur": 0.931,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.35,
+       "cur": 0.87,
        "prev": null,
        "delta": null
       }
@@ -16060,22 +16060,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6097,
+       "cur": 3.6877,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1919,
+       "cur": 0.8384,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7125,
+       "cur": 3.77,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -16172,22 +16172,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7387,
+       "cur": 3.791,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2887,
+       "cur": 0.8577,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.4,
+       "cur": 0.88,
        "prev": null,
        "delta": null
       }
@@ -16284,22 +16284,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.654,
+       "cur": 3.7232,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5371,
+       "cur": 0.9074,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.7,
+       "cur": 0.94,
        "prev": null,
        "delta": null
       }
@@ -16396,22 +16396,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5222,
+       "cur": 3.6177,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3597,
+       "cur": 0.8719,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.6,
+       "cur": 0.92,
        "prev": null,
        "delta": null
       }
@@ -16508,22 +16508,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7177,
+       "cur": 3.7742,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5935,
+       "cur": 0.9187,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -16620,22 +16620,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8032,
+       "cur": 3.8426,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3774,
+       "cur": 0.8755,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -16732,22 +16732,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6298,
+       "cur": 3.7039,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.479,
+       "cur": 0.8958,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.2625,
+       "cur": 3.41,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.35,
+       "cur": 0.87,
        "prev": null,
        "delta": null
       }
@@ -16844,22 +16844,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7137,
+       "cur": 3.771,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.25,
+       "cur": 0.85,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6625,
+       "cur": 3.73,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -16956,22 +16956,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7625,
+       "cur": 3.81,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9226,
+       "cur": 0.7845,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.65,
+       "cur": 3.72,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -17068,22 +17068,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7468,
+       "cur": 3.7974,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.7903,
+       "cur": 0.7581,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -17180,22 +17180,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5726,
+       "cur": 3.6581,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0968,
+       "cur": 0.8194,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -17292,22 +17292,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5658,
+       "cur": 3.6527,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2367,
+       "cur": 0.8473,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6625,
+       "cur": 3.73,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -17404,22 +17404,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6827,
+       "cur": 3.7461,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6177,
+       "cur": 0.9235,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.525,
+       "cur": 3.62,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -17516,22 +17516,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.596,
+       "cur": 3.6768,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2065,
+       "cur": 0.8413,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -17628,22 +17628,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5536,
+       "cur": 3.6429,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.8016,
+       "cur": 0.7603,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.75,
+       "cur": 3.8,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -17740,22 +17740,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4548,
+       "cur": 3.5639,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2484,
+       "cur": 0.8497,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.25,
+       "cur": 3.4,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -17852,22 +17852,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.1786,
+       "cur": 3.3429,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1145,
+       "cur": 0.8229,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -17964,22 +17964,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7419,
+       "cur": 3.7935,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4355,
+       "cur": 0.8871,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7875,
+       "cur": 3.83,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -18076,22 +18076,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6355,
+       "cur": 3.7084,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4855,
+       "cur": 0.8971,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -18188,22 +18188,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.1875,
+       "cur": 3.35,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4339,
+       "cur": 0.8868,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -18300,22 +18300,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5589,
+       "cur": 3.6471,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3823,
+       "cur": 0.8765,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.55,
+       "cur": 0.91,
        "prev": null,
        "delta": null
       }
@@ -18412,22 +18412,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4024,
+       "cur": 3.5219,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0984,
+       "cur": 0.8197,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5875,
+       "cur": 3.67,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -18524,22 +18524,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.3931,
+       "cur": 3.5145,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.8597,
+       "cur": 0.7719,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6125,
+       "cur": 3.69,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -18636,22 +18636,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.448,
+       "cur": 3.5584,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5145,
+       "cur": 0.9029,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.1,
+       "cur": 0.82,
        "prev": null,
        "delta": null
       }
@@ -18748,22 +18748,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8548,
+       "cur": 3.8839,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4177,
+       "cur": 0.8835,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.925,
+       "cur": 3.94,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.55,
+       "cur": 0.91,
        "prev": null,
        "delta": null
       }
@@ -18860,22 +18860,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4738,
+       "cur": 3.579,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.8242,
+       "cur": 0.9648,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4875,
+       "cur": 3.59,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.65,
+       "cur": 0.93,
        "prev": null,
        "delta": null
       }
@@ -18972,22 +18972,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6452,
+       "cur": 3.7161,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3032,
+       "cur": 0.8606,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -19084,22 +19084,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6008,
+       "cur": 3.6806,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3355,
+       "cur": 0.8671,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8625,
+       "cur": 3.89,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -19196,22 +19196,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5145,
+       "cur": 0.9029,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8375,
+       "cur": 3.87,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.15,
+       "cur": 0.83,
        "prev": null,
        "delta": null
       }
@@ -19308,22 +19308,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5367,
+       "cur": 3.6294,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3919,
+       "cur": 0.8784,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.45,
+       "cur": 3.56,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -19420,22 +19420,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4661,
+       "cur": 3.5729,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1935,
+       "cur": 0.8387,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.525,
+       "cur": 3.62,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -19532,22 +19532,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.781,
+       "cur": 3.8248,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7968,
+       "cur": 0.9594,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -19644,22 +19644,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6435,
+       "cur": 3.7148,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5742,
+       "cur": 0.9148,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8625,
+       "cur": 3.89,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -19756,22 +19756,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5052,
+       "cur": 3.6042,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4387,
+       "cur": 0.8877,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5125,
+       "cur": 3.61,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -19868,22 +19868,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4923,
+       "cur": 3.5939,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2403,
+       "cur": 0.8481,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -19980,22 +19980,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6798,
+       "cur": 3.7439,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4839,
+       "cur": 0.8968,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -20092,22 +20092,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.644,
+       "cur": 3.7152,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4177,
+       "cur": 0.8835,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3625,
+       "cur": 3.49,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -20204,22 +20204,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7177,
+       "cur": 3.7742,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0629,
+       "cur": 0.8126,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.525,
+       "cur": 3.62,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -20316,22 +20316,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6214,
+       "cur": 3.6971,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2484,
+       "cur": 0.8497,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -20428,22 +20428,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5552,
+       "cur": 3.6442,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.7984,
+       "cur": 0.7597,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.55,
+       "cur": 0.71,
        "prev": null,
        "delta": null
       }
@@ -20540,22 +20540,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5548,
+       "cur": 3.6439,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.6,
+       "cur": 0.72,
        "prev": null,
        "delta": null
       }
@@ -20652,22 +20652,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8423,
+       "cur": 3.8739,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4048,
+       "cur": 0.881,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -20764,22 +20764,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6097,
+       "cur": 3.6877,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.271,
+       "cur": 0.8542,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -20876,22 +20876,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.2879,
+       "cur": 3.4303,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2226,
+       "cur": 0.8445,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -20988,22 +20988,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4794,
+       "cur": 3.5835,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.6613,
+       "cur": 0.7323,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -21100,22 +21100,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.696,
+       "cur": 3.7568,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4742,
+       "cur": 0.8948,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.3,
+       "cur": 0.86,
        "prev": null,
        "delta": null
       }
@@ -21212,22 +21212,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6726,
+       "cur": 3.7381,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1774,
+       "cur": 0.8355,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -21324,22 +21324,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.654,
+       "cur": 3.7232,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0629,
+       "cur": 0.8126,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6625,
+       "cur": 3.73,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.6,
+       "cur": 0.72,
        "prev": null,
        "delta": null
       }
@@ -21436,22 +21436,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6266,
+       "cur": 3.7013,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6274,
+       "cur": 0.9255,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.475,
+       "cur": 3.58,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -21548,22 +21548,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4887,
+       "cur": 3.591,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6274,
+       "cur": 0.9255,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8375,
+       "cur": 3.87,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -21660,22 +21660,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5379,
+       "cur": 3.6303,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6677,
+       "cur": 0.9335,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.55,
+       "cur": 3.64,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -21772,22 +21772,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.1323,
+       "cur": 3.3058,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6194,
+       "cur": 0.9239,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5,
+       "cur": 3.6,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -21884,22 +21884,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5806,
+       "cur": 3.6645,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3661,
+       "cur": 0.8732,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -21996,22 +21996,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4677,
+       "cur": 3.5742,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4145,
+       "cur": 0.8829,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -22108,22 +22108,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5766,
+       "cur": 3.6613,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2435,
+       "cur": 0.8487,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -22220,22 +22220,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5448,
+       "cur": 3.6358,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 5.0,
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.4,
+       "cur": 0.88,
        "prev": null,
        "delta": null
       }
@@ -22332,22 +22332,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7448,
+       "cur": 3.7958,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4855,
+       "cur": 0.8971,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4625,
+       "cur": 3.57,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -22444,22 +22444,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6887,
+       "cur": 3.751,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 5.0,
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -22556,22 +22556,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6891,
+       "cur": 3.7513,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.85,
+       "cur": 0.97,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.75,
+       "cur": 3.8,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -22668,22 +22668,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4992,
+       "cur": 3.5994,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 5.0,
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -22780,22 +22780,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6315,
+       "cur": 3.7052,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.9129,
+       "cur": 0.9826,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7625,
+       "cur": 3.81,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -22892,22 +22892,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4613,
+       "cur": 3.569,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9887,
+       "cur": 0.7977,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.65,
+       "cur": 3.72,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -23004,22 +23004,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6637,
+       "cur": 3.731,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4194,
+       "cur": 0.8839,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.1,
+       "cur": 0.82,
        "prev": null,
        "delta": null
       }
@@ -23116,22 +23116,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7589,
+       "cur": 3.8071,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2597,
+       "cur": 0.8519,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -23228,22 +23228,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4339,
+       "cur": 3.5471,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7871,
+       "cur": 0.9574,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -23340,22 +23340,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6661,
+       "cur": 0.9332,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.675,
+       "cur": 3.74,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -23452,22 +23452,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5367,
+       "cur": 3.6294,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6839,
+       "cur": 0.9368,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -23564,22 +23564,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6121,
+       "cur": 3.6897,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1661,
+       "cur": 0.8332,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.325,
+       "cur": 3.46,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -23676,22 +23676,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5238,
+       "cur": 3.619,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5032,
+       "cur": 0.9006,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7375,
+       "cur": 3.79,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -23788,22 +23788,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6411,
+       "cur": 3.7129,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2548,
+       "cur": 0.851,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -23900,22 +23900,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5718,
+       "cur": 3.6574,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3984,
+       "cur": 0.8797,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -24012,22 +24012,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5617,
+       "cur": 3.6494,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1016,
+       "cur": 0.8203,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7875,
+       "cur": 3.83,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -24124,22 +24124,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8056,
+       "cur": 3.8445,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.479,
+       "cur": 0.8958,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.55,
+       "cur": 0.91,
        "prev": null,
        "delta": null
       }
@@ -24236,22 +24236,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.3911,
+       "cur": 3.5129,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.9048,
+       "cur": 0.981,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -24348,22 +24348,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5565,
+       "cur": 3.6452,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7306,
+       "cur": 0.9461,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6375,
+       "cur": 3.71,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -24460,22 +24460,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7976,
+       "cur": 3.8381,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.429,
+       "cur": 0.8858,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -24572,22 +24572,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5669,
+       "cur": 3.6535,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3242,
+       "cur": 0.8648,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.45,
+       "cur": 0.89,
        "prev": null,
        "delta": null
       }
@@ -24684,22 +24684,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5177,
+       "cur": 3.6142,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5823,
+       "cur": 0.9165,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7375,
+       "cur": 3.79,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -24796,22 +24796,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7605,
+       "cur": 3.8084,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.721,
+       "cur": 0.9442,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.5125,
+       "cur": 3.61,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.45,
+       "cur": 0.89,
        "prev": null,
        "delta": null
       }
@@ -24908,22 +24908,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7327,
+       "cur": 3.7861,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2516,
+       "cur": 0.8503,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.925,
+       "cur": 3.94,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -25020,22 +25020,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.552,
+       "cur": 3.6416,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3113,
+       "cur": 0.8623,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -25132,22 +25132,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5202,
+       "cur": 3.6161,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4081,
+       "cur": 0.8816,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.35,
+       "cur": 3.48,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -25244,22 +25244,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4919,
+       "cur": 3.5935,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1758,
+       "cur": 0.8352,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.475,
+       "cur": 3.58,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -25356,22 +25356,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4278,
+       "cur": 3.5423,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4968,
+       "cur": 0.8994,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7625,
+       "cur": 3.81,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -25468,22 +25468,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.1702,
+       "cur": 3.3361,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5371,
+       "cur": 0.9074,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -25580,22 +25580,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4546,
+       "cur": 3.5637,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0817,
+       "cur": 0.8163,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4875,
+       "cur": 3.59,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -25692,22 +25692,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7363,
+       "cur": 3.789,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.8371,
+       "cur": 0.9674,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -25804,22 +25804,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5504,
+       "cur": 3.6403,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7435,
+       "cur": 0.9487,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.45,
+       "cur": 3.56,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.45,
+       "cur": 0.89,
        "prev": null,
        "delta": null
       }
@@ -25916,22 +25916,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5911,
+       "cur": 3.6729,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4129,
+       "cur": 0.8826,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -26028,22 +26028,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.375,
+       "cur": 3.5,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1667,
+       "cur": 0.8333,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3375,
+       "cur": 3.47,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -26140,22 +26140,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.725,
+       "cur": 3.78,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4097,
+       "cur": 0.8819,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -26252,22 +26252,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.327,
+       "cur": 3.4616,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0919,
+       "cur": 0.8184,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4125,
+       "cur": 3.53,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -26364,22 +26364,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6548,
+       "cur": 3.7239,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5484,
+       "cur": 0.9097,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4625,
+       "cur": 3.57,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -26476,22 +26476,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7496,
+       "cur": 3.7997,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3952,
+       "cur": 0.879,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -26588,22 +26588,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5306,
+       "cur": 3.6245,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3629,
+       "cur": 0.8726,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -26700,22 +26700,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6282,
+       "cur": 3.7026,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6694,
+       "cur": 0.9339,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -26812,22 +26812,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5714,
+       "cur": 3.6571,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.8968,
+       "cur": 0.9794,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.925,
+       "cur": 3.94,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -26924,22 +26924,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5395,
+       "cur": 3.6316,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 5.0,
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -27036,22 +27036,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6024,
+       "cur": 3.6819,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6919,
+       "cur": 0.9384,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -27148,22 +27148,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5492,
+       "cur": 3.6394,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6887,
+       "cur": 0.9377,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8,
+       "cur": 3.84,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -27260,22 +27260,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6105,
+       "cur": 3.6884,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4048,
+       "cur": 0.881,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8875,
+       "cur": 3.91,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -27372,22 +27372,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6855,
+       "cur": 3.7484,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6758,
+       "cur": 0.9352,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -27484,22 +27484,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6056,
+       "cur": 3.6845,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.8565,
+       "cur": 0.9713,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -27596,22 +27596,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7121,
+       "cur": 3.7697,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.9871,
+       "cur": 0.9974,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.925,
+       "cur": 3.94,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -27708,22 +27708,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4569,
+       "cur": 3.5655,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2629,
+       "cur": 0.8526,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6375,
+       "cur": 3.71,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.45,
+       "cur": 0.89,
        "prev": null,
        "delta": null
       }
@@ -27820,22 +27820,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7621,
+       "cur": 3.8097,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.9887,
+       "cur": 0.9977,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.45,
+       "cur": 3.56,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -27932,22 +27932,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6225,
+       "cur": 3.698,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6083,
+       "cur": 0.9217,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.5,
+       "cur": 0.9,
        "prev": null,
        "delta": null
       }
@@ -28044,22 +28044,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5782,
+       "cur": 3.6626,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5758,
+       "cur": 0.9152,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.75,
+       "cur": 0.75,
        "prev": null,
        "delta": null
       }
@@ -28156,22 +28156,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4968,
+       "cur": 3.5974,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.521,
+       "cur": 0.9042,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -28268,22 +28268,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6815,
+       "cur": 3.7452,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4968,
+       "cur": 0.8994,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.825,
+       "cur": 3.86,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -28380,22 +28380,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6802,
+       "cur": 3.7442,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9839,
+       "cur": 0.7968,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8125,
+       "cur": 3.85,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.05,
+       "cur": 0.81,
        "prev": null,
        "delta": null
       }
@@ -28492,22 +28492,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6569,
+       "cur": 3.7255,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.1629,
+       "cur": 0.8326,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.625,
+       "cur": 3.7,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -28604,22 +28604,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5859,
+       "cur": 3.6687,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6532,
+       "cur": 0.9306,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.3125,
+       "cur": 3.45,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -28716,22 +28716,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5315,
+       "cur": 3.6252,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3661,
+       "cur": 0.8732,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.55,
+       "cur": 3.64,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.85,
+       "cur": 0.77,
        "prev": null,
        "delta": null
       }
@@ -28828,22 +28828,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5081,
+       "cur": 3.6065,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7306,
+       "cur": 0.9461,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.625,
+       "cur": 3.7,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -28940,22 +28940,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6629,
+       "cur": 3.7303,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.2452,
+       "cur": 0.849,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.3,
+       "cur": 0.86,
        "prev": null,
        "delta": null
       }
@@ -29052,22 +29052,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5117,
+       "cur": 3.6094,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.8742,
+       "cur": 0.7748,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.6,
+       "cur": 0.72,
        "prev": null,
        "delta": null
       }
@@ -29164,22 +29164,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.4742,
+       "cur": 3.5794,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.471,
+       "cur": 0.8942,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.675,
+       "cur": 3.74,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.0,
+       "cur": 0.8,
        "prev": null,
        "delta": null
       }
@@ -29276,22 +29276,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8887,
+       "cur": 3.911,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3806,
+       "cur": 0.8761,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.875,
+       "cur": 3.9,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.7,
+       "cur": 0.74,
        "prev": null,
        "delta": null
       }
@@ -29388,22 +29388,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8145,
+       "cur": 3.8516,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.7645,
+       "cur": 0.9529,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.8375,
+       "cur": 3.87,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.35,
+       "cur": 0.87,
        "prev": null,
        "delta": null
       }
@@ -29500,22 +29500,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6677,
+       "cur": 3.7342,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.6903,
+       "cur": 0.9381,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -29612,22 +29612,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.506,
+       "cur": 3.6048,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3387,
+       "cur": 0.8677,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9125,
+       "cur": 3.93,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -29724,22 +29724,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.406,
+       "cur": 3.5248,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.6887,
+       "cur": 0.7377,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7625,
+       "cur": 3.81,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.65,
+       "cur": 0.73,
        "prev": null,
        "delta": null
       }
@@ -29836,22 +29836,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5282,
+       "cur": 3.6226,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.5242,
+       "cur": 0.9048,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.775,
+       "cur": 3.82,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
@@ -29948,22 +29948,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5577,
+       "cur": 3.6461,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4403,
+       "cur": 0.8881,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.425,
+       "cur": 3.54,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.8,
+       "cur": 0.76,
        "prev": null,
        "delta": null
       }
@@ -30060,22 +30060,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.5218,
+       "cur": 3.6174,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 3.9048,
+       "cur": 0.781,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.6,
+       "cur": 3.68,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.4,
+       "cur": 0.88,
        "prev": null,
        "delta": null
       }
@@ -30172,22 +30172,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.8181,
+       "cur": 3.8545,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.3484,
+       "cur": 0.8697,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.85,
+       "cur": 3.88,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.1,
+       "cur": 0.82,
        "prev": null,
        "delta": null
       }
@@ -30284,22 +30284,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.7605,
+       "cur": 3.8084,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.4484,
+       "cur": 0.8897,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.9,
+       "cur": 3.92,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 4.15,
+       "cur": 0.83,
        "prev": null,
        "delta": null
       }
@@ -30396,22 +30396,22 @@
        "delta": null
       },
       "mt_quality": {
-       "cur": 4.6948,
+       "cur": 3.7558,
        "prev": null,
        "delta": null
       },
       "mt_service": {
-       "cur": 4.0306,
+       "cur": 0.8061,
        "prev": null,
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.7,
+       "cur": 3.76,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.9,
+       "cur": 0.78,
        "prev": null,
        "delta": null
       }
@@ -30518,12 +30518,12 @@
        "delta": null
       },
       "sg_quality": {
-       "cur": 4.4,
+       "cur": 3.52,
        "prev": null,
        "delta": null
       },
       "sg_service": {
-       "cur": 3.95,
+       "cur": 0.79,
        "prev": null,
        "delta": null
       }
