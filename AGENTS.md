@@ -88,8 +88,11 @@ python -X utf8 server.py [--port 8080] [--no-open]            # 本地实时服�
 
 | 常量 | 内容 |
 | --- | --- |
-| `REGION_METRICS` | 美团评分、复购率、闪购评分、商责取消率（区域总览 4 张 KPI 卡） |
-| `BOTTOM_METRICS` | 同上 4 项，Bottom 5 表 |
+| `REGION_METRICS` | 区域总览 KPI 卡（7 张）：美团 = 总评分 + 商品质量分 + 服务体验分；闪购 = 总评分 + 商品质量分 + 服务体验分 + 商责取消率 |
+| `BOTTOM_METRICS` | 同上 7 项，Bottom 5 表 |
+
+- 区域总览的指标名走 `mLbl()`：拼上渠道前缀（`美团总评分` / `闪购商品质量分`），其中 `mt_score`/`sg_score` 显示为「总评分」，否则两张卡的「商品质量分」会重名。
+- 所有表格用 `table.tbl{table-layout:fixed}` 让各列等宽（单元格 `overflow-wrap:anywhere` 兜底换行）；给某一列单独设宽会破坏等宽，改列宽前先确认这是需求。
 | `V3_MT_ORDER` / `V3_SG_ORDER` | 督导视图（督导表现表 + 门店明细，两张表列一致）：美团 = 评分 + 商品质量分 + 服务体验分；闪购 = 评分 + 商品质量分 + 服务体验分 + 商责取消率 |
 | `SUB_MT` / `SUB_SG` | 门店明细里点击展开的二级指标 |
 

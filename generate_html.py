@@ -87,7 +87,7 @@ HTML = r'''<!DOCTYPE html>
   .region-tabs button.active::after{background:var(--accent)}
 
   /* ============ KPI 卡片 ============ */
-  .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(23,23,23,.05)}
+  .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(23,23,23,.05)}
   .kpi{padding:18px 20px;border-right:1px solid var(--line)}
   .kpi:last-child{border-right:none}
   .kpi-label{font-size:12.5px;color:#45423D;margin-bottom:12px;font-family:var(--font-sans);font-weight:500;letter-spacing:.2px}
@@ -115,9 +115,9 @@ HTML = r'''<!DOCTYPE html>
 
   /* ============ 表格 ============ */
   table th,table td{vertical-align:middle;text-align:center}
-  table.tbl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}
-  table.tbl th{background:var(--th-bg);color:var(--ink);text-align:center;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle}
-  table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);text-align:center;vertical-align:middle}
+  table.tbl{width:100%;table-layout:fixed;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}
+  table.tbl th{background:var(--th-bg);color:var(--ink);text-align:center;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle;overflow-wrap:anywhere}
+  table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);text-align:center;vertical-align:middle;overflow-wrap:anywhere}
   table.tbl td.num,table.tbl td .num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
   table.tbl td b.num{font-family:var(--font-num)}
   table.tbl tr:last-child td{border-bottom:none}
@@ -458,8 +458,8 @@ const METRIC_HELP={
   sg_quality:'商品质量分 = 口味满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%（满分 4 分）。闪购评分 = 商品质量分 + 服务体验分。',
   sg_service:'服务体验分 = 消息回复率×10% + 服务负反馈率×10%（满分 1 分）。闪购评分 = 商品质量分 + 服务体验分。',
 };
-const REGION_METRICS=['mt_score','mt_repeat','sg_score','sg_cancel'];   // 区域周报总览 KPI
-const BOTTOM_METRICS=['mt_score','mt_repeat','sg_score','sg_cancel'];   // Bottom 5 表
+const REGION_METRICS=['mt_score','mt_quality','mt_service','sg_score','sg_quality','sg_service','sg_cancel'];   // 区域周报总览 KPI
+const BOTTOM_METRICS=['mt_score','mt_quality','mt_service','sg_score','sg_quality','sg_service','sg_cancel'];   // Bottom 5 表
 const ALL_M=Object.keys(METRICS);
 const V3_MT_ORDER=['mt_score','mt_quality','mt_service'];
 const V3_SG_ORDER=['sg_score','sg_quality','sg_service','sg_cancel'];
@@ -473,6 +473,8 @@ const CITY_TO_PROV={
 };
 const PROVINCE_ORDER=['福建省','广西壮族自治区','海南省'];
 
+// 视图1 指标名：带渠道前缀；评分显示为「总评分」以区别于商品质量分/服务体验分
+function mLbl(mk){ return METRICS[mk].ch+(mk==='mt_score'||mk==='sg_score'?'总评分':METRICS[mk].name); }
 function fmt(mk,v){
   if(v===null||v===undefined) return '—';
   const u=METRICS[mk].unit;
@@ -563,7 +565,7 @@ function renderRegion(){
   REGION_METRICS.forEach(mk=>{
     const mm=r.metrics[mk];
     const st=kpiState(mk,mm.cur,mm.delta);
-      cards+='<div class="kpi'+(st?' '+st:'')+'"><div class="kpi-label">'+METRICS[mk].name+'</div>'+
+      cards+='<div class="kpi'+(st?' '+st:'')+'"><div class="kpi-label">'+mLbl(mk)+'</div>'+
       '<div class="kpi-val">'+fmt(mk,mm.cur)+'</div>'+
       '<div class="kpi-delta">'+dtext(mk,mm.delta)+'</div></div>';
   });
@@ -572,14 +574,14 @@ function renderRegion(){
 function renderBottom3(){
   const regs=b3RegTree.getChecked();
   const cities=b3CityTree.getChecked();
-  let html='<table class="tbl"><thead><tr><th>指标 (渠道)</th><th>Bottom 1</th><th>Bottom 2</th><th>Bottom 3</th><th>Bottom 4</th><th>Bottom 5</th></tr></thead><tbody>';
+  let html='<table class="tbl"><thead><tr><th>指标</th><th>Bottom 1</th><th>Bottom 2</th><th>Bottom 3</th><th>Bottom 4</th><th>Bottom 5</th></tr></thead><tbody>';
   BOTTOM_METRICS.forEach(mk=>{
     let list=DATA.stores.filter(s=>s.status==='营业中'&&s.metrics[mk].cur!==null&&(regs.length===0||regs.includes(s.region))&&(cities.length===0||cities.includes(s.city)));
     const dir=METRICS[mk].dir;
     list.sort((a,b)=>dir==='high'?a.metrics[mk].cur-b.metrics[mk].cur:b.metrics[mk].cur-a.metrics[mk].cur);
     const b3=list.slice(0,5);
     const cells=b3.map(s=>'<td>'+s.name+'<br><b class="num">'+fmt(mk,s.metrics[mk].cur)+'</b></td>').join('');
-    html+='<tr><td class="metric-name">'+METRICS[mk].name+'<span class="tag">'+METRICS[mk].ch+'</span></td>'+cells+'</tr>';
+    html+='<tr><td class="metric-name">'+mLbl(mk)+'</td>'+cells+'</tr>';
   });
   html+='</tbody></table>';
   document.getElementById('bottom3').innerHTML=html;
