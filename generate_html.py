@@ -516,7 +516,7 @@ const METRIC_HELP={
   sg_service:'服务体验分 = 消息回复率×10% + 服务负反馈率×10%（满分 1 分）。闪购评分 = 商品质量分 + 服务体验分。',
 };
 const REGION_METRICS=['mt_score','mt_quality','mt_service','sg_score','sg_quality','sg_service','sg_cancel'];   // 区域周报总览 KPI
-const BOTTOM_METRICS=['mt_score','mt_quality','mt_service','sg_score','sg_quality','sg_service','sg_cancel'];   // Bottom 5 表
+const BOTTOM_METRICS=['mt_score','mt_quality','mt_service','mt_reply','sg_score','sg_quality','sg_service','sg_reply','sg_cancel'];   // Bottom 5 表（比 KPI 多美团/闪购消息回复率）
 const ALL_M=Object.keys(METRICS);
 const V3_MT_ORDER=['mt_score','mt_quality','mt_service'];
 const V3_SG_ORDER=['sg_score','sg_quality','sg_service','sg_cancel'];
@@ -972,7 +972,7 @@ function storeDetailRows(arr,mets){
   const canExpand=allSub.length>0;
   const showSub=(canExpand && v2ShowSub);
   const subCols=showSub?allSub.filter(m=>!mets.includes(m)):[];
-  let h='<table class="tbl"><thead><tr><th>#</th><th>门店</th><th>城市</th><th>督导</th>';
+  let h='<table class="tbl"><thead><tr><th>#</th><th>督导</th><th>城市</th><th>门店</th>';
   mets.forEach((m,mi)=>{
     let thAttr=''; let arrow='';
     if(mi===0 && canExpand){
@@ -988,7 +988,7 @@ function storeDetailRows(arr,mets){
   });
   h+='</tr></thead><tbody>';
   arr.forEach((s,idx)=>{
-    h+='<tr><td>'+String(idx+1).padStart(2,'0')+'</td><td class="txt">'+s.name+'</td><td class="txt">'+s.city+'</td><td class="txt">'+s.supervisor+'</td>';
+    h+='<tr><td>'+String(idx+1).padStart(2,'0')+'</td><td class="txt">'+s.supervisor+'</td><td class="txt">'+s.city+'</td><td class="txt">'+s.name+'</td>';
     mets.forEach((m,mi)=>{
       const cur=s.metrics[m].cur;
       const warn=isWarn(m,cur)?' class="warn"':'';
