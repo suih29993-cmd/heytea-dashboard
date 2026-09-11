@@ -62,6 +62,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.799288084581458,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -167,6 +172,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8414,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0074,
        "prev": null,
@@ -269,6 +279,11 @@
       },
       "sg_score": {
        "cur": 4.5187,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8086,
        "prev": null,
        "delta": null
       },
@@ -380,6 +395,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8947,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0025,
        "prev": null,
@@ -483,6 +503,11 @@
       },
       "sg_score": {
        "cur": 4.45,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8903,
        "prev": null,
        "delta": null
       },
@@ -592,6 +617,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8382,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0096,
        "prev": null,
@@ -695,6 +725,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8016,
        "prev": null,
        "delta": null
       },
@@ -804,6 +839,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8441,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0078,
        "prev": null,
@@ -907,6 +947,11 @@
       },
       "sg_score": {
        "cur": 4.49090909090909,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8731,
        "prev": null,
        "delta": null
       },
@@ -1016,6 +1061,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8982,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0061,
        "prev": null,
@@ -1119,6 +1169,11 @@
       },
       "sg_score": {
        "cur": 4.57333333333333,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.7821,
        "prev": null,
        "delta": null
       },
@@ -1228,6 +1283,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8723,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0087,
        "prev": null,
@@ -1331,6 +1391,11 @@
       },
       "sg_score": {
        "cur": 4.47142857142857,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.7579,
        "prev": null,
        "delta": null
       },
@@ -1440,6 +1505,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8453,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -1543,6 +1613,11 @@
       },
       "sg_score": {
        "cur": 4.42857142857143,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.899,
        "prev": null,
        "delta": null
       },
@@ -1652,6 +1727,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8018,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0063,
        "prev": null,
@@ -1755,6 +1835,11 @@
       },
       "sg_score": {
        "cur": 4.55263157894737,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8033,
        "prev": null,
        "delta": null
       },
@@ -1864,6 +1949,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.7882,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0043,
        "prev": null,
@@ -1970,6 +2060,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.7205,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.01,
        "prev": null,
@@ -2073,6 +2168,11 @@
       },
       "sg_score": {
        "cur": 4.51111111111111,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8552,
        "prev": null,
        "delta": null
       },
@@ -2185,6 +2285,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -2288,6 +2393,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2399,6 +2509,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -2502,6 +2617,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2613,6 +2733,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -2716,6 +2841,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2827,6 +2957,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -2930,6 +3065,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3041,6 +3181,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -3144,6 +3289,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3255,6 +3405,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -3358,6 +3513,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3469,6 +3629,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -3572,6 +3737,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3683,6 +3853,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -3786,6 +3961,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3897,6 +4077,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -4000,6 +4185,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4111,6 +4301,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -4214,6 +4409,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4325,6 +4525,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -4428,6 +4633,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4539,6 +4749,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -4642,6 +4857,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4753,6 +4973,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -4856,6 +5081,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4967,6 +5197,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": null,
        "prev": null,
@@ -5070,6 +5305,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -5181,6 +5421,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.833392857142857,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.00528571428571429,
        "prev": null,
@@ -5285,6 +5530,11 @@
       },
       "sg_score": {
        "cur": 4.47391304347826,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.866363636363636,
        "prev": null,
        "delta": null
       },
@@ -5395,6 +5645,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.818578947368421,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0078421052631579,
        "prev": null,
@@ -5499,6 +5754,11 @@
       },
       "sg_score": {
        "cur": 4.51538461538462,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.868076923076923,
        "prev": null,
        "delta": null
       },
@@ -5609,6 +5869,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.880571428571429,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.00685714285714286,
        "prev": null,
@@ -5713,6 +5978,11 @@
       },
       "sg_score": {
        "cur": 4.52,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.9126,
        "prev": null,
        "delta": null
       },
@@ -5823,6 +6093,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.78325,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.00625,
        "prev": null,
@@ -5927,6 +6202,11 @@
       },
       "sg_score": {
        "cur": 4.475,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.65775,
        "prev": null,
        "delta": null
       },
@@ -6037,6 +6317,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.92,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.01,
        "prev": null,
@@ -6141,6 +6426,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.878090909090909,
        "prev": null,
        "delta": null
       },
@@ -6251,6 +6541,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.781666666666667,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.013,
        "prev": null,
@@ -6355,6 +6650,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -6465,6 +6765,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -6569,6 +6874,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.616,
        "prev": null,
        "delta": null
       },
@@ -6679,6 +6989,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.444,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -6783,6 +7098,11 @@
       },
       "sg_score": {
        "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.963,
        "prev": null,
        "delta": null
       },
@@ -6893,6 +7213,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.835166666666666,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.00373333333333333,
        "prev": null,
@@ -6997,6 +7322,11 @@
       },
       "sg_score": {
        "cur": 4.4625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.839375,
        "prev": null,
        "delta": null
       },
@@ -7107,6 +7437,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.8282,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.008,
        "prev": null,
@@ -7211,6 +7546,11 @@
       },
       "sg_score": {
        "cur": 4.46,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.7774,
        "prev": null,
        "delta": null
       },
@@ -7321,6 +7661,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.77725,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.01175,
        "prev": null,
@@ -7425,6 +7770,11 @@
       },
       "sg_score": {
        "cur": 4.625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.7545,
        "prev": null,
        "delta": null
       },
@@ -7535,6 +7885,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.777,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.01,
        "prev": null,
@@ -7639,6 +7994,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.737333333333333,
        "prev": null,
        "delta": null
       },
@@ -7749,6 +8109,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.7995,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.011,
        "prev": null,
@@ -7853,6 +8218,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.729,
        "prev": null,
        "delta": null
       },
@@ -7963,6 +8333,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.7395,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0085,
        "prev": null,
@@ -8067,6 +8442,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.5625,
        "prev": null,
        "delta": null
       },
@@ -8184,6 +8564,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.794,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -8293,6 +8678,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.856,
        "prev": null,
        "delta": null
       },
@@ -8408,6 +8798,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.963,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.004,
        "prev": null,
@@ -8517,6 +8912,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.886,
        "prev": null,
        "delta": null
       },
@@ -8632,6 +9032,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.935,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -8741,6 +9146,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.936,
        "prev": null,
        "delta": null
       },
@@ -8856,6 +9266,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.905,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -8965,6 +9380,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.826,
        "prev": null,
        "delta": null
       },
@@ -9080,6 +9500,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.903,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -9189,6 +9614,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.787,
        "prev": null,
        "delta": null
       },
@@ -9304,6 +9734,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -9413,6 +9848,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.641,
        "prev": null,
        "delta": null
       },
@@ -9528,6 +9968,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.838,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -9637,6 +10082,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.937,
        "prev": null,
        "delta": null
       },
@@ -9752,6 +10202,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.716,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -9861,6 +10316,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.839,
        "prev": null,
        "delta": null
       },
@@ -9976,6 +10436,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.844,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -10085,6 +10550,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.666,
        "prev": null,
        "delta": null
       },
@@ -10200,6 +10670,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.882,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -10309,6 +10784,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -10424,6 +10904,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.961,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -10533,6 +11018,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -10648,6 +11138,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.962,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -10757,6 +11252,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.908,
        "prev": null,
        "delta": null
       },
@@ -10872,6 +11372,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.919,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -10981,6 +11486,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.786,
        "prev": null,
        "delta": null
       },
@@ -11096,6 +11606,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.015,
        "prev": null,
@@ -11205,6 +11720,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -11320,6 +11840,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.623,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -11429,6 +11954,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.727,
        "prev": null,
        "delta": null
       },
@@ -11544,6 +12074,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.806,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.013,
        "prev": null,
@@ -11653,6 +12188,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.756,
        "prev": null,
        "delta": null
       },
@@ -11768,6 +12308,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.685,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.011,
        "prev": null,
@@ -11877,6 +12422,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -11992,6 +12542,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.949,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -12101,6 +12656,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.822,
        "prev": null,
        "delta": null
       },
@@ -12216,6 +12776,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.942,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -12325,6 +12890,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.968,
        "prev": null,
        "delta": null
       },
@@ -12440,6 +13010,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.916,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.004,
        "prev": null,
@@ -12549,6 +13124,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.824,
        "prev": null,
        "delta": null
       },
@@ -12664,6 +13244,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.932,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -12772,6 +13357,11 @@
        "delta": null
       },
       "sg_score": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -12888,6 +13478,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.845,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.02,
        "prev": null,
@@ -12997,6 +13592,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.693,
        "prev": null,
        "delta": null
       },
@@ -13112,6 +13712,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.802,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -13221,6 +13826,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.892,
        "prev": null,
        "delta": null
       },
@@ -13336,6 +13946,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.942,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -13445,6 +14060,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.952,
        "prev": null,
        "delta": null
       },
@@ -13560,6 +14180,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.732,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.008,
        "prev": null,
@@ -13669,6 +14294,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.889,
        "prev": null,
        "delta": null
       },
@@ -13784,6 +14414,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.898,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -13893,6 +14528,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.905,
        "prev": null,
        "delta": null
       },
@@ -14008,6 +14648,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.793,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.016,
        "prev": null,
@@ -14117,6 +14762,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.914,
        "prev": null,
        "delta": null
       },
@@ -14232,6 +14882,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.964,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.013,
        "prev": null,
@@ -14341,6 +14996,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.875,
        "prev": null,
        "delta": null
       },
@@ -14456,6 +15116,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.92,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.015,
        "prev": null,
@@ -14565,6 +15230,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.926,
        "prev": null,
        "delta": null
       },
@@ -14680,6 +15350,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.928,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -14789,6 +15464,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.733,
        "prev": null,
        "delta": null
       },
@@ -14904,6 +15584,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.885,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -15013,6 +15698,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -15128,6 +15818,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -15237,6 +15932,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.898,
        "prev": null,
        "delta": null
       },
@@ -15352,6 +16052,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.546,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -15461,6 +16166,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.619,
        "prev": null,
        "delta": null
       },
@@ -15576,6 +16286,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.568,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.008,
        "prev": null,
@@ -15685,6 +16400,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.73,
        "prev": null,
        "delta": null
       },
@@ -15800,6 +16520,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.9,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -15909,6 +16634,11 @@
       },
       "sg_score": {
        "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.57,
        "prev": null,
        "delta": null
       },
@@ -16024,6 +16754,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.835,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -16133,6 +16868,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.916,
        "prev": null,
        "delta": null
       },
@@ -16248,6 +16988,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.973,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -16357,6 +17102,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.994,
        "prev": null,
        "delta": null
       },
@@ -16472,6 +17222,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.913,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.008,
        "prev": null,
@@ -16581,6 +17336,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -16696,6 +17456,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.691,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -16805,6 +17570,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.9,
        "prev": null,
        "delta": null
       },
@@ -16920,6 +17690,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.562,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -17029,6 +17804,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.25,
        "prev": null,
        "delta": null
       },
@@ -17144,6 +17924,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.847,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -17253,6 +18038,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.695,
        "prev": null,
        "delta": null
       },
@@ -17368,6 +18158,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.011,
        "prev": null,
@@ -17477,6 +18272,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.432,
        "prev": null,
        "delta": null
       },
@@ -17592,6 +18392,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.875,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -17701,6 +18506,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.968,
        "prev": null,
        "delta": null
       },
@@ -17816,6 +18626,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.86,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.012,
        "prev": null,
@@ -17925,6 +18740,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -18040,6 +18860,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.916,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -18149,6 +18974,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.875,
        "prev": null,
        "delta": null
       },
@@ -18264,6 +19094,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.937,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -18373,6 +19208,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.988,
        "prev": null,
        "delta": null
       },
@@ -18488,6 +19328,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.969,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -18597,6 +19442,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.92,
        "prev": null,
        "delta": null
       },
@@ -18712,6 +19562,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.824,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.01,
        "prev": null,
@@ -18821,6 +19676,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.985,
        "prev": null,
        "delta": null
       },
@@ -18936,6 +19796,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.9,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -19045,6 +19910,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.75,
        "prev": null,
        "delta": null
       },
@@ -19160,6 +20030,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.959,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.012,
        "prev": null,
@@ -19269,6 +20144,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.849,
        "prev": null,
        "delta": null
       },
@@ -19384,6 +20264,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.897,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -19493,6 +20378,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.82,
        "prev": null,
        "delta": null
       },
@@ -19608,6 +20498,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.842,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.012,
        "prev": null,
@@ -19717,6 +20612,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.761,
        "prev": null,
        "delta": null
       },
@@ -19832,6 +20732,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.71,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -19941,6 +20846,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.8,
        "prev": null,
        "delta": null
       },
@@ -20056,6 +20966,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.949,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -20165,6 +21080,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.493,
        "prev": null,
        "delta": null
       },
@@ -20280,6 +21200,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.696,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.006,
        "prev": null,
@@ -20389,6 +21314,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.48,
        "prev": null,
        "delta": null
       },
@@ -20504,6 +21434,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.789,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -20613,6 +21548,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.958,
        "prev": null,
        "delta": null
       },
@@ -20728,6 +21668,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.432,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.023,
        "prev": null,
@@ -20837,6 +21782,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.761,
        "prev": null,
        "delta": null
       },
@@ -20952,6 +21902,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.895,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.013,
        "prev": null,
@@ -21061,6 +22016,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -21176,6 +22136,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.987,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.004,
        "prev": null,
@@ -21285,6 +22250,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.971,
        "prev": null,
        "delta": null
       },
@@ -21400,6 +22370,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.538,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -21509,6 +22484,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.587,
        "prev": null,
        "delta": null
       },
@@ -21624,6 +22604,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.684,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -21733,6 +22718,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.795,
        "prev": null,
        "delta": null
       },
@@ -21848,6 +22838,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.574,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -21957,6 +22952,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.444,
        "prev": null,
        "delta": null
       },
@@ -22072,6 +23072,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -22181,6 +23186,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -22296,6 +23306,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.89,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -22405,6 +23420,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.822,
        "prev": null,
        "delta": null
       },
@@ -22520,6 +23540,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.9,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -22629,6 +23654,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.922,
        "prev": null,
        "delta": null
       },
@@ -22744,6 +23774,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.628,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -22853,6 +23888,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.74,
        "prev": null,
        "delta": null
       },
@@ -22968,6 +24008,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -23077,6 +24122,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.892,
        "prev": null,
        "delta": null
       },
@@ -23192,6 +24242,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.912,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -23301,6 +24356,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.5,
        "prev": null,
        "delta": null
       },
@@ -23416,6 +24476,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -23525,6 +24590,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.919,
        "prev": null,
        "delta": null
       },
@@ -23640,6 +24710,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -23749,6 +24824,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.944,
        "prev": null,
        "delta": null
       },
@@ -23864,6 +24944,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.873,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -23973,6 +25058,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.562,
        "prev": null,
        "delta": null
       },
@@ -24088,6 +25178,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.75,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.0,
        "prev": null,
@@ -24197,6 +25292,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.871,
        "prev": null,
        "delta": null
       },
@@ -24312,6 +25412,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.619,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -24421,6 +25526,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.95,
        "prev": null,
        "delta": null
       },
@@ -24536,6 +25646,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.691,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -24645,6 +25760,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.877,
        "prev": null,
        "delta": null
       },
@@ -24760,6 +25880,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.93,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -24869,6 +25994,11 @@
       },
       "sg_score": {
        "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.916,
        "prev": null,
        "delta": null
       },
@@ -24984,6 +26114,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.765,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -25093,6 +26228,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.762,
        "prev": null,
        "delta": null
       },
@@ -25208,6 +26348,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.585,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.003,
        "prev": null,
@@ -25317,6 +26462,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.642,
        "prev": null,
        "delta": null
       },
@@ -25432,6 +26582,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.816,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -25541,6 +26696,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.548,
        "prev": null,
        "delta": null
       },
@@ -25656,6 +26816,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -25765,6 +26930,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.666,
        "prev": null,
        "delta": null
       },
@@ -25880,6 +27050,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.895,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.02,
        "prev": null,
@@ -25989,6 +27164,11 @@
       },
       "sg_score": {
        "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.787,
        "prev": null,
        "delta": null
       },
@@ -26104,6 +27284,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.801,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.002,
        "prev": null,
@@ -26213,6 +27398,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.894,
        "prev": null,
        "delta": null
       },
@@ -26328,6 +27518,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.936,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.001,
        "prev": null,
@@ -26437,6 +27632,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.65,
        "prev": null,
        "delta": null
       },
@@ -26552,6 +27752,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.916,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.007,
        "prev": null,
@@ -26661,6 +27866,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.96,
        "prev": null,
        "delta": null
       },
@@ -26776,6 +27986,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.639,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -26885,6 +28100,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.657,
        "prev": null,
        "delta": null
       },
@@ -27000,6 +28220,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.789,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.011,
        "prev": null,
@@ -27109,6 +28334,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.766,
        "prev": null,
        "delta": null
       },
@@ -27224,6 +28454,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.963,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.028,
        "prev": null,
@@ -27333,6 +28568,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.771,
        "prev": null,
        "delta": null
       },
@@ -27448,6 +28688,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.796,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.005,
        "prev": null,
@@ -27557,6 +28802,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.836,
        "prev": null,
        "delta": null
       },
@@ -27672,6 +28922,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.864,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -27781,6 +29036,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.874,
        "prev": null,
        "delta": null
       },
@@ -27896,6 +29156,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.013,
        "prev": null,
@@ -28005,6 +29270,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.646,
        "prev": null,
        "delta": null
       },
@@ -28120,6 +29390,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.685,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.004,
        "prev": null,
@@ -28229,6 +29504,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.444,
        "prev": null,
        "delta": null
       },
@@ -28344,6 +29624,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.933,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.004,
        "prev": null,
@@ -28453,6 +29738,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.679,
        "prev": null,
        "delta": null
       },
@@ -28568,6 +29858,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.713,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.01,
        "prev": null,
@@ -28677,6 +29972,11 @@
       },
       "sg_score": {
        "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.833,
        "prev": null,
        "delta": null
       },
@@ -28792,6 +30092,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 1.0,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.006,
        "prev": null,
@@ -28901,6 +30206,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.981,
        "prev": null,
        "delta": null
       },
@@ -29016,6 +30326,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.725,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.036,
        "prev": null,
@@ -29125,6 +30440,11 @@
       },
       "sg_score": {
        "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.833,
        "prev": null,
        "delta": null
       },
@@ -29240,6 +30560,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.616,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.004,
        "prev": null,
@@ -29349,6 +30674,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -29464,6 +30794,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.781,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -29573,6 +30908,11 @@
       },
       "sg_score": {
        "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.699,
        "prev": null,
        "delta": null
       },
@@ -29688,6 +31028,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.587,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.02,
        "prev": null,
@@ -29797,6 +31142,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.762,
        "prev": null,
        "delta": null
       },
@@ -29912,6 +31262,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.875,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.009,
        "prev": null,
@@ -30021,6 +31376,11 @@
       },
       "sg_score": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 1.0,
        "prev": null,
        "delta": null
       },
@@ -30136,6 +31496,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.986,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.018,
        "prev": null,
@@ -30245,6 +31610,11 @@
       },
       "sg_score": {
        "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.934,
        "prev": null,
        "delta": null
       },
@@ -30360,6 +31730,11 @@
        "prev": null,
        "delta": null
       },
+      "sg_reply": {
+       "cur": 0.921,
+       "prev": null,
+       "delta": null
+      },
       "sg_cancel": {
        "cur": 0.022,
        "prev": null,
@@ -30469,6 +31844,11 @@
       },
       "sg_score": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "sg_reply": {
+       "cur": 0.766,
        "prev": null,
        "delta": null
       },

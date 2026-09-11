@@ -32,7 +32,9 @@ STORE_COLS = {
     '美团': {'pair': {'mt_score': 6, 'mt_repeat': 15},
              'single': {'mt_goods_sat': 9, 'mt_pack_sat': 10, 'mt_repeat_score': 11,
                         'mt_food_safe': 12, 'mt_reply_score': 13, 'mt_service_fb': 14}},
-    '闪购': {'pair': {'sg_score': 6, 'sg_cancel': 17},
+    # 闪购门店维度另有「本期/上期消息回复率」百分比列（15/16），美团门店维度没有该列，
+    # 美团只有「消息回复率得分（10%）」，因此美团的门店级消息回复率百分比无数据源可取
+    '闪购': {'pair': {'sg_score': 6, 'sg_reply': 15, 'sg_cancel': 17},
              'single': {'sg_taste_sat': 9, 'sg_pack_sat': 10, 'sg_repeat_score': 11,
                         'sg_food_safe': 12, 'sg_reply_score': 13, 'sg_service_fb': 14}},
 }
@@ -41,7 +43,7 @@ SUMMARY_COLS = {
     '美团': {'pair': {'mt_score': 5, 'mt_repeat': 14},
              'single': {'mt_goods_sat': 8, 'mt_pack_sat': 9, 'mt_repeat_score': 10,
                         'mt_food_safe': 11, 'mt_reply_score': 12, 'mt_service_fb': 13}},
-    '闪购': {'pair': {'sg_score': 5, 'sg_cancel': 16},
+    '闪购': {'pair': {'sg_score': 5, 'sg_reply': 14, 'sg_cancel': 16},
              'single': {'sg_taste_sat': 8, 'sg_pack_sat': 9, 'sg_repeat_score': 10,
                         'sg_food_safe': 11, 'sg_reply_score': 12, 'sg_service_fb': 13}},
 }
