@@ -72,13 +72,25 @@ python -X utf8 server.py [--port 8080] [--no-open]            # 本地实时服�
 指标定义分散在三处，**改口径要同时改**：
 `build_data.py` 的 `STORE_COLS` / `SUMMARY_COLS` / `SUP_COLS`，`generate_html.py` 的 `METRICS`（名称/单位/方向）与 `METRIC_HELP`（问号提示文案）。
 
+### 督导视图派生指标（`build_data.py` 的 `COMPOSITE`）
+
+| 指标 | 公式 |
+| --- | --- |
+| `mt_quality` / `sg_quality` 商品质量分 | （满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ **80%** |
+| `mt_service` / `sg_service` 服务体验分 | （消息回复率×10% + 服务负反馈率×10%）÷ **20%** |
+
+- 闪购的「满意度」取 `sg_taste_sat` 口味满意度；美团取 `mt_goods_sat`。
+- **必须除以权重合计**（80% / 20%）归一化到 0–5 分，这样 `评分 = 商品质量分×80% + 服务体验分×20%` 才成立；直接加权求和得到的是 0–4 / 0–1，是错的。
+- 由 `_apply_composites()` 在 `build_period()` 与 `merge()` 两处统一补齐，覆盖门店/督导/城市/区域四级；任一分项缺失则该派生指标为 `None`（显示 `—`）。
+- 只调 `COMPOSITE` 时不需要重新解析 Excel，`python -X utf8 build_data.py --merge` 即可刷新 `data.json`。
+
 ### 前端用到的指标分组
 
 | 常量 | 内容 |
 | --- | --- |
 | `REGION_METRICS` | 美团评分、复购率、闪购评分、商责取消率（区域总览 4 张 KPI 卡） |
 | `BOTTOM_METRICS` | 同上 4 项，Bottom 5 表 |
-| `V3_MT_ORDER` / `V3_SG_ORDER` | 督导视图：美团 = 商家评分 + 消息回复率；闪购 = 商家评分 + 消息回复率 + 商责取消率 |
+| `V3_MT_ORDER` / `V3_SG_ORDER` | 督导视图（督导表现表 + 门店明细，两张表列一致）：美团 = 商品质量分 + 服务体验分；闪购 = 商品质量分 + 服务体验分 + 商责取消率 |
 | `SUB_MT` / `SUB_SG` | 门店明细里点击展开的二级指标 |
 
 ---

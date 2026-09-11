@@ -392,7 +392,7 @@ HTML = r'''<!DOCTYPE html>
         </div>
       </div>
     </div>
-    <div class="legend">说明：评分 / 回复率 / 满意度类指标 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>。选择督导后可进一步勾选其下属门店查看明细。</div>
+    <div class="legend">说明：商品质量分 / 服务体验分 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。<br>商品质量分 =（商品满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，服务体验分 =（消息回复率×10% + 服务负反馈率×10%）÷ 20%，均为 5 分制；评分 = 商品质量分×80% + 服务体验分×20%（闪购取口味满意度）。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>。选择督导后可进一步勾选其下属门店查看明细。</div>
     <h3>督导表现</h3>
     <div class="panel" id="supTable"></div>
     <div class="panel" id="supStoreTable" style="margin-top:18px;display:none"></div>
@@ -417,6 +417,8 @@ const METRICS = {
   mt_reply_score:{name:'消息回复率得分',ch:'美团',unit:'score',dir:'high'},
   mt_service_fb:{name:'服务负反馈率',ch:'美团',unit:'score',dir:'high'},
   mt_repeat:{name:'复购率',ch:'美团',unit:'pct',dir:'high'},
+  mt_quality:{name:'商品质量分',ch:'美团',unit:'score',dir:'high'},
+  mt_service:{name:'服务体验分',ch:'美团',unit:'score',dir:'high'},
   sg_score:{name:'闪购评分',ch:'闪购',unit:'score',dir:'high'},
   sg_taste_sat:{name:'口味满意度',ch:'闪购',unit:'score',dir:'high'},
   sg_pack_sat:{name:'包装满意度',ch:'闪购',unit:'score',dir:'high'},
@@ -425,6 +427,8 @@ const METRICS = {
   sg_reply_score:{name:'消息回复率',ch:'闪购',unit:'score',dir:'high'},
   sg_service_fb:{name:'服务负反馈率',ch:'闪购',unit:'score',dir:'high'},
   sg_cancel:{name:'商责取消率',ch:'闪购',unit:'pct',dir:'low'},
+  sg_quality:{name:'商品质量分',ch:'闪购',unit:'score',dir:'high'},
+  sg_service:{name:'服务体验分',ch:'闪购',unit:'score',dir:'high'},
 };
 const SAT_FORMULA=' =（1×一星评价数 + 2×二星评价数 + 3×三星评价数 + 4×四星评价数 + 5×五星评价数）÷ 总评价数';
 const MT_RANK='（与同市&饮品品类的商家进行排名比较计分。每个名次区间依次递减0.1分，如第一个区间5分，第二个区间4.9分，依次递减。）';
@@ -448,15 +452,19 @@ const METRIC_HELP={
   sg_reply_score:'消息回复率：统计门店近30天(T-2至T-31)消息回复率，并在同城市、同商圈、同品类的商户中排序，根据排名先后赋予相应分数。消息回复率越高，得分越高。',
   mt_service_fb:HELP_MT_SERVICE_FB,
   sg_service_fb:'服务负反馈率：统计门店近30天(T-2至T-31)的服务负反馈事件，计算门店负反馈事件占比=（负反馈问题订单数/近30天门店总订单数），并在同城市、同商圈、同品类的商户中排序，根据排名先后赋予相应分数。服务负反馈事件数越少，得分越高。',
-  sg_cancel:'商责取消率：商家责任导致的订单取消占比，越低越好。'
+  sg_cancel:'商责取消率：商家责任导致的订单取消占比，越低越好。',
+  mt_quality:'商品质量分=（商品满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，归一化到 5 分制。美团评分 = 商品质量分×80% + 服务体验分×20%。',
+  mt_service:'服务体验分=（消息回复率×10% + 服务负反馈率×10%）÷ 20%，归一化到 5 分制。美团评分 = 商品质量分×80% + 服务体验分×20%。',
+  sg_quality:'商品质量分=（口味满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，归一化到 5 分制。闪购评分 = 商品质量分×80% + 服务体验分×20%。',
+  sg_service:'服务体验分=（消息回复率×10% + 服务负反馈率×10%）÷ 20%，归一化到 5 分制。闪购评分 = 商品质量分×80% + 服务体验分×20%。'
 };
 const REGION_METRICS=['mt_score','mt_repeat','sg_score','sg_cancel'];   // 区域周报总览 KPI
 const BOTTOM_METRICS=['mt_score','mt_repeat','sg_score','sg_cancel'];   // Bottom 5 表
 const ALL_M=Object.keys(METRICS);
-const V3_MT_ORDER=['mt_score','mt_reply_score'];
-const V3_SG_ORDER=['sg_score','sg_reply_score','sg_cancel'];
-const V3_MT_HEADERS=['商家评分','消息回复率'];
-const V3_SG_HEADERS=['商家评分','消息回复率','商责取消率'];
+const V3_MT_ORDER=['mt_quality','mt_service'];
+const V3_SG_ORDER=['sg_quality','sg_service','sg_cancel'];
+const V3_MT_HEADERS=['商品质量分','服务体验分'];
+const V3_SG_HEADERS=['商品质量分','服务体验分','商责取消率'];
 
 const CITY_TO_PROV={
   '福州市':'福建省','厦门市':'福建省','泉州市':'福建省','漳州市':'福建省','莆田市':'福建省','三明市':'福建省','南平市':'福建省','龙岩市':'福建省','宁德市':'福建省',
@@ -969,16 +977,20 @@ function renderSup(){
   const regs=v3RegTree.getChecked();
   const supsSel=v3SupTree.getChecked();
   let sups=DATA.supervisor_summary.filter(s=>(regs.length===0||regs.includes(s.region)) && (supsSel.length===0||supsSel.includes(s.name)));
-  const lastMt=REGION_METRICS.map(mk=>METRICS[mk].ch==='美团').lastIndexOf(true);
-  let html='<table class="tbl"><thead><tr><th>督导</th><th>区域</th>';
-  REGION_METRICS.forEach((mk,mi)=>{const c=METRICS[mk].ch==='美团'?'mt-col':'sg-col';html+='<th class="'+c+(mi===lastMt?' mt-last':'')+'">'+METRICS[mk].name+helpIcon(mk)+'</th>';});
+  const lastMt=V3_MT_ORDER.map(mk=>METRICS[mk].ch==='美团').lastIndexOf(true);
+  let html='<div style="overflow-x:auto"><table class="tbl"><thead>'+
+    '<tr><th rowspan="2">督导</th><th rowspan="2">区域</th><th colspan="'+V3_MT_ORDER.length+'" class="group-mt">美团</th><th colspan="'+V3_SG_ORDER.length+'" class="group-sg">闪购</th></tr>'+
+    '<tr>';
+  V3_MT_ORDER.forEach((mk,i)=>{html+='<th class="mt-col'+(i===lastMt?' mt-last':'')+'">'+V3_MT_HEADERS[i]+helpIcon(mk)+'</th>';});
+  V3_SG_ORDER.forEach((mk,i)=>{html+='<th class="sg-col">'+V3_SG_HEADERS[i]+helpIcon(mk)+'</th>';});
   html+='</tr></thead><tbody>';
   sups.forEach(s=>{
     html+='<tr><td class="txt"><b>'+s.name+'</b></td><td class="txt">'+s.region+'</td>';
-    REGION_METRICS.forEach((mk,mi)=>{const mm=s.metrics[mk];const cls=[isWarn(mk,mm.cur)?'warn':'',mi===lastMt?'mt-last':''].filter(Boolean).join(' ');html+='<td'+(cls?' class="'+cls+'"':'')+'><span class="num">'+fmt(mk,mm.cur)+'</span><br>'+dtext(mk,mm.delta)+'</td>';});
+    V3_MT_ORDER.forEach((mk,i)=>{const mm=s.metrics[mk];const cls=[isWarn(mk,mm.cur)?'warn':'',i===lastMt?'mt-last':''].filter(Boolean).join(' ');html+='<td'+(cls?' class="'+cls+'"':'')+'><span class="num">'+fmt(mk,mm.cur)+'</span><br>'+dtext(mk,mm.delta)+'</td>';});
+    V3_SG_ORDER.forEach(mk=>{const mm=s.metrics[mk];const w=isWarn(mk,mm.cur)?' warn':'';html+='<td'+(w?' class="'+w.trim()+'"':'')+'><span class="num">'+fmt(mk,mm.cur)+'</span><br>'+dtext(mk,mm.delta)+'</td>';});
     html+='</tr>';
   });
-  html+='</tbody></table>';
+  html+='</tbody></table></div>';
   document.getElementById('supTable').innerHTML=html;
   // 门店明细表（选中督导后展示其下属门店，受门店树筛选控制）
   const stPanel=document.getElementById('supStoreTable');

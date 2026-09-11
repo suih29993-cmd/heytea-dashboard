@@ -96,6 +96,26 @@
        "cur": 3.96591612151333,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5721,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4514,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7022,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9719,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -181,6 +201,26 @@
        "cur": 3.9375,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5915,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2896,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6376,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9548,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -264,6 +304,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9062,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.579,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5027,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6588,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9333,
        "prev": null,
        "delta": null
       }
@@ -354,6 +414,26 @@
        "cur": 3.9667,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5502,
+       "prev": 4.5723,
+       "delta": -0.0221
+      },
+      "mt_service": {
+       "cur": 4.5,
+       "prev": 4.4987,
+       "delta": 0.0013
+      },
+      "sg_quality": {
+       "cur": 4.5417,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0084,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -438,6 +518,26 @@
       },
       "sg_service_fb": {
        "cur": 3.75,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6076,
+       "prev": 4.621,
+       "delta": -0.0134
+      },
+      "mt_service": {
+       "cur": 4.401,
+       "prev": 4.3328,
+       "delta": 0.0682
+      },
+      "sg_quality": {
+       "cur": 4.5792,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -526,6 +626,26 @@
        "cur": 3.7167,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6287,
+       "prev": 4.623,
+       "delta": 0.0057
+      },
+      "mt_service": {
+       "cur": 4.0384,
+       "prev": 4.3301,
+       "delta": -0.2917
+      },
+      "sg_quality": {
+       "cur": 4.5229,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8167,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -610,6 +730,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5248,
+       "prev": 4.5956,
+       "delta": -0.0708
+      },
+      "mt_service": {
+       "cur": 4.3942,
+       "prev": 4.3777,
+       "delta": 0.0165
+      },
+      "sg_quality": {
+       "cur": 4.5225,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.93,
        "prev": null,
        "delta": null
       }
@@ -698,6 +838,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5633,
+       "prev": 4.6187,
+       "delta": -0.0554
+      },
+      "mt_service": {
+       "cur": 4.369,
+       "prev": 4.3991,
+       "delta": -0.0301
+      },
+      "sg_quality": {
+       "cur": 4.7146,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9833,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -782,6 +942,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8364,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5981,
+       "prev": 4.5998,
+       "delta": -0.0017
+      },
+      "mt_service": {
+       "cur": 4.2525,
+       "prev": 4.2842,
+       "delta": -0.0317
+      },
+      "sg_quality": {
+       "cur": 4.6148,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -870,6 +1050,26 @@
        "cur": 3.9286,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6151,
+       "prev": 4.6548,
+       "delta": -0.0397
+      },
+      "mt_service": {
+       "cur": 4.2548,
+       "prev": 4.3318,
+       "delta": -0.077
+      },
+      "sg_quality": {
+       "cur": 4.6554,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9893,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -954,6 +1154,26 @@
       },
       "sg_service_fb": {
        "cur": 4.1667,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6819,
+       "prev": 4.7097,
+       "delta": -0.0278
+      },
+      "mt_service": {
+       "cur": 4.3123,
+       "prev": 4.3866,
+       "delta": -0.0743
+      },
+      "sg_quality": {
+       "cur": 4.69,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0367,
        "prev": null,
        "delta": null
       }
@@ -1042,6 +1262,26 @@
        "cur": 3.9667,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5129,
+       "prev": 4.648,
+       "delta": -0.1351
+      },
+      "mt_service": {
+       "cur": 4.2992,
+       "prev": 4.4028,
+       "delta": -0.1036
+      },
+      "sg_quality": {
+       "cur": 4.6933,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9733,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -1126,6 +1366,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8714,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.606,
+       "prev": 4.6124,
+       "delta": -0.0064
+      },
+      "mt_service": {
+       "cur": 4.206,
+       "prev": 4.296,
+       "delta": -0.09
+      },
+      "sg_quality": {
+       "cur": 4.6125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9214,
        "prev": null,
        "delta": null
       }
@@ -1214,6 +1474,26 @@
        "cur": 3.74,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5517,
+       "prev": 4.5843,
+       "delta": -0.0326
+      },
+      "mt_service": {
+       "cur": 4.5142,
+       "prev": 4.4621,
+       "delta": 0.0521
+      },
+      "sg_quality": {
+       "cur": 4.5075,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.875,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -1298,6 +1578,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8429,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5867,
+       "prev": 4.559,
+       "delta": 0.0277
+      },
+      "mt_service": {
+       "cur": 4.4942,
+       "prev": 4.2442,
+       "delta": 0.25
+      },
+      "sg_quality": {
+       "cur": 4.5786,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8857,
        "prev": null,
        "delta": null
       }
@@ -1386,6 +1686,26 @@
        "cur": 3.895,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5825,
+       "prev": 4.6308,
+       "delta": -0.0483
+      },
+      "mt_service": {
+       "cur": 4.4103,
+       "prev": 4.4958,
+       "delta": -0.0855
+      },
+      "sg_quality": {
+       "cur": 4.6425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9125,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -1470,6 +1790,26 @@
       },
       "sg_service_fb": {
        "cur": 4.0158,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5892,
+       "prev": 4.6225,
+       "delta": -0.0333
+      },
+      "mt_service": {
+       "cur": 4.7024,
+       "prev": 4.6749,
+       "delta": 0.0275
+      },
+      "sg_quality": {
+       "cur": 4.6829,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.979,
        "prev": null,
        "delta": null
       }
@@ -1558,6 +1898,26 @@
        "cur": 3.9864,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5602,
+       "prev": 4.6073,
+       "delta": -0.0471
+      },
+      "mt_service": {
+       "cur": 4.5438,
+       "prev": 4.5221,
+       "delta": 0.0217
+      },
+      "sg_quality": {
+       "cur": 4.7347,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9887,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -1644,6 +2004,26 @@
        "cur": 3.6875,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6313,
+       "prev": 4.585,
+       "delta": 0.0463
+      },
+      "mt_service": {
+       "cur": 4.4155,
+       "prev": 4.4281,
+       "delta": -0.0126
+      },
+      "sg_quality": {
+       "cur": 4.7167,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8271,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -1728,6 +2108,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9444,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5703,
+       "prev": 4.607,
+       "delta": -0.0367
+      },
+      "mt_service": {
+       "cur": 4.2658,
+       "prev": 4.3238,
+       "delta": -0.058
+      },
+      "sg_quality": {
+       "cur": 4.6306,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
        "prev": null,
        "delta": null
       }
@@ -1819,6 +2219,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.637,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.345,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -1903,6 +2323,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6109,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2462,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -1993,6 +2433,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.614,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2362,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -2077,6 +2537,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5344,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2369,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2167,6 +2647,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5611,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4258,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -2251,6 +2751,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4067,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1737,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2341,6 +2861,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6055,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -2425,6 +2965,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5614,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2169,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2515,6 +3075,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.448,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -2599,6 +3179,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5861,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3991,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2689,6 +3289,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5486,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3591,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -2773,6 +3393,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5218,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9048,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -2863,6 +3503,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8145,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7645,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -2947,6 +3607,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8887,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3806,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3037,6 +3717,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6815,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -3121,6 +3821,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6105,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4048,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3211,6 +3931,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6035,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5404,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -3295,6 +4035,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6131,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3452,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3385,6 +4145,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6444,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7542,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -3469,6 +4249,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4793,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4197,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3559,6 +4359,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5841,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5224,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -3643,6 +4463,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5424,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.506,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3733,6 +4573,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5652,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5679,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -3817,6 +4677,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5637,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7935,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -3907,6 +4787,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5998,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7831,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -3991,6 +4891,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.299,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5169,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4081,6 +5001,26 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.3351,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6435,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -4165,6 +5105,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5577,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6274,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -4255,6 +5215,26 @@
        "cur": 4.06071428571429,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6446,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0196,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -4340,6 +5320,26 @@
       },
       "sg_service_fb": {
        "cur": 3.82173913043478,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6136,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9087,
        "prev": null,
        "delta": null
       }
@@ -4429,6 +5429,26 @@
        "cur": 3.72105263157895,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6039,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8368,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -4514,6 +5534,26 @@
       },
       "sg_service_fb": {
        "cur": 3.99230769230769,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6385,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9769,
        "prev": null,
        "delta": null
       }
@@ -4603,6 +5643,26 @@
        "cur": 4.17142857142857,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7018,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0786,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -4687,6 +5747,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.64,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 4.0,
        "prev": null,
        "delta": null
@@ -4777,6 +5857,26 @@
        "cur": 3.925,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -4862,6 +5962,26 @@
       },
       "sg_service_fb": {
        "cur": 4.15,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5781,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
        "prev": null,
        "delta": null
       }
@@ -4951,6 +6071,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.1,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -5036,6 +6176,26 @@
       },
       "sg_service_fb": {
        "cur": 3.89090909090909,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6364,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9273,
        "prev": null,
        "delta": null
       }
@@ -5125,6 +6285,26 @@
        "cur": 3.68,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6037,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.775,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -5210,6 +6390,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.4,
        "prev": null,
        "delta": null
       }
@@ -5299,6 +6499,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -5384,6 +6604,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
        "prev": null,
        "delta": null
       }
@@ -5473,6 +6713,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -5558,6 +6818,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
        "prev": null,
        "delta": null
       }
@@ -5647,6 +6927,26 @@
        "cur": 3.96,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6329,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9967,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -5732,6 +7032,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7625,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6031,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -5821,6 +7141,26 @@
        "cur": 3.98,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.94,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -5906,6 +7246,26 @@
       },
       "sg_service_fb": {
        "cur": 3.78,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5975,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -5995,6 +7355,26 @@
        "cur": 4.025,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6719,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9625,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -6080,6 +7460,26 @@
       },
       "sg_service_fb": {
        "cur": 4.075,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7812,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.975,
        "prev": null,
        "delta": null
       }
@@ -6169,6 +7569,26 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0333,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -6254,6 +7674,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7833,
        "prev": null,
        "delta": null
       }
@@ -6343,6 +7783,26 @@
        "cur": 3.75,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -6428,6 +7888,26 @@
       },
       "sg_service_fb": {
        "cur": 3.85,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7313,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.925,
        "prev": null,
        "delta": null
       }
@@ -6517,6 +7997,26 @@
        "cur": 3.75,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.825,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -6602,6 +8102,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6562,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -6698,6 +8218,26 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.716,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -6788,6 +8328,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5427,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1823,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -6882,6 +8442,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5952,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5677,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -6972,6 +8552,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.544,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
        "prev": null,
        "delta": null
       }
@@ -7066,6 +8666,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5323,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5742,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -7155,6 +8775,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8177,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3952,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.9,
        "prev": null,
        "delta": null
@@ -7250,6 +8890,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6952,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2419,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -7340,6 +9000,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6323,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3839,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -7434,6 +9114,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.579,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2806,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -7524,6 +9224,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6952,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1194,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -7618,6 +9338,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.429,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5758,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.275,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -7707,6 +9447,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5685,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5742,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.7,
        "prev": null,
        "delta": null
@@ -7802,6 +9562,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.321,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5194,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -7894,6 +9674,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5113,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6839,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -7983,6 +9783,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.646,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6355,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.9,
        "prev": null,
        "delta": null
@@ -8078,6 +9898,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5323,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7323,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -8168,6 +10008,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5371,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5823,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -8262,6 +10122,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6194,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5484,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -8352,6 +10232,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4931,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2435,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -8446,6 +10346,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5298,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.571,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.275,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -8536,6 +10456,26 @@
       },
       "sg_service_fb": {
        "cur": 4.1,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.3927,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6323,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.15,
        "prev": null,
        "delta": null
       }
@@ -8630,6 +10570,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6315,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -8720,6 +10680,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7371,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4032,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -8814,6 +10794,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5819,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3565,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.675,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.1,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -8904,6 +10904,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6185,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5403,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
        "prev": null,
        "delta": null
       }
@@ -8998,6 +11018,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4823,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4952,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -9090,6 +11130,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5153,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -9179,6 +11239,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5828,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.881,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.75,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.7,
        "prev": null,
        "delta": null
@@ -9274,6 +11354,26 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6258,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9226,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -9364,6 +11464,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.229,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.7258,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.325,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -9458,6 +11578,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6601,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7371,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -9548,6 +11688,26 @@
       },
       "sg_service_fb": {
        "cur": 3.5,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5952,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1823,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -9642,6 +11802,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4984,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5435,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -9732,6 +11912,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6403,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4371,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.325,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -9826,6 +12026,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6363,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.7581,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -9916,6 +12136,26 @@
       },
       "sg_service_fb": {
        "cur": 4.1,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6395,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3613,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
        "prev": null,
        "delta": null
       }
@@ -10010,6 +12250,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5798,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -10100,6 +12360,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5972,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6032,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.75,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
        "prev": null,
        "delta": null
       }
@@ -10194,6 +12474,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7117,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.8274,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.55,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -10284,6 +12584,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5387,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4274,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -10378,6 +12698,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5351,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2903,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.675,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -10467,6 +12807,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.8177,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": null,
        "prev": null,
        "delta": null
@@ -10562,6 +12922,26 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.3762,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.821,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.55,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -10651,6 +13031,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4266,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3677,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.6,
        "prev": null,
        "delta": null
@@ -10746,6 +13146,26 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.505,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -10836,6 +13256,26 @@
       },
       "sg_service_fb": {
        "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4722,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2516,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
        "prev": null,
        "delta": null
       }
@@ -10930,6 +13370,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6694,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4919,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.2,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -11020,6 +13480,26 @@
       },
       "sg_service_fb": {
        "cur": 4.1,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.746,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4516,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.25,
        "prev": null,
        "delta": null
       }
@@ -11114,6 +13594,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5919,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2532,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -11206,6 +13706,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6113,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.5839,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -11295,6 +13815,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.2504,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.8984,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.475,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 4.0,
        "prev": null,
        "delta": null
@@ -11390,6 +13930,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.698,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -11480,6 +14040,26 @@
       },
       "sg_service_fb": {
        "cur": 4.1,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5887,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.621,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
        "prev": null,
        "delta": null
       }
@@ -11574,6 +14154,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8097,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6339,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -11664,6 +14264,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5625,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3581,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.75,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -11758,6 +14378,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6589,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2387,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -11848,6 +14488,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6331,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3565,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
        "prev": null,
        "delta": null
       }
@@ -11942,6 +14602,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4504,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3823,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -12031,6 +14711,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 4.2,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6089,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5016,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 4.2,
        "prev": null,
        "delta": null
@@ -12126,6 +14826,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6113,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0274,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -12216,6 +14936,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7222,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4677,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -12310,6 +15050,26 @@
        "cur": 4.2,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5899,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.25,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -12400,6 +15160,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4992,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9177,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.1,
        "prev": null,
        "delta": null
       }
@@ -12494,6 +15274,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6484,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2726,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -12586,6 +15386,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4895,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5065,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.575,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -12675,6 +15495,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5569,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.6081,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.8,
        "prev": null,
        "delta": null
@@ -12770,6 +15610,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5508,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4806,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -12860,6 +15720,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5677,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.275,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -12954,6 +15834,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8214,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.279,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -13044,6 +15944,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.9403,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6548,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.35,
        "prev": null,
        "delta": null
       }
@@ -13138,6 +16058,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6097,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1919,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -13228,6 +16168,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7387,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2887,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.4,
        "prev": null,
        "delta": null
       }
@@ -13322,6 +16282,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.654,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5371,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -13412,6 +16392,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5222,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3597,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.6,
        "prev": null,
        "delta": null
       }
@@ -13506,6 +16506,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7177,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5935,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -13596,6 +16616,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8032,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3774,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -13690,6 +16730,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6298,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.479,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.2625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -13782,6 +16842,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7137,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.25,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -13871,6 +16951,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7625,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9226,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.8,
        "prev": null,
        "delta": null
@@ -13966,6 +17066,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7468,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.7903,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -14056,6 +17176,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5726,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -14150,6 +17290,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5658,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2367,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -14240,6 +17400,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6827,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6177,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
        "prev": null,
        "delta": null
       }
@@ -14334,6 +17514,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.596,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2065,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -14424,6 +17624,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5536,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.8016,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.75,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -14518,6 +17738,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4548,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2484,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.25,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -14607,6 +17847,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.1786,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.7,
        "prev": null,
        "delta": null
@@ -14702,6 +17962,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7419,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4355,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -14791,6 +18071,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6355,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4855,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.9,
        "prev": null,
        "delta": null
@@ -14886,6 +18186,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.1875,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4339,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -14976,6 +18296,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5589,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3823,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.55,
        "prev": null,
        "delta": null
       }
@@ -15070,6 +18410,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4024,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0984,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -15160,6 +18520,26 @@
       },
       "sg_service_fb": {
        "cur": 3.5,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.3931,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.8597,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
        "prev": null,
        "delta": null
       }
@@ -15254,6 +18634,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.448,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.1,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -15344,6 +18744,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8548,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4177,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.925,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.55,
        "prev": null,
        "delta": null
       }
@@ -15438,6 +18858,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4738,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.8242,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -15528,6 +18968,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6452,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3032,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -15622,6 +19082,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6008,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3355,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -15712,6 +19192,26 @@
       },
       "sg_service_fb": {
        "cur": 4.3,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.15,
        "prev": null,
        "delta": null
       }
@@ -15806,6 +19306,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5367,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3919,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -15896,6 +19416,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4661,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1935,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -15990,6 +19530,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.781,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -16080,6 +19640,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6435,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5742,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -16174,6 +19754,26 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5052,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4387,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -16264,6 +19864,26 @@
       },
       "sg_service_fb": {
        "cur": 4.1,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4923,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2403,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -16358,6 +19978,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6798,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4839,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -16448,6 +20088,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.644,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4177,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -16542,6 +20202,26 @@
        "cur": 4.2,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7177,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0629,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.525,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -16632,6 +20312,26 @@
       },
       "sg_service_fb": {
        "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6214,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2484,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -16726,6 +20426,26 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5552,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.7984,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.55,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -16816,6 +20536,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5548,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.6,
        "prev": null,
        "delta": null
       }
@@ -16910,6 +20650,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8423,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4048,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -17000,6 +20760,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6097,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.271,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
        "prev": null,
        "delta": null
       }
@@ -17094,6 +20874,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.2879,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2226,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -17184,6 +20984,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4794,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.6613,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -17278,6 +21098,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.696,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4742,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.3,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -17368,6 +21208,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6726,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1774,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -17462,6 +21322,26 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.654,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0629,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.6,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -17552,6 +21432,26 @@
       },
       "sg_service_fb": {
        "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6266,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6274,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.475,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -17646,6 +21546,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4887,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6274,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -17736,6 +21656,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5379,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6677,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.55,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -17830,6 +21770,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.1323,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6194,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -17920,6 +21880,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5806,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3661,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -18014,6 +21994,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4677,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4145,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -18104,6 +22104,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5766,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2435,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
        "prev": null,
        "delta": null
       }
@@ -18198,6 +22218,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5448,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -18288,6 +22328,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7448,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4855,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -18382,6 +22442,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6887,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -18472,6 +22552,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6891,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.75,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
        "prev": null,
        "delta": null
       }
@@ -18566,6 +22666,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4992,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -18658,6 +22778,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6315,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.9129,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -18747,6 +22887,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4613,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9887,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.65,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.9,
        "prev": null,
        "delta": null
@@ -18842,6 +23002,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6637,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4194,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.1,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -18932,6 +23112,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7589,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2597,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
        "prev": null,
        "delta": null
       }
@@ -19026,6 +23226,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4339,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7871,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -19116,6 +23336,26 @@
       },
       "sg_service_fb": {
        "cur": 3.5,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6661,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.675,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -19210,6 +23450,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5367,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6839,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -19300,6 +23560,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6121,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1661,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.325,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -19394,6 +23674,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5238,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5032,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -19484,6 +23784,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6411,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2548,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
        "prev": null,
        "delta": null
       }
@@ -19578,6 +23898,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5718,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3984,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -19668,6 +24008,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5617,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1016,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -19762,6 +24122,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8056,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.479,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.55,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -19852,6 +24232,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.3911,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.9048,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -19946,6 +24346,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5565,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7306,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -20036,6 +24456,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7976,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.429,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -20130,6 +24570,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5669,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3242,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -20220,6 +24680,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5177,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5823,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
        "prev": null,
        "delta": null
       }
@@ -20314,6 +24794,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7605,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.721,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.5125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -20404,6 +24904,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7327,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2516,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.925,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
        "prev": null,
        "delta": null
       }
@@ -20498,6 +25018,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.552,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3113,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -20588,6 +25128,26 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5202,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4081,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -20682,6 +25242,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4919,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1758,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.475,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -20772,6 +25352,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4278,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -20866,6 +25466,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.1702,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5371,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -20955,6 +25575,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4546,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0817,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.7,
        "prev": null,
        "delta": null
@@ -21050,6 +25690,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7363,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.8371,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -21140,6 +25800,26 @@
       },
       "sg_service_fb": {
        "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5504,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7435,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.45,
        "prev": null,
        "delta": null
       }
@@ -21234,6 +25914,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5911,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4129,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -21324,6 +26024,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.375,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1667,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
        "prev": null,
        "delta": null
       }
@@ -21418,6 +26138,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.725,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4097,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -21508,6 +26248,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.327,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0919,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -21602,6 +26362,26 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6548,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5484,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -21692,6 +26472,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7496,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3952,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -21786,6 +26586,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5306,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3629,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -21876,6 +26696,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6282,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6694,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
        "prev": null,
        "delta": null
       }
@@ -21970,6 +26810,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5714,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.8968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.925,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -22059,6 +26919,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5395,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 5.0,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.8,
        "prev": null,
        "delta": null
@@ -22154,6 +27034,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6024,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6919,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -22244,6 +27144,26 @@
       },
       "sg_service_fb": {
        "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5492,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6887,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
        "prev": null,
        "delta": null
       }
@@ -22338,6 +27258,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6105,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4048,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -22428,6 +27368,26 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6855,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6758,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -22522,6 +27482,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6056,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.8565,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -22611,6 +27591,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7121,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.9871,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.925,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.8,
        "prev": null,
        "delta": null
@@ -22706,6 +27706,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4569,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2629,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -22796,6 +27816,26 @@
       },
       "sg_service_fb": {
        "cur": 3.5,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7621,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.9887,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.45,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -22890,6 +27930,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6225,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6083,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.5,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -22980,6 +28040,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5782,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5758,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.75,
        "prev": null,
        "delta": null
       }
@@ -23074,6 +28154,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4968,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.521,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -23164,6 +28264,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6815,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4968,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.825,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -23258,6 +28378,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6802,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9839,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.05,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -23348,6 +28488,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6569,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.1629,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -23442,6 +28602,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5859,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6532,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.3125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -23532,6 +28712,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5315,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3661,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.55,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.85,
        "prev": null,
        "delta": null
       }
@@ -23626,6 +28826,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5081,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7306,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -23718,6 +28938,26 @@
        "cur": 4.2,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6629,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.2452,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.3,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -23807,6 +29047,26 @@
        "delta": null
       },
       "sg_service_fb": {
+       "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5117,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.8742,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
        "cur": 3.6,
        "prev": null,
        "delta": null
@@ -23902,6 +29162,26 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.4742,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.471,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.675,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.0,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -23992,6 +29272,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8887,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3806,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.875,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.7,
        "prev": null,
        "delta": null
       }
@@ -24086,6 +29386,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8145,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.7645,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.8375,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.35,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -24176,6 +29496,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6677,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.6903,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -24270,6 +29610,26 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.506,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3387,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9125,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -24360,6 +29720,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.406,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.6887,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7625,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.65,
        "prev": null,
        "delta": null
       }
@@ -24454,6 +29834,26 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5282,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.5242,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.775,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -24544,6 +29944,26 @@
       },
       "sg_service_fb": {
        "cur": 3.6,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5577,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4403,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.425,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.8,
        "prev": null,
        "delta": null
       }
@@ -24638,6 +30058,26 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.5218,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 3.9048,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.6,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -24728,6 +30168,26 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.8181,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.3484,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.85,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.1,
        "prev": null,
        "delta": null
       }
@@ -24822,6 +30282,26 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.7605,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.4484,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.9,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 4.15,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -24914,6 +30394,26 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_quality": {
+       "cur": 4.6948,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": 4.0306,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.7,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.9,
+       "prev": null,
+       "delta": null
       }
      }
     },
@@ -25004,6 +30504,26 @@
       },
       "sg_service_fb": {
        "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_quality": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "mt_service": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
+      "sg_quality": {
+       "cur": 4.4,
+       "prev": null,
+       "delta": null
+      },
+      "sg_service": {
+       "cur": 3.95,
        "prev": null,
        "delta": null
       }

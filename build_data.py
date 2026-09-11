@@ -57,6 +57,18 @@ SUP_COLS = {
 ALL_M = (list(STORE_COLS['美团']['pair']) + list(STORE_COLS['美团']['single'])
          + list(STORE_COLS['闪购']['pair']) + list(STORE_COLS['闪购']['single']))
 
+# 督导视图派生指标：由二级指标按平台公式合成 (指标名, 权重)
+# 商品质量分/服务体验分 = 各分项加权和 ÷ 该分项权重合计（归一化到 0-5 分），
+# 使得 评分 = 商品质量分×80% + 服务体验分×20% 恒成立。
+COMPOSITE = {
+    'mt_quality': (('mt_goods_sat', 0.30), ('mt_pack_sat', 0.10),
+                   ('mt_repeat_score', 0.20), ('mt_food_safe', 0.20)),
+    'mt_service': (('mt_reply_score', 0.10), ('mt_service_fb', 0.10)),
+    'sg_quality': (('sg_taste_sat', 0.30), ('sg_pack_sat', 0.10),
+                   ('sg_repeat_score', 0.20), ('sg_food_safe', 0.20)),
+    'sg_service': (('sg_reply_score', 0.10), ('sg_service_fb', 0.10)),
+}
+
 
 def _period_key(folder):
     m = _FOLDER_RE.match(folder)
@@ -150,6 +162,36 @@ def _wavg(rows, mk, which):
         num += v * w
         den += w
     return round(num / den, 4) if den else None
+
+
+def _composite(metrics, parts):
+    """按权重合成派生指标；任一分项缺失则记 None"""
+    tw = sum(w for _, w in parts)
+
+    def calc(which):
+        num = 0.0
+        for k, w in parts:
+            v = (metrics.get(k) or {}).get(which)
+            if v is None:
+                return None
+            num += v * w
+        return round(num / tw, 4)
+
+    cur, prev = calc('cur'), calc('prev')
+    return {'cur': cur, 'prev': prev,
+            'delta': round(cur - prev, 4) if (cur is not None and prev is not None) else None}
+
+
+def _apply_composites(period):
+    """给某期各级（门店/督导/城市/区域）metrics 补齐派生指标"""
+    for s in period.get('stores', []):
+        for mk, parts in COMPOSITE.items():
+            s['metrics'][mk] = _composite(s['metrics'], parts)
+    for key in ('supervisor_summary', 'city_summary', 'region_summary'):
+        for row in period.get(key, []):
+            for mk, parts in COMPOSITE.items():
+                row['metrics'][mk] = _composite(row['metrics'], parts)
+    return period
 
 
 # ---------------- 文件定位 ----------------
@@ -349,7 +391,7 @@ def build_period(folder):
                            'delta': round(cur - pv, 4) if (cur is not None and pv is not None) else None}
         region_summary.append({'name': rname, 'metrics': metrics})
 
-    return {
+    out = {
         'meta': {
             'period': '%s ~ %s' % (period, period_end),
             'prevPeriod': '%s ~ %s' % (prev, prev_end),
@@ -363,6 +405,7 @@ def build_period(folder):
         'city_summary': city_summary,
         'stores': stores,
     }
+    return _apply_composites(out)
 
 
 def _write_cache(folder, out):
@@ -385,7 +428,8 @@ def merge():
                 pass
             continue
         try:
-            cache[folder] = json.load(open(os.path.join(CACHE_DIR, d), encoding='utf-8'))
+            cache[folder] = _apply_composites(
+                json.load(open(os.path.join(CACHE_DIR, d), encoding='utf-8')))
             order.append(folder)
         except Exception:
             pass
