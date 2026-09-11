@@ -172,6 +172,59 @@ HTML = r'''<!DOCTYPE html>
   .tree-group{font-size:11px;color:var(--sub);font-weight:600;padding:6px 12px 2px;letter-spacing:.5px}
   .metric-row.tree-sel{background:#F3F1EC;font-weight:600;color:var(--accent)}
   .metric-row.tree-sel::after{content:'✓';margin-left:auto;color:var(--accent);font-weight:700;padding-right:4px}
+
+  /* ============ 平板 / 移动端自适应（纯样式，不动数据与逻辑） ============ */
+  @media (max-width:1024px){
+    header{padding:18px 18px 0}
+    main{padding:20px 18px 30px}
+    .filters{flex-wrap:wrap;gap:8px 10px}
+    .fitem{flex:0 1 auto;min-width:0}
+    .fitem .tree-dropdown,.fitem .search-wrap{max-width:100%}
+    .kpi-grid{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+    .panel, .panel-tight{overflow-x:auto}
+    table.tbl{min-width:560px}
+    .help-tip{max-width:calc(100vw - 24px)}
+  }
+  @media (max-width:760px){
+    header{padding:14px 14px 0;gap:10px}
+    header .brand .logo, header .brand .logo svg, header .brand .logo img{height:40px}
+    header .brand h1{font-size:17px}
+    header .brand .meta{font-size:11.5px}
+    header .brand .meta .dot{margin:0 6px}
+    .periodbar{position:static;width:100%;align-self:stretch;justify-content:flex-end;margin:2px 0 8px}
+    .periodbar select{flex:1;min-width:0}
+    .tabs{width:100%;gap:20px;overflow-x:auto;padding-top:2px}
+    .tabs button{font-size:14px;white-space:nowrap}
+    main{padding:16px 12px 26px}
+    h2{font-size:16.5px}
+    h3{font-size:15px;margin:16px 0 8px}
+    .region-block{padding:14px 14px;margin-bottom:14px}
+    .panel{padding:12px;border-radius:10px}
+    .panel-tight{padding:8px}
+    .kpi-grid{grid-template-columns:1fr 1fr}
+    .kpi{padding:14px 14px;border-bottom:1px solid var(--line)}
+    .kpi:nth-child(2n), .kpi:last-child{border-right:none}
+    .kpi:last-child{border-bottom:none}
+    .kpi-label{margin-bottom:8px}
+    .kpi-val{font-size:24px}
+    .filters{padding-bottom:10px}
+    .fitem{flex:1 1 100%;min-width:0}
+    .fitem .tree-dropdown, .fitem .search-wrap{width:100%}
+    .fitem .search-wrap input{width:100%}
+    .tree-trigger{width:100%;min-width:0}
+    .tree-panel{left:0;right:auto;width:100%;max-width:100%}
+    table.tbl{min-width:660px;font-size:12px}
+    table.tbl th, table.tbl td{padding:7px 8px}
+    .dtext{font-size:11px}
+    .legend{font-size:11.5px}
+    footer{padding:16px 12px 24px}
+  }
+  @media (max-width:420px){
+    .kpi{padding:12px}
+    .kpi-val{font-size:21px}
+    .kpi-label{font-size:11.5px}
+    table.tbl{min-width:600px}
+  }
 </style>
 </head>
 <body>
