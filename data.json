@@ -102,6 +102,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8468,
+       "prev": 0.8371,
+       "delta": 0.0097
+      },
       "mt_quality": {
        "cur": 3.6577,
        "prev": null,
@@ -212,6 +217,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8162,
+       "prev": 0.8099,
+       "delta": 0.0063
+      },
       "mt_quality": {
        "cur": 3.6732,
        "prev": null,
@@ -321,6 +331,11 @@
        "cur": 3.9062,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8805,
+       "prev": 0.8671,
+       "delta": 0.0134
       },
       "mt_quality": {
        "cur": 3.6632,
@@ -435,6 +450,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8246,
+       "prev": 0.8548,
+       "delta": -0.0302
+      },
       "mt_quality": {
        "cur": 3.6402,
        "prev": 3.6579,
@@ -545,6 +565,11 @@
        "cur": 3.75,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8524,
+       "prev": 0.8985,
+       "delta": -0.0461
       },
       "mt_quality": {
        "cur": 3.686,
@@ -657,6 +682,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.787,
+       "prev": 0.8348,
+       "delta": -0.0478
+      },
       "mt_quality": {
        "cur": 3.703,
        "prev": 3.6984,
@@ -767,6 +797,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8764,
+       "prev": 0.8691,
+       "delta": 0.0073
       },
       "mt_quality": {
        "cur": 3.6199,
@@ -879,6 +914,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8348,
+       "prev": 0.8032,
+       "delta": 0.0316
+      },
       "mt_quality": {
        "cur": 3.6506,
        "prev": 3.695,
@@ -989,6 +1029,11 @@
        "cur": 3.8364,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8513,
+       "prev": 0.7483,
+       "delta": 0.103
       },
       "mt_quality": {
        "cur": 3.6784,
@@ -1101,6 +1146,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8213,
+       "prev": 0.8276,
+       "delta": -0.0063
+      },
       "mt_quality": {
        "cur": 3.6921,
        "prev": 3.7238,
@@ -1211,6 +1261,11 @@
        "cur": 4.1667,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8076,
+       "prev": 0.813,
+       "delta": -0.0054
       },
       "mt_quality": {
        "cur": 3.7455,
@@ -1323,6 +1378,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8086,
+       "prev": 0.8146,
+       "delta": -0.006
+      },
       "mt_quality": {
        "cur": 3.6103,
        "prev": 3.7184,
@@ -1433,6 +1493,11 @@
        "cur": 3.8714,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7627,
+       "prev": 0.7609,
+       "delta": 0.0018
       },
       "mt_quality": {
        "cur": 3.6848,
@@ -1545,6 +1610,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8842,
+       "prev": 0.8631,
+       "delta": 0.0211
+      },
       "mt_quality": {
        "cur": 3.6414,
        "prev": 3.6675,
@@ -1655,6 +1725,11 @@
        "cur": 3.8429,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.856,
+       "prev": 0.8192,
+       "delta": 0.0368
       },
       "mt_quality": {
        "cur": 3.6694,
@@ -1767,6 +1842,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8763,
+       "prev": 0.867,
+       "delta": 0.0093
+      },
       "mt_quality": {
        "cur": 3.666,
        "prev": 3.7046,
@@ -1877,6 +1957,11 @@
        "cur": 4.0158,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9373,
+       "prev": 0.9365,
+       "delta": 0.0008
       },
       "mt_quality": {
        "cur": 3.6713,
@@ -1989,6 +2074,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8923,
+       "prev": 0.8902,
+       "delta": 0.0021
+      },
       "mt_quality": {
        "cur": 3.6482,
        "prev": 3.6859,
@@ -2100,6 +2190,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8274,
+       "prev": 0.7881,
+       "delta": 0.0393
+      },
       "mt_quality": {
        "cur": 3.705,
        "prev": 3.668,
@@ -2210,6 +2305,11 @@
        "cur": 3.9444,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8031,
+       "prev": 0.7763,
+       "delta": 0.0268
       },
       "mt_quality": {
        "cur": 3.6563,
@@ -2325,6 +2425,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8242,
+       "prev": 0.8086,
+       "delta": 0.0156
+      },
       "mt_quality": {
        "cur": 3.7096,
        "prev": null,
@@ -2436,6 +2541,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8412,
+       "prev": 0.8425,
+       "delta": -0.0013
       },
       "mt_quality": {
        "cur": 3.6887,
@@ -2549,6 +2659,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7567,
+       "prev": 0.7785,
+       "delta": -0.0218
+      },
       "mt_quality": {
        "cur": 3.6912,
        "prev": null,
@@ -2660,6 +2775,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8287,
+       "prev": 0.7741,
+       "delta": 0.0546
       },
       "mt_quality": {
        "cur": 3.6275,
@@ -2773,6 +2893,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8803,
+       "prev": 0.8742,
+       "delta": 0.0061
+      },
       "mt_quality": {
        "cur": 3.6488,
        "prev": null,
@@ -2884,6 +3009,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7032,
+       "prev": 0.8156,
+       "delta": -0.1124
       },
       "mt_quality": {
        "cur": 3.5254,
@@ -2997,6 +3127,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8601,
+       "prev": 0.8068,
+       "delta": 0.0533
+      },
       "mt_quality": {
        "cur": 3.6844,
        "prev": null,
@@ -3108,6 +3243,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8193,
+       "prev": 0.7551,
+       "delta": 0.0642
       },
       "mt_quality": {
        "cur": 3.6491,
@@ -3221,6 +3361,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9053,
+       "prev": 0.9499,
+       "delta": -0.0446
+      },
       "mt_quality": {
        "cur": 3.5584,
        "prev": null,
@@ -3332,6 +3477,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8365,
+       "prev": 0.7761,
+       "delta": 0.0604
       },
       "mt_quality": {
        "cur": 3.6688,
@@ -3445,6 +3595,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8346,
+       "prev": 0.8289,
+       "delta": 0.0057
+      },
       "mt_quality": {
        "cur": 3.6389,
        "prev": null,
@@ -3556,6 +3711,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.634,
+       "prev": 0.725,
+       "delta": -0.091
       },
       "mt_quality": {
        "cur": 3.6174,
@@ -3669,6 +3829,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9534,
+       "prev": 0.8897,
+       "delta": 0.0637
+      },
       "mt_quality": {
        "cur": 3.8516,
        "prev": null,
@@ -3780,6 +3945,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.6705,
+       "prev": 0.5756,
+       "delta": 0.0949
       },
       "mt_quality": {
        "cur": 3.911,
@@ -3893,6 +4063,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8681,
+       "prev": 0.8374,
+       "delta": 0.0307
+      },
       "mt_quality": {
        "cur": 3.7452,
        "prev": null,
@@ -4004,6 +4179,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8932,
+       "prev": 0.9116,
+       "delta": -0.0184
       },
       "mt_quality": {
        "cur": 3.6884,
@@ -4117,6 +4297,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8984,
+       "prev": 0.8871,
+       "delta": 0.0113
+      },
       "mt_quality": {
        "cur": 3.6828,
        "prev": null,
@@ -4228,6 +4413,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8731,
+       "prev": 0.9269,
+       "delta": -0.0538
       },
       "mt_quality": {
        "cur": 3.6905,
@@ -4341,6 +4531,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9615,
+       "prev": 0.9529,
+       "delta": 0.0086
+      },
       "mt_quality": {
        "cur": 3.7155,
        "prev": null,
@@ -4452,6 +4647,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8612,
+       "prev": 0.743,
+       "delta": 0.1182
       },
       "mt_quality": {
        "cur": 3.5834,
@@ -4565,6 +4765,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8715,
+       "prev": 0.8684,
+       "delta": 0.0031
+      },
       "mt_quality": {
        "cur": 3.6673,
        "prev": null,
@@ -4676,6 +4881,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8764,
+       "prev": 0.8598,
+       "delta": 0.0166
       },
       "mt_quality": {
        "cur": 3.634,
@@ -4789,6 +4999,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.893,
+       "prev": 0.8652,
+       "delta": 0.0278
+      },
       "mt_quality": {
        "cur": 3.6522,
        "prev": null,
@@ -4900,6 +5115,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9439,
+       "prev": 0.9441,
+       "delta": -0.0002
       },
       "mt_quality": {
        "cur": 3.651,
@@ -5013,6 +5233,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9593,
+       "prev": 0.9267,
+       "delta": 0.0326
+      },
       "mt_quality": {
        "cur": 3.6798,
        "prev": null,
@@ -5124,6 +5349,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8805,
+       "prev": 0.9894,
+       "delta": -0.1089
       },
       "mt_quality": {
        "cur": 3.4392,
@@ -5237,6 +5467,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9273,
+       "prev": 0.9799,
+       "delta": -0.0526
+      },
       "mt_quality": {
        "cur": 3.4681,
        "prev": null,
@@ -5349,6 +5584,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9134,
+       "prev": 0.8973,
+       "delta": 0.0161
+      },
       "mt_quality": {
        "cur": 3.6461,
        "prev": null,
@@ -5458,6 +5698,11 @@
       },
       "sg_service_fb": {
        "cur": 4.06071428571429,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -5573,6 +5818,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -5682,6 +5932,11 @@
       },
       "sg_service_fb": {
        "cur": 3.72105263157895,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -5797,6 +6052,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -5906,6 +6166,11 @@
       },
       "sg_service_fb": {
        "cur": 4.17142857142857,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -6021,6 +6286,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -6130,6 +6400,11 @@
       },
       "sg_service_fb": {
        "cur": 3.925,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -6245,6 +6520,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -6354,6 +6634,11 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -6469,6 +6754,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -6578,6 +6868,11 @@
       },
       "sg_service_fb": {
        "cur": 3.68,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -6693,6 +6988,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -6802,6 +7102,11 @@
       },
       "sg_service_fb": {
        "cur": 3.7,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -6917,6 +7222,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -7026,6 +7336,11 @@
       },
       "sg_service_fb": {
        "cur": 3.8,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -7141,6 +7456,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -7250,6 +7570,11 @@
       },
       "sg_service_fb": {
        "cur": 3.96,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -7365,6 +7690,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -7474,6 +7804,11 @@
       },
       "sg_service_fb": {
        "cur": 3.98,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -7589,6 +7924,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -7698,6 +8038,11 @@
       },
       "sg_service_fb": {
        "cur": 4.025,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -7813,6 +8158,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -7922,6 +8272,11 @@
       },
       "sg_service_fb": {
        "cur": 4.1,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -8037,6 +8392,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -8146,6 +8506,11 @@
       },
       "sg_service_fb": {
        "cur": 3.75,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -8261,6 +8626,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -8373,6 +8743,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": null,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": null,
        "prev": null,
@@ -8482,6 +8857,11 @@
       },
       "sg_service_fb": {
        "cur": 3.9,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },
@@ -8604,6 +8984,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.4122,
+       "prev": null,
+       "delta": null
+      },
       "mt_quality": {
        "cur": 3.7728,
        "prev": null,
@@ -8720,6 +9105,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7098,
+       "prev": 0.8022,
+       "delta": -0.0924
       },
       "mt_quality": {
        "cur": 3.6342,
@@ -8838,6 +9228,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9643,
+       "prev": 0.9691,
+       "delta": -0.0048
+      },
       "mt_quality": {
        "cur": 3.6761,
        "prev": null,
@@ -8954,6 +9349,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8336,
+       "prev": 0.9198,
+       "delta": -0.0862
       },
       "mt_quality": {
        "cur": 3.6352,
@@ -9072,6 +9472,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9203,
+       "prev": 0.9094,
+       "delta": 0.0109
+      },
       "mt_quality": {
        "cur": 3.6258,
        "prev": null,
@@ -9188,6 +9593,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8338,
+       "prev": 0.8919,
+       "delta": -0.0581
       },
       "mt_quality": {
        "cur": 3.8542,
@@ -9306,6 +9716,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.6823,
+       "prev": 0.716,
+       "delta": -0.0337
+      },
       "mt_quality": {
        "cur": 3.7561,
        "prev": null,
@@ -9422,6 +9837,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8637,
+       "prev": 0.9067,
+       "delta": -0.043
       },
       "mt_quality": {
        "cur": 3.7058,
@@ -9540,6 +9960,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7484,
+       "prev": 0.8693,
+       "delta": -0.1209
+      },
       "mt_quality": {
        "cur": 3.6632,
        "prev": null,
@@ -9656,6 +10081,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7773,
+       "prev": 0.718,
+       "delta": 0.0593
       },
       "mt_quality": {
        "cur": 3.7561,
@@ -9774,6 +10204,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9305,
+       "prev": 0.955,
+       "delta": -0.0245
+      },
       "mt_quality": {
        "cur": 3.5432,
        "prev": null,
@@ -9890,6 +10325,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9283,
+       "prev": 0.9161,
+       "delta": 0.0122
       },
       "mt_quality": {
        "cur": 3.6548,
@@ -10008,6 +10448,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9126,
+       "prev": 0.7376,
+       "delta": 0.175
+      },
       "mt_quality": {
        "cur": 3.4568,
        "prev": null,
@@ -10124,6 +10569,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9428,
+       "prev": 0.9255,
+       "delta": 0.0173
       },
       "mt_quality": {
        "cur": 3.609,
@@ -10242,6 +10692,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9242,
+       "prev": 0.9059,
+       "delta": 0.0183
+      },
       "mt_quality": {
        "cur": 3.7168,
        "prev": null,
@@ -10358,6 +10813,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.953,
+       "prev": 0.9253,
+       "delta": 0.0277
       },
       "mt_quality": {
        "cur": 3.6258,
@@ -10476,6 +10936,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9144,
+       "prev": 0.9466,
+       "delta": -0.0322
+      },
       "mt_quality": {
        "cur": 3.6297,
        "prev": null,
@@ -10592,6 +11057,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8905,
+       "prev": 0.8502,
+       "delta": 0.0403
       },
       "mt_quality": {
        "cur": 3.6955,
@@ -10710,6 +11180,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8484,
+       "prev": 0.8715,
+       "delta": -0.0231
+      },
       "mt_quality": {
        "cur": 3.5945,
        "prev": null,
@@ -10826,6 +11301,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9105,
+       "prev": 0.8453,
+       "delta": 0.0652
       },
       "mt_quality": {
        "cur": 3.6239,
@@ -10944,6 +11424,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9457,
+       "prev": 0.9035,
+       "delta": 0.0422
+      },
       "mt_quality": {
        "cur": 3.5142,
        "prev": null,
@@ -11060,6 +11545,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9379,
+       "prev": 0.9231,
+       "delta": 0.0148
       },
       "mt_quality": {
        "cur": 3.7052,
@@ -11178,6 +11668,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7277,
+       "prev": 0.461,
+       "delta": 0.2667
+      },
       "mt_quality": {
        "cur": 3.7897,
        "prev": null,
@@ -11294,6 +11789,11 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9038,
+       "prev": 0.915,
+       "delta": -0.0112
       },
       "mt_quality": {
        "cur": 3.6655,
@@ -11412,6 +11912,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8762,
+       "prev": 0.7528,
+       "delta": 0.1234
+      },
       "mt_quality": {
        "cur": 3.6948,
        "prev": null,
@@ -11528,6 +12033,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8717,
+       "prev": 0.7797,
+       "delta": 0.092
       },
       "mt_quality": {
        "cur": 3.5858,
@@ -11646,6 +12156,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9114,
+       "prev": 0.9451,
+       "delta": -0.0337
+      },
       "mt_quality": {
        "cur": 3.6123,
        "prev": null,
@@ -11762,6 +12277,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9685,
+       "prev": 0.8696,
+       "delta": 0.0989
       },
       "mt_quality": {
        "cur": 3.6662,
@@ -11880,6 +12400,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7732,
+       "prev": 0.8007,
+       "delta": -0.0275
+      },
       "mt_quality": {
        "cur": 3.7006,
        "prev": null,
@@ -11996,6 +12521,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7327,
+       "prev": 0.687,
+       "delta": 0.0457
       },
       "mt_quality": {
        "cur": 3.3832,
@@ -12114,6 +12644,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9604,
+       "prev": 0.9557,
+       "delta": 0.0047
+      },
       "mt_quality": {
        "cur": 3.7281,
        "prev": null,
@@ -12230,6 +12765,11 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.836,
+       "prev": 0.9223,
+       "delta": -0.0863
       },
       "mt_quality": {
        "cur": 3.6761,
@@ -12348,6 +12888,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.902,
+       "prev": 0.9207,
+       "delta": -0.0187
+      },
       "mt_quality": {
        "cur": 3.5987,
        "prev": null,
@@ -12464,6 +13009,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8663,
+       "prev": 0.9137,
+       "delta": -0.0474
       },
       "mt_quality": {
        "cur": 3.7123,
@@ -12582,6 +13132,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7013,
+       "prev": 0.7252,
+       "delta": -0.0239
+      },
       "mt_quality": {
        "cur": 3.709,
        "prev": null,
@@ -12698,6 +13253,11 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8466,
+       "prev": 0.8196,
+       "delta": 0.027
       },
       "mt_quality": {
        "cur": 3.7116,
@@ -12816,6 +13376,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7436,
+       "prev": 0.7595,
+       "delta": -0.0159
+      },
       "mt_quality": {
        "cur": 3.6639,
        "prev": null,
@@ -12932,6 +13497,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9404,
+       "prev": 0.9627,
+       "delta": -0.0223
       },
       "mt_quality": {
        "cur": 3.6777,
@@ -13050,6 +13620,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9695,
+       "prev": 0.8862,
+       "delta": 0.0833
+      },
       "mt_quality": {
        "cur": 3.7694,
        "prev": null,
@@ -13166,6 +13741,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8585,
+       "prev": 0.8795,
+       "delta": -0.021
       },
       "mt_quality": {
        "cur": 3.631,
@@ -13284,6 +13864,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7853,
+       "prev": 0.7205,
+       "delta": 0.0648
+      },
       "mt_quality": {
        "cur": 3.6281,
        "prev": null,
@@ -13400,6 +13985,11 @@
        "cur": null,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.4748,
+       "prev": 0.3668,
+       "delta": 0.108
       },
       "mt_quality": {
        "cur": 3.54,
@@ -13518,6 +14108,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7837,
+       "prev": 0.8283,
+       "delta": -0.0446
+      },
       "mt_quality": {
        "cur": 3.501,
        "prev": null,
@@ -13634,6 +14229,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.841,
+       "prev": 0.7936,
+       "delta": 0.0474
       },
       "mt_quality": {
        "cur": 3.5413,
@@ -13752,6 +14352,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 0.7499,
+       "delta": 0.2501
+      },
       "mt_quality": {
        "cur": 3.604,
        "prev": null,
@@ -13868,6 +14473,11 @@
        "cur": 4.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9422,
+       "prev": 0.9317,
+       "delta": 0.0105
       },
       "mt_quality": {
        "cur": 3.5777,
@@ -13986,6 +14596,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8891,
+       "prev": 0.9148,
+       "delta": -0.0257
+      },
       "mt_quality": {
        "cur": 3.7355,
        "prev": null,
@@ -14102,6 +14717,11 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8675,
+       "prev": 0.8932,
+       "delta": -0.0257
       },
       "mt_quality": {
        "cur": 3.7968,
@@ -14220,6 +14840,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7622,
+       "prev": 0.6115,
+       "delta": 0.1507
+      },
       "mt_quality": {
        "cur": 3.6735,
        "prev": null,
@@ -14336,6 +14961,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.6452,
+       "prev": 0.5107,
+       "delta": 0.1345
       },
       "mt_quality": {
        "cur": 3.689,
@@ -14454,6 +15084,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8425,
+       "prev": 0.7878,
+       "delta": 0.0547
+      },
       "mt_quality": {
        "cur": 3.4003,
        "prev": null,
@@ -14570,6 +15205,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9489,
+       "prev": 0.9015,
+       "delta": 0.0474
       },
       "mt_quality": {
        "cur": 3.7584,
@@ -14688,6 +15328,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7009,
+       "prev": 0.8688,
+       "delta": -0.1679
+      },
       "mt_quality": {
        "cur": 3.671,
        "prev": null,
@@ -14804,6 +15449,11 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9294,
+       "prev": 0.964,
+       "delta": -0.0346
       },
       "mt_quality": {
        "cur": 3.8477,
@@ -14922,6 +15572,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8803,
+       "prev": 0.8397,
+       "delta": 0.0406
+      },
       "mt_quality": {
        "cur": 3.65,
        "prev": null,
@@ -15038,6 +15693,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8541,
+       "prev": 0.8537,
+       "delta": 0.0004
       },
       "mt_quality": {
        "cur": 3.7271,
@@ -15156,6 +15816,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8528,
+       "prev": 0.7949,
+       "delta": 0.0579
+      },
       "mt_quality": {
        "cur": 3.7065,
        "prev": null,
@@ -15272,6 +15937,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8304,
+       "prev": 0.6489,
+       "delta": 0.1815
       },
       "mt_quality": {
        "cur": 3.5603,
@@ -15390,6 +16060,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.888,
+       "prev": 0.8636,
+       "delta": 0.0244
+      },
       "mt_quality": {
        "cur": 3.6871,
        "prev": null,
@@ -15506,6 +16181,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7906,
+       "prev": 0.6881,
+       "delta": 0.1025
       },
       "mt_quality": {
        "cur": 3.689,
@@ -15624,6 +16304,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8766,
+       "prev": 0.7938,
+       "delta": 0.0828
+      },
       "mt_quality": {
        "cur": 3.7777,
        "prev": null,
@@ -15740,6 +16425,11 @@
        "cur": 4.2,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8856,
+       "prev": 0.9223,
+       "delta": -0.0367
       },
       "mt_quality": {
        "cur": 3.6719,
@@ -15858,6 +16548,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8198,
+       "prev": 0.9666,
+       "delta": -0.1468
+      },
       "mt_quality": {
        "cur": 3.5994,
        "prev": null,
@@ -15974,6 +16669,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8868,
+       "prev": 0.7005,
+       "delta": 0.1863
       },
       "mt_quality": {
        "cur": 3.7187,
@@ -16092,6 +16792,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9106,
+       "prev": 0.8428,
+       "delta": 0.0678
+      },
       "mt_quality": {
        "cur": 3.5916,
        "prev": null,
@@ -16208,6 +16913,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.6363,
+       "prev": 0.6656,
+       "delta": -0.0293
       },
       "mt_quality": {
        "cur": 3.6455,
@@ -16326,6 +17036,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8436,
+       "prev": 0.8114,
+       "delta": 0.0322
+      },
       "mt_quality": {
        "cur": 3.6406,
        "prev": null,
@@ -16442,6 +17157,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8979,
+       "prev": 0.9302,
+       "delta": -0.0323
       },
       "mt_quality": {
        "cur": 3.78,
@@ -16560,6 +17280,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7258,
+       "prev": 0.821,
+       "delta": -0.0952
+      },
       "mt_quality": {
        "cur": 3.8571,
        "prev": null,
@@ -16676,6 +17401,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.93,
+       "prev": 0.9973,
+       "delta": -0.0673
       },
       "mt_quality": {
        "cur": 3.9523,
@@ -16794,6 +17524,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7306,
+       "prev": 0.6568,
+       "delta": 0.0738
+      },
       "mt_quality": {
        "cur": 3.6877,
        "prev": null,
@@ -16910,6 +17645,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7367,
+       "prev": 0.6371,
+       "delta": 0.0996
       },
       "mt_quality": {
        "cur": 3.791,
@@ -17028,6 +17768,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9259,
+       "prev": 0.9742,
+       "delta": -0.0483
+      },
       "mt_quality": {
        "cur": 3.7232,
        "prev": null,
@@ -17144,6 +17889,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8044,
+       "prev": 0.8473,
+       "delta": -0.0429
       },
       "mt_quality": {
        "cur": 3.6177,
@@ -17262,6 +18012,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9404,
+       "prev": 0.9238,
+       "delta": 0.0166
+      },
       "mt_quality": {
        "cur": 3.7742,
        "prev": null,
@@ -17378,6 +18133,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8277,
+       "prev": 0.8156,
+       "delta": 0.0121
       },
       "mt_quality": {
        "cur": 3.8426,
@@ -17496,6 +18256,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8602,
+       "prev": 0.8927,
+       "delta": -0.0325
+      },
       "mt_quality": {
        "cur": 3.7039,
        "prev": null,
@@ -17612,6 +18377,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7064,
+       "prev": 0.7554,
+       "delta": -0.049
       },
       "mt_quality": {
        "cur": 3.771,
@@ -17730,6 +18500,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8456,
+       "prev": 0.9644,
+       "delta": -0.1188
+      },
       "mt_quality": {
        "cur": 3.81,
        "prev": null,
@@ -17846,6 +18621,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7985,
+       "prev": 0.7335,
+       "delta": 0.065
       },
       "mt_quality": {
        "cur": 3.7974,
@@ -17964,6 +18744,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7476,
+       "prev": 0.5582,
+       "delta": 0.1894
+      },
       "mt_quality": {
        "cur": 3.6581,
        "prev": null,
@@ -18080,6 +18865,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7015,
+       "prev": 0.685,
+       "delta": 0.0165
       },
       "mt_quality": {
        "cur": 3.6527,
@@ -18198,6 +18988,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9161,
+       "prev": 0.9097,
+       "delta": 0.0064
+      },
       "mt_quality": {
        "cur": 3.7461,
        "prev": null,
@@ -18314,6 +19109,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7328,
+       "prev": 0.6838,
+       "delta": 0.049
       },
       "mt_quality": {
        "cur": 3.6768,
@@ -18432,6 +19232,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.6126,
+       "prev": 0.5905,
+       "delta": 0.0221
+      },
       "mt_quality": {
        "cur": 3.6429,
        "prev": null,
@@ -18548,6 +19353,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8463,
+       "prev": 0.8427,
+       "delta": 0.0036
       },
       "mt_quality": {
        "cur": 3.5639,
@@ -18666,6 +19476,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7203,
+       "prev": 0.7286,
+       "delta": -0.0083
+      },
       "mt_quality": {
        "cur": 3.3429,
        "prev": null,
@@ -18782,6 +19597,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8312,
+       "prev": 0.8141,
+       "delta": 0.0171
       },
       "mt_quality": {
        "cur": 3.7935,
@@ -18900,6 +19720,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8654,
+       "prev": 0.8922,
+       "delta": -0.0268
+      },
       "mt_quality": {
        "cur": 3.7084,
        "prev": null,
@@ -19016,6 +19841,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8577,
+       "prev": 0.8256,
+       "delta": 0.0321
       },
       "mt_quality": {
        "cur": 3.35,
@@ -19134,6 +19964,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8334,
+       "prev": 0.9385,
+       "delta": -0.1051
+      },
       "mt_quality": {
        "cur": 3.6471,
        "prev": null,
@@ -19250,6 +20085,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7529,
+       "prev": 0.7225,
+       "delta": 0.0304
       },
       "mt_quality": {
        "cur": 3.5219,
@@ -19368,6 +20208,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.6596,
+       "prev": 0.7758,
+       "delta": -0.1162
+      },
       "mt_quality": {
        "cur": 3.5145,
        "prev": null,
@@ -19484,6 +20329,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9053,
+       "prev": 0.9499,
+       "delta": -0.0446
       },
       "mt_quality": {
        "cur": 3.5584,
@@ -19602,6 +20452,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9187,
+       "prev": 0.9144,
+       "delta": 0.0043
+      },
       "mt_quality": {
        "cur": 3.8839,
        "prev": null,
@@ -19718,6 +20573,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9757,
+       "prev": 1.0,
+       "delta": -0.0243
       },
       "mt_quality": {
        "cur": 3.579,
@@ -19836,6 +20696,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9361,
+       "prev": 0.9142,
+       "delta": 0.0219
+      },
       "mt_quality": {
        "cur": 3.7161,
        "prev": null,
@@ -19952,6 +20817,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8105,
+       "prev": 0.7333,
+       "delta": 0.0772
       },
       "mt_quality": {
        "cur": 3.6806,
@@ -20070,6 +20940,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8506,
+       "prev": 0.8671,
+       "delta": -0.0165
+      },
       "mt_quality": {
        "cur": 3.48,
        "prev": null,
@@ -20186,6 +21061,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.882,
+       "prev": 0.8854,
+       "delta": -0.0034
       },
       "mt_quality": {
        "cur": 3.6294,
@@ -20304,6 +21184,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7886,
+       "prev": 0.8048,
+       "delta": -0.0162
+      },
       "mt_quality": {
        "cur": 3.5729,
        "prev": null,
@@ -20420,6 +21305,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9526,
+       "prev": 0.9237,
+       "delta": 0.0289
       },
       "mt_quality": {
        "cur": 3.8248,
@@ -20538,6 +21428,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8799,
+       "prev": 0.9307,
+       "delta": -0.0508
+      },
       "mt_quality": {
        "cur": 3.7148,
        "prev": null,
@@ -20654,6 +21549,11 @@
        "cur": 4.1,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8455,
+       "prev": 0.731,
+       "delta": 0.1145
       },
       "mt_quality": {
        "cur": 3.6042,
@@ -20772,6 +21672,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7625,
+       "prev": 0.642,
+       "delta": 0.1205
+      },
       "mt_quality": {
        "cur": 3.5939,
        "prev": null,
@@ -20888,6 +21793,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8644,
+       "prev": 0.811,
+       "delta": 0.0534
       },
       "mt_quality": {
        "cur": 3.7439,
@@ -21006,6 +21916,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.83,
+       "prev": 0.7745,
+       "delta": 0.0555
+      },
       "mt_quality": {
        "cur": 3.7152,
        "prev": null,
@@ -21122,6 +22037,11 @@
        "cur": 4.2,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.4936,
+       "prev": 0.4521,
+       "delta": 0.0415
       },
       "mt_quality": {
        "cur": 3.7742,
@@ -21240,6 +22160,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7144,
+       "prev": 0.8844,
+       "delta": -0.17
+      },
       "mt_quality": {
        "cur": 3.6971,
        "prev": null,
@@ -21356,6 +22281,11 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.4799,
+       "prev": 0.6435,
+       "delta": -0.1636
       },
       "mt_quality": {
        "cur": 3.6442,
@@ -21474,6 +22404,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.5909,
+       "prev": 0.4565,
+       "delta": 0.1344
+      },
       "mt_quality": {
        "cur": 3.6439,
        "prev": null,
@@ -21590,6 +22525,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8694,
+       "prev": 0.8566,
+       "delta": 0.0128
       },
       "mt_quality": {
        "cur": 3.8739,
@@ -21708,6 +22648,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.729,
+       "prev": 0.7058,
+       "delta": 0.0232
+      },
       "mt_quality": {
        "cur": 3.6877,
        "prev": null,
@@ -21824,6 +22769,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8692,
+       "prev": 0.8462,
+       "delta": 0.023
       },
       "mt_quality": {
        "cur": 3.4303,
@@ -21942,6 +22892,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.719,
+       "prev": 0.8953,
+       "delta": -0.1763
+      },
       "mt_quality": {
        "cur": 3.5835,
        "prev": null,
@@ -22058,6 +23013,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9341,
+       "prev": 0.9089,
+       "delta": 0.0252
       },
       "mt_quality": {
        "cur": 3.7568,
@@ -22176,6 +23136,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7834,
+       "prev": 0.7286,
+       "delta": 0.0548
+      },
       "mt_quality": {
        "cur": 3.7381,
        "prev": null,
@@ -22292,6 +23257,11 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.4819,
+       "prev": 0.5575,
+       "delta": -0.0756
       },
       "mt_quality": {
        "cur": 3.7232,
@@ -22410,6 +23380,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9171,
+       "prev": 0.9372,
+       "delta": -0.0201
+      },
       "mt_quality": {
        "cur": 3.7013,
        "prev": null,
@@ -22526,6 +23501,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9097,
+       "prev": 0.8574,
+       "delta": 0.0523
       },
       "mt_quality": {
        "cur": 3.591,
@@ -22644,6 +23624,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9375,
+       "prev": 0.9937,
+       "delta": -0.0562
+      },
       "mt_quality": {
        "cur": 3.6303,
        "prev": null,
@@ -22760,6 +23745,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.917,
+       "prev": 0.9661,
+       "delta": -0.0491
       },
       "mt_quality": {
        "cur": 3.3058,
@@ -22878,6 +23868,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8908,
+       "prev": 0.7234,
+       "delta": 0.1674
+      },
       "mt_quality": {
        "cur": 3.6645,
        "prev": null,
@@ -22994,6 +23989,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7819,
+       "prev": 0.8874,
+       "delta": -0.1055
       },
       "mt_quality": {
        "cur": 3.5742,
@@ -23112,6 +24112,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8329,
+       "prev": 0.8283,
+       "delta": 0.0046
+      },
       "mt_quality": {
        "cur": 3.6613,
        "prev": null,
@@ -23228,6 +24233,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
       },
       "mt_quality": {
        "cur": 3.6358,
@@ -23346,6 +24356,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8605,
+       "prev": 0.884,
+       "delta": -0.0235
+      },
       "mt_quality": {
        "cur": 3.7958,
        "prev": null,
@@ -23462,6 +24477,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
       },
       "mt_quality": {
        "cur": 3.751,
@@ -23580,6 +24600,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9819,
+       "prev": 1.0,
+       "delta": -0.0181
+      },
       "mt_quality": {
        "cur": 3.7513,
        "prev": null,
@@ -23696,6 +24721,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
       },
       "mt_quality": {
        "cur": 3.5994,
@@ -23814,6 +24844,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
+      },
       "mt_quality": {
        "cur": 3.7052,
        "prev": null,
@@ -23930,6 +24965,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7038,
+       "prev": 0.5668,
+       "delta": 0.137
       },
       "mt_quality": {
        "cur": 3.569,
@@ -24048,6 +25088,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8791,
+       "prev": 0.8598,
+       "delta": 0.0193
+      },
       "mt_quality": {
        "cur": 3.731,
        "prev": null,
@@ -24164,6 +25209,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8805,
+       "prev": 0.8789,
+       "delta": 0.0016
       },
       "mt_quality": {
        "cur": 3.8071,
@@ -24282,6 +25332,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.979,
+       "prev": 0.959,
+       "delta": 0.02
+      },
       "mt_quality": {
        "cur": 3.5471,
        "prev": null,
@@ -24398,6 +25453,11 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9716,
+       "prev": 0.9162,
+       "delta": 0.0554
       },
       "mt_quality": {
        "cur": 3.68,
@@ -24516,6 +25576,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9394,
+       "prev": 0.9347,
+       "delta": 0.0047
+      },
       "mt_quality": {
        "cur": 3.6294,
        "prev": null,
@@ -24632,6 +25697,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7015,
+       "prev": 0.7902,
+       "delta": -0.0887
       },
       "mt_quality": {
        "cur": 3.6897,
@@ -24750,6 +25820,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8757,
+       "prev": 0.8586,
+       "delta": 0.0171
+      },
       "mt_quality": {
        "cur": 3.619,
        "prev": null,
@@ -24866,6 +25941,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8238,
+       "prev": 0.843,
+       "delta": -0.0192
       },
       "mt_quality": {
        "cur": 3.7129,
@@ -24984,6 +26064,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8283,
+       "prev": 0.9395,
+       "delta": -0.1112
+      },
       "mt_quality": {
        "cur": 3.6574,
        "prev": null,
@@ -25100,6 +26185,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8403,
+       "prev": 0.8461,
+       "delta": -0.0058
       },
       "mt_quality": {
        "cur": 3.6494,
@@ -25218,6 +26308,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9204,
+       "prev": 0.946,
+       "delta": -0.0256
+      },
       "mt_quality": {
        "cur": 3.8445,
        "prev": null,
@@ -25334,6 +26429,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9854,
+       "prev": 0.9543,
+       "delta": 0.0311
       },
       "mt_quality": {
        "cur": 3.5129,
@@ -25452,6 +26552,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9537,
+       "prev": 0.8799,
+       "delta": 0.0738
+      },
       "mt_quality": {
        "cur": 3.6452,
        "prev": null,
@@ -25568,6 +26673,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8593,
+       "prev": 0.9042,
+       "delta": -0.0449
       },
       "mt_quality": {
        "cur": 3.8381,
@@ -25686,6 +26796,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7781,
+       "prev": 0.7444,
+       "delta": 0.0337
+      },
       "mt_quality": {
        "cur": 3.6535,
        "prev": null,
@@ -25802,6 +26917,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8963,
+       "prev": 0.8,
+       "delta": 0.0963
       },
       "mt_quality": {
        "cur": 3.6142,
@@ -25920,6 +27040,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
+      },
       "mt_quality": {
        "cur": 3.8084,
        "prev": null,
@@ -26036,6 +27161,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8518,
+       "prev": 0.7637,
+       "delta": 0.0881
       },
       "mt_quality": {
        "cur": 3.7861,
@@ -26154,6 +27284,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8698,
+       "prev": 0.7485,
+       "delta": 0.1213
+      },
       "mt_quality": {
        "cur": 3.6416,
        "prev": null,
@@ -26270,6 +27405,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8737,
+       "prev": 0.6532,
+       "delta": 0.2205
       },
       "mt_quality": {
        "cur": 3.6161,
@@ -26388,6 +27528,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7073,
+       "prev": 0.6502,
+       "delta": 0.0571
+      },
       "mt_quality": {
        "cur": 3.5935,
        "prev": null,
@@ -26504,6 +27649,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8776,
+       "prev": 0.9855,
+       "delta": -0.1079
       },
       "mt_quality": {
        "cur": 3.5423,
@@ -26622,6 +27772,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8834,
+       "prev": 0.9933,
+       "delta": -0.1099
+      },
       "mt_quality": {
        "cur": 3.3361,
        "prev": null,
@@ -26738,6 +27893,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7234,
+       "prev": 0.7233,
+       "delta": 0.0001
       },
       "mt_quality": {
        "cur": 3.5637,
@@ -26856,6 +28016,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9655,
+       "prev": 0.9571,
+       "delta": 0.0084
+      },
       "mt_quality": {
        "cur": 3.789,
        "prev": null,
@@ -26972,6 +28137,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9437,
+       "prev": 0.9069,
+       "delta": 0.0368
       },
       "mt_quality": {
        "cur": 3.6403,
@@ -27090,6 +28260,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8535,
+       "prev": 0.8865,
+       "delta": -0.033
+      },
       "mt_quality": {
        "cur": 3.6729,
        "prev": null,
@@ -27206,6 +28381,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 0.9973,
+       "delta": 0.0027
       },
       "mt_quality": {
        "cur": 3.5,
@@ -27324,6 +28504,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9043,
+       "prev": 0.9725,
+       "delta": -0.0682
+      },
       "mt_quality": {
        "cur": 3.78,
        "prev": null,
@@ -27440,6 +28625,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8294,
+       "prev": 0.9501,
+       "delta": -0.1207
       },
       "mt_quality": {
        "cur": 3.4616,
@@ -27558,6 +28748,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8904,
+       "prev": 0.9602,
+       "delta": -0.0698
+      },
       "mt_quality": {
        "cur": 3.7239,
        "prev": null,
@@ -27674,6 +28869,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9473,
+       "prev": 0.9754,
+       "delta": -0.0281
       },
       "mt_quality": {
        "cur": 3.7997,
@@ -27792,6 +28992,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8675,
+       "prev": 0.9368,
+       "delta": -0.0693
+      },
       "mt_quality": {
        "cur": 3.6245,
        "prev": null,
@@ -27908,6 +29113,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.937,
+       "prev": 0.888,
+       "delta": 0.049
       },
       "mt_quality": {
        "cur": 3.7026,
@@ -28026,6 +29236,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9815,
+       "prev": 0.9655,
+       "delta": 0.016
+      },
       "mt_quality": {
        "cur": 3.6571,
        "prev": null,
@@ -28142,6 +29357,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
       },
       "mt_quality": {
        "cur": 3.6316,
@@ -28260,6 +29480,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9099,
+       "prev": 0.8336,
+       "delta": 0.0763
+      },
       "mt_quality": {
        "cur": 3.6819,
        "prev": null,
@@ -28376,6 +29601,11 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9218,
+       "prev": 0.9988,
+       "delta": -0.077
       },
       "mt_quality": {
        "cur": 3.6394,
@@ -28494,6 +29724,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8932,
+       "prev": 0.9116,
+       "delta": -0.0184
+      },
       "mt_quality": {
        "cur": 3.6884,
        "prev": null,
@@ -28610,6 +29845,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9822,
+       "prev": 0.9762,
+       "delta": 0.006
       },
       "mt_quality": {
        "cur": 3.7484,
@@ -28728,6 +29968,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9892,
+       "prev": 0.9201,
+       "delta": 0.0691
+      },
       "mt_quality": {
        "cur": 3.6845,
        "prev": null,
@@ -28844,6 +30089,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9952,
+       "prev": 0.9873,
+       "delta": 0.0079
       },
       "mt_quality": {
        "cur": 3.7697,
@@ -28962,6 +30212,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.851,
+       "prev": 0.8819,
+       "delta": -0.0309
+      },
       "mt_quality": {
        "cur": 3.5655,
        "prev": null,
@@ -29078,6 +30333,11 @@
        "cur": 3.5,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9899,
+       "prev": 0.9989,
+       "delta": -0.009
       },
       "mt_quality": {
        "cur": 3.8097,
@@ -29196,6 +30456,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9556,
+       "prev": 0.9164,
+       "delta": 0.0392
+      },
       "mt_quality": {
        "cur": 3.698,
        "prev": null,
@@ -29312,6 +30577,11 @@
        "cur": 3.6,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8783,
+       "prev": 0.8517,
+       "delta": 0.0266
       },
       "mt_quality": {
        "cur": 3.6626,
@@ -29430,6 +30700,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.845,
+       "prev": 0.8274,
+       "delta": 0.0176
+      },
       "mt_quality": {
        "cur": 3.5974,
        "prev": null,
@@ -29546,6 +30821,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8681,
+       "prev": 0.8374,
+       "delta": 0.0307
       },
       "mt_quality": {
        "cur": 3.7452,
@@ -29664,6 +30944,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.6594,
+       "prev": 0.6277,
+       "delta": 0.0317
+      },
       "mt_quality": {
        "cur": 3.7442,
        "prev": null,
@@ -29780,6 +31065,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.7034,
+       "prev": 0.3351,
+       "delta": 0.3683
       },
       "mt_quality": {
        "cur": 3.7255,
@@ -29898,6 +31188,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8922,
+       "prev": 0.9383,
+       "delta": -0.0461
+      },
       "mt_quality": {
        "cur": 3.6687,
        "prev": null,
@@ -30014,6 +31309,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8342,
+       "prev": 0.6998,
+       "delta": 0.1344
       },
       "mt_quality": {
        "cur": 3.6252,
@@ -30132,6 +31432,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 1.0,
+       "prev": 1.0,
+       "delta": 0.0
+      },
       "mt_quality": {
        "cur": 3.6065,
        "prev": null,
@@ -30248,6 +31553,11 @@
        "cur": 4.2,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8439,
+       "prev": 0.887,
+       "delta": -0.0431
       },
       "mt_quality": {
        "cur": 3.7303,
@@ -30366,6 +31676,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.7838,
+       "prev": 0.8814,
+       "delta": -0.0976
+      },
       "mt_quality": {
        "cur": 3.6094,
        "prev": null,
@@ -30482,6 +31797,11 @@
        "cur": 3.8,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8773,
+       "prev": 0.892,
+       "delta": -0.0147
       },
       "mt_quality": {
        "cur": 3.5794,
@@ -30600,6 +31920,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.6705,
+       "prev": 0.5756,
+       "delta": 0.0949
+      },
       "mt_quality": {
        "cur": 3.911,
        "prev": null,
@@ -30716,6 +32041,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9534,
+       "prev": 0.8897,
+       "delta": 0.0637
       },
       "mt_quality": {
        "cur": 3.8516,
@@ -30834,6 +32164,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9128,
+       "prev": 0.9046,
+       "delta": 0.0082
+      },
       "mt_quality": {
        "cur": 3.7342,
        "prev": null,
@@ -30950,6 +32285,11 @@
        "cur": 3.7,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.9325,
+       "prev": 0.8795,
+       "delta": 0.053
       },
       "mt_quality": {
        "cur": 3.6048,
@@ -31068,6 +32408,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.5841,
+       "prev": 0.5324,
+       "delta": 0.0517
+      },
       "mt_quality": {
        "cur": 3.5248,
        "prev": null,
@@ -31184,6 +32529,11 @@
        "cur": 3.9,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8437,
+       "prev": 0.8321,
+       "delta": 0.0116
       },
       "mt_quality": {
        "cur": 3.6226,
@@ -31302,6 +32652,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8537,
+       "prev": 0.8531,
+       "delta": 0.0006
+      },
       "mt_quality": {
        "cur": 3.6461,
        "prev": null,
@@ -31418,6 +32773,11 @@
        "cur": 5.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.634,
+       "prev": 0.725,
+       "delta": -0.091
       },
       "mt_quality": {
        "cur": 3.6174,
@@ -31536,6 +32896,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.9273,
+       "prev": 0.8806,
+       "delta": 0.0467
+      },
       "mt_quality": {
        "cur": 3.8545,
        "prev": null,
@@ -31652,6 +33017,11 @@
        "cur": 4.0,
        "prev": null,
        "delta": null
+      },
+      "mt_reply": {
+       "cur": 0.8375,
+       "prev": 0.7124,
+       "delta": 0.1251
       },
       "mt_quality": {
        "cur": 3.8084,
@@ -31770,6 +33140,11 @@
        "prev": null,
        "delta": null
       },
+      "mt_reply": {
+       "cur": 0.8018,
+       "prev": 0.8877,
+       "delta": -0.0859
+      },
       "mt_quality": {
        "cur": 3.7558,
        "prev": null,
@@ -31884,6 +33259,11 @@
       },
       "sg_service_fb": {
        "cur": 4.0,
+       "prev": null,
+       "delta": null
+      },
+      "mt_reply": {
+       "cur": null,
        "prev": null,
        "delta": null
       },

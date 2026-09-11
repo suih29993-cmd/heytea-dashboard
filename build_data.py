@@ -5,6 +5,7 @@ r"""喜茶华南区数据看板 - 数据管道
 
 每期文件夹内（两种目录布局都兼容）：
   评分数据\全国评分数据*-美团.xlsx / *-闪购.xlsx   ← 门店级 / 督导级 / 区域·城市级 指标
+  评分数据\有公式\*（有公式）.xlsx                ← 仅用于补美团门店级「消息回复率」百分比
   基础数据\<期>.xlsx  或  <期>.xlsx                ← 仅用于补 门店ID / 门店类型（可选）
 
 输出: data.json -> { defaultPeriod, _order, periods: {folder: 单期数据} }
@@ -32,8 +33,9 @@ STORE_COLS = {
     '美团': {'pair': {'mt_score': 6, 'mt_repeat': 15},
              'single': {'mt_goods_sat': 9, 'mt_pack_sat': 10, 'mt_repeat_score': 11,
                         'mt_food_safe': 12, 'mt_reply_score': 13, 'mt_service_fb': 14}},
-    # 闪购门店维度另有「本期/上期消息回复率」百分比列（15/16），美团门店维度没有该列，
-    # 美团只有「消息回复率得分（10%）」，因此美团的门店级消息回复率百分比无数据源可取
+    # 闪购门店维度另有「本期/上期消息回复率」百分比列（15/16）；美团门店维度没有该列
+    # （只有「消息回复率得分（10%）」），美团的门店级消息回复率百分比改由
+    # 评分数据\有公式\*（有公式）.xlsx 的「全国本期/全国上期」明细聚合，见 _read_mt_reply
     '闪购': {'pair': {'sg_score': 6, 'sg_reply': 15, 'sg_cancel': 17},
              'single': {'sg_taste_sat': 9, 'sg_pack_sat': 10, 'sg_repeat_score': 11,
                         'sg_food_safe': 12, 'sg_reply_score': 13, 'sg_service_fb': 14}},
@@ -57,7 +59,8 @@ SUP_COLS = {
              'sg_food_safe': 14, 'sg_reply_score': 17},
 }
 ALL_M = (list(STORE_COLS['美团']['pair']) + list(STORE_COLS['美团']['single'])
-         + list(STORE_COLS['闪购']['pair']) + list(STORE_COLS['闪购']['single']))
+         + list(STORE_COLS['闪购']['pair']) + list(STORE_COLS['闪购']['single'])
+         + ['mt_reply'])   # 美团消息回复率(%)：无固定列号，由（有公式）明细表聚合
 
 # 督导视图派生指标：由二级指标按平台公式加权求和 (指标名, 权重)
 # 商品质量分 = 满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%（满分 4 分）
@@ -216,6 +219,17 @@ def _rating_files(folder):
     return found
 
 
+def _formula_file(folder, plat):
+    """评分数据「有公式」子目录下的（有公式）文件（目前只用来补美团消息回复率）"""
+    d = os.path.join(BASE, folder, '评分数据', '有公式')
+    if not os.path.isdir(d):
+        return None
+    for fn in sorted(os.listdir(d)):
+        if fn.lower().endswith('.xlsx') and not fn.startswith('~$') and '有公式' in fn and plat in fn:
+            return os.path.join(d, fn)
+    return None
+
+
 def _base_file(folder):
     """基础数据底表：兼容 基础数据\\<期>.xlsx 与平铺 <期>.xlsx 两种布局"""
     for rel in ((folder, '基础数据', folder + '.xlsx'), (folder, folder + '.xlsx')):
@@ -246,6 +260,63 @@ def _store_info(folder):
         wb.close()
     except Exception as e:
         print('   （门店底表读取失败，忽略：%s）' % e, flush=True)
+    return out
+
+
+_WRAP_RE = re.compile(r'^[^\(（]*[\(（](.+?)[\)）]$')
+
+
+def _norm_store(s):
+    """去掉明细表门店名的「喜茶(...)」外壳，统一全角/半角括号与空白，便于与门店名对齐"""
+    t = re.sub(r'\s+', '', str(s or '')).replace('（', '(').replace('）', ')')
+    m = _WRAP_RE.match(t)
+    return (m.group(1) if m else t).strip()
+
+
+def _read_mt_reply(folder, info):
+    """美团门店级「消息回复率」（小数，0~1）
+
+    美团门店维度只有「消息回复率得分」，没有百分比列；百分比来自「有公式」文件里的
+    门店×日期明细（全国本期/全国上期，第 18 列为「消息回复率」）。口径与同文件其它公式
+    保持一致：对门店所有日期取平均（已核对：门店维度的商品满意度/评分 = 全国本期同列均值）。
+    明细表门店名带「喜茶(...)」外壳，先按规范化名称匹配，对不上再用底表门店 ID 匹配。
+    """
+    path = _formula_file(folder, '美团')
+    if not path:
+        return {}
+    try:
+        wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+
+        def collect(sheet):
+            by_name, by_id = {}, {}
+            for r in wb[sheet].iter_rows(min_row=2, values_only=True):
+                if not r[5]:
+                    continue
+                v = _num(r[18])
+                if v is None:
+                    continue
+                by_name.setdefault(_norm_store(r[5]), []).append(v)
+                by_id.setdefault(str(r[6]).strip(), []).append(v)
+            return by_name, by_id
+
+        cur, prev = collect('全国本期'), collect('全国上期')
+        wb.close()
+    except Exception as e:
+        print('   （美团（有公式）读取失败，忽略消息回复率：%s）' % e, flush=True)
+        return {}
+
+    def mean(src, name, sid):
+        seq = src[0].get(name) or (src[1].get(sid) if sid else None)
+        return round(sum(seq) / len(seq), 4) if seq else None
+
+    out = {}
+    for name, meta in info.items():
+        nk, ik = _norm_store(name), str(meta.get('id') or '').strip()
+        c, pv = mean(cur, nk, ik), mean(prev, nk, ik)
+        if c is None and pv is None:
+            continue
+        out[name] = {'cur': c, 'prev': pv,
+                     'delta': round(c - pv, 4) if (c is not None and pv is not None) else None}
     return out
 
 
@@ -318,8 +389,11 @@ def build_period(folder):
 
     # ---------- 1. 门店级 ----------
     store_rec = {}
+    mt_names = set()          # 美团门店维度里出现的门店（消息回复率只补这些门店）
     for plat, path in rating.items():
         for name, rec in _read_rating_stores(path, plat).items():
+            if plat == '美团':
+                mt_names.add(name)
             tgt = store_rec.setdefault(name, {
                 'region': rec['region'], 'province': rec['province'],
                 'city': rec['city'], 'supervisor': rec['supervisor'], 'metrics': {}})
@@ -328,6 +402,11 @@ def build_period(folder):
         raise RuntimeError('评分数据「华南门店维度」未读到任何门店')
 
     info = _store_info(folder)
+    # 门店名以美团「华南门店维度」为准，底表只用来提供门店 ID（可能缺）
+    mt_reply = _read_mt_reply(folder, {n: info.get(n, {}) for n in mt_names})
+    for name, rec in store_rec.items():
+        if name in mt_reply:
+            rec['metrics']['mt_reply'] = mt_reply[name]
     blanks = {mk: {'cur': None, 'prev': None, 'delta': None} for mk in ALL_M}
     stores = []
     for name, rec in store_rec.items():
@@ -363,7 +442,17 @@ def build_period(folder):
         top, cities = _read_rating_summary(path, plat)
         if top:
             top_metrics.update(top)
+        for c in cities:
+            c['plat'] = plat
         city_rows.extend(cities)
+
+    # 美团消息回复率：美团「华南汇总」「督导」表都没有百分比列 → 由旗下门店聚合补齐
+    by_city = {}
+    for s in stores:
+        by_city.setdefault(s['city'], []).append(s)
+    for r in city_rows:
+        if r['plat'] == '美团' and r['metrics'].get('mt_reply', {}).get('cur') is None:
+            r['metrics']['mt_reply'] = _agg(by_city.get(r['city'], []), 'mt_reply')
 
     city_summary = [{
         'region': r['region'], 'city': r['city'], 'storeCount': r['storeCount'],

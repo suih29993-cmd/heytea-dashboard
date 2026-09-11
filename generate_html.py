@@ -415,6 +415,7 @@ const METRICS = {
   mt_repeat_score:{name:'复购率指标得分',ch:'美团',unit:'score',dir:'high'},
   mt_food_safe:{name:'食品安全负反馈率',ch:'美团',unit:'score',dir:'high'},
   mt_reply_score:{name:'消息回复率得分',ch:'美团',unit:'score',dir:'high'},
+  mt_reply:{name:'消息回复率',ch:'美团',unit:'pct',dir:'high'},
   mt_service_fb:{name:'服务负反馈率',ch:'美团',unit:'score',dir:'high'},
   mt_repeat:{name:'复购率',ch:'美团',unit:'pct',dir:'high'},
   mt_quality:{name:'商品质量分',ch:'美团',unit:'score',dir:'high'},
@@ -450,6 +451,7 @@ const METRIC_HELP={
   mt_food_safe:HELP_MT_FOOD_SAFE,
   sg_food_safe:'食品安全负反馈：统计门店过往30天食品安全事件，根据食安事件等级（P0、P1、P2、P3）由高到低设置权重系数，计算食安事件占比=（食安事件数 x 对应等级权重系数）的总和 / 近30天门店总订单数，并在同城市、同商圈、同品类的商户中排序，根据门店排序赋予相应分数。食安事件越少、食安事件严重程度越低，则门店得分越高。',
   mt_reply_score:HELP_MT_REPLY,
+  mt_reply:'消息回复率：美团门店「5 分钟内回复的会话数 ÷ 顾客主动发起的总会话数」的百分比，越高越好。取自「全国评分数据-美团（有公式）」的门店×日期明细，按门店对所有日期取平均；按排名折算的 0-5 分见「消息回复率得分」。',
   sg_reply_score:'消息回复率得分：统计门店近30天(T-2至T-31)消息回复率，并在同城市、同商圈、同品类的商户中排序，根据排名先后赋予相应分数（满分 5 分）。消息回复率越高，得分越高。',
   sg_reply:'消息回复率：闪购门店近30天(T-2至T-31)的消息回复率百分比（5 分钟内回复的会话数 ÷ 顾客主动发起的总会话数），越高越好。这是原始百分比；按排名折算的 0-5 分见「消息回复率得分」。',
   mt_service_fb:HELP_MT_SERVICE_FB,
@@ -590,7 +592,7 @@ function renderBottom3(){
 }
 
 // ---- 视图2 ----
-const PLATFORMS={'美团':['mt_score','mt_goods_sat','mt_pack_sat','mt_repeat_score','mt_food_safe','mt_reply_score','mt_service_fb'],
+const PLATFORMS={'美团':['mt_score','mt_goods_sat','mt_pack_sat','mt_repeat_score','mt_food_safe','mt_reply_score','mt_reply','mt_service_fb'],
                  '闪购':['sg_score','sg_taste_sat','sg_pack_sat','sg_repeat_score','sg_food_safe','sg_reply_score','sg_reply','sg_service_fb','sg_cancel']};
 const SUB_MT=['mt_goods_sat','mt_pack_sat','mt_repeat_score','mt_food_safe','mt_reply_score','mt_service_fb'];
 const SUB_SG=['sg_taste_sat','sg_pack_sat','sg_repeat_score','sg_food_safe','sg_reply_score','sg_service_fb'];
