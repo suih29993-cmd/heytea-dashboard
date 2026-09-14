@@ -11,5 +11,9 @@ _v2report.txt
 _validate.py
 _validate_out.txt
 双周基础数据*/
+*评分数据*/
+*基础数据*/
+# 原始 Excel 一律不入库（线上 Netlify 只读 data.json）；确需入库请 git add -f
+*.xlsx
 dashboard.html
 部署_Netlify/index.html

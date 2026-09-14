@@ -7,18 +7,21 @@
     python server.py --no-open       # 不自动打开浏览器
 
 数据源:
-    把新的“双周基础数据MMDD-MMDD”文件夹放进“每周数据看板”目录即可。
-    服务会跟踪每期数据的变化，只重建“变动的那几期”，再合并页面并自动刷新。
+    把新一期的数据文件夹放进“每周数据看板”目录即可，文件名不限：
+    “双周基础数据MMDD-MMDD”“N月评分数据”，或任何直接放着美团/闪购评分数据 xlsx 的文件夹。
+    服务每 2 秒轮询一次，自动识别新文件夹、只重建“变动的那几期”，再合并页面并自动刷新。
+    识别规则来自 build_data.py（list_period_folders），改规则只需改那一处。
 """
-import os, re, sys, json, time, threading, subprocess, webbrowser, hashlib
+import os, sys, json, time, threading, subprocess, webbrowser, hashlib, importlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
+
+import build_data as bd
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 STATE = {'v': 0, 'lock': threading.Lock()}
 WATCH_INTERVAL = 2.0
 BUILD_LOCK = threading.Lock()
-_FOLDER_RE = re.compile(r'^双周基础数据(\d{2})(\d{2})-(\d{2})(\d{2})$')
 
 
 def _run(script, *args):
@@ -41,8 +44,11 @@ def _code_sig():
 
 
 def _period_folders():
-    return [d for d in sorted(os.listdir(BASE))
-            if _FOLDER_RE.match(d) and os.path.isdir(os.path.join(BASE, d))]
+    """数据期文件夹列表（由 build_data 统一识别，新增文件夹自动出现在这里）"""
+    try:
+        return bd.list_period_folders()
+    except SystemExit:
+        return []
 
 
 def _folder_sig(folder):
@@ -94,22 +100,23 @@ def _watch():
     while True:
         time.sleep(WATCH_INTERVAL)
         try:
-            cur_folders = _period_folders()
             code = _code_sig()
             if code != prev_code:
                 print('检测到脚本变化，全量重构建…', flush=True)
                 if not BUILD_LOCK.acquire(blocking=False):
                     continue
                 try:
+                    importlib.reload(bd)          # 让新的文件夹识别规则立即生效
                     _build_full()
                     prev_code = code
-                    prev_sigs = {f: _folder_sig(f) for f in cur_folders}
+                    prev_sigs = {f: _folder_sig(f) for f in _period_folders()}
                     fails = {}
                     _bump()
                 finally:
                     BUILD_LOCK.release()
                 continue
 
+            cur_folders = _period_folders()
             changed = []
             for f in cur_folders:
                 sig = _folder_sig(f)
@@ -119,6 +126,9 @@ def _watch():
             if not changed and not removed:
                 prev_sigs = {f: prev_sigs.get(f) or _folder_sig(f) for f in cur_folders}
                 continue
+
+            if changed:
+                print('检测到 %s 变化，重建该期…' % '、'.join(changed), flush=True)
 
             if not BUILD_LOCK.acquire(blocking=False):
                 continue
@@ -250,7 +260,7 @@ def main():
 
     url = 'http://127.0.0.1:%d' % port
     print('看板已启动：%s' % url, flush=True)
-    print('数据源：把新的 双周基础数据MMDD-MMDD 文件夹放进「每周数据看板」目录，页面会自动切换并刷新。', flush=True)
+    print('数据源：把新一期的数据文件夹放进「每周数据看板」目录（如 9月评分数据 / 双周基础数据0901-0915），会自动识别并刷新。', flush=True)
     print('按 Ctrl+C 停止服务。', flush=True)
     if open_browser:
         threading.Timer(1.0, lambda: webbrowser.open(url)).start()
