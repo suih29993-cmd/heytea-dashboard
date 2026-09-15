@@ -103,7 +103,7 @@ HTML = r'''<!DOCTYPE html>
 
   /* ============ 筛选栏 ============ */
   .filters{display:flex;gap:12px;flex-wrap:nowrap;align-items:center;background:none;border:none;border-radius:0;padding:0 0 14px;margin-bottom:6px;box-shadow:none}
-  .fitem{display:flex;align-items:center;gap:6px;flex:0 0 auto}
+  .fitem{display:flex;align-items:center;gap:6px;flex:0 1 auto;min-width:0}
   .fitem label{font-size:12.5px;color:var(--sub);white-space:nowrap}
   .fitem .search-wrap{position:relative;display:inline-flex;align-items:center}
   .fitem .search-wrap input{padding-right:32px}
@@ -152,8 +152,9 @@ HTML = r'''<!DOCTYPE html>
   .mini:hover{background:#F1F0EC}
 
   /* ============ 树形多选器 ============ */
-  .tree-dropdown{position:relative;display:inline-block}
-  .tree-trigger{display:inline-flex;align-items:center;gap:8px;min-width:150px;justify-content:space-between;padding:7px 30px 7px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:13px;cursor:pointer;color:var(--ink);background-image:url("data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path fill="%23A3A09A" d="M0 0l5 6 5-6z"/></svg>");background-repeat:no-repeat;background-position:right 12px center;appearance:none;-webkit-appearance:none}
+  .tree-dropdown{position:relative;display:inline-block;min-width:0;max-width:100%}
+  .tree-trigger{display:inline-flex;align-items:center;gap:8px;min-width:150px;justify-content:space-between;padding:7px 30px 7px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:13px;cursor:pointer;max-width:220px;color:var(--ink);background-image:url("data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path fill="%23A3A09A" d="M0 0l5 6 5-6z"/></svg>");background-repeat:no-repeat;background-position:right 12px center;appearance:none;-webkit-appearance:none}
+  .tree-trigger>span{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}
   .tree-trigger:hover,.tree-trigger:focus{border-color:var(--accent)}
   .tree-trigger:hover{border-color:var(--accent)}
   .tree-panel{position:absolute;z-index:20;top:calc(100% + 6px);left:0;width:440px;max-width:94vw;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 32px rgba(23,23,23,.10);padding:14px 16px;display:none}
@@ -217,7 +218,7 @@ HTML = r'''<!DOCTYPE html>
     .fitem{flex:1 1 100%;min-width:0}
     .fitem .tree-dropdown, .fitem .search-wrap{width:100%}
     .fitem .search-wrap input{width:100%}
-    .tree-trigger{width:100%;min-width:0}
+    .tree-trigger{width:100%;min-width:0;max-width:100%}
     .tree-panel{left:0;right:auto;width:100%;max-width:100%}
     table.tbl{min-width:660px;font-size:12px}
     :root{--num-size:13.5px}
@@ -263,7 +264,7 @@ HTML = r'''<!DOCTYPE html>
     <div class="filters">
       <div class="fitem"><label>区域</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="b3regionTrigger">全部区域</div>
+          <div class="tree-trigger" id="b3regionTrigger"><span id="b3regionTriggerTxt">全部区域</span></div>
           <div class="tree-panel" id="b3regionPanel">
             <div class="tree-hd">
               <div><b>区域（可多选）</b> <span class="tree-count" id="b3regionCount"></span></div>
@@ -278,7 +279,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div class="fitem"><label>城市</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="b3cityTrigger">全部城市</div>
+          <div class="tree-trigger" id="b3cityTrigger"><span id="b3cityTriggerTxt">全部城市</span></div>
           <div class="tree-panel" id="b3cityPanel">
             <div class="tree-hd">
               <div><b>城市（可多选）</b> <span class="tree-count" id="b3cityCount"></span></div>
@@ -301,7 +302,7 @@ HTML = r'''<!DOCTYPE html>
     <div class="filters">
       <div class="fitem"><label>区域</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="v2regionTrigger">全部区域</div>
+          <div class="tree-trigger" id="v2regionTrigger"><span id="v2regionTriggerTxt">全部区域</span></div>
           <div class="tree-panel" id="v2regionPanel">
             <div class="tree-hd">
               <div><b>区域（可多选）</b> <span class="tree-count" id="v2regionCount"></span></div>
@@ -316,7 +317,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div class="fitem"><label>城市</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="v2cityTrigger">全部城市</div>
+          <div class="tree-trigger" id="v2cityTrigger"><span id="v2cityTriggerTxt">全部城市</span></div>
           <div class="tree-panel" id="v2cityPanel">
             <div class="tree-hd">
               <div><b>城市（可多选）</b> <span class="tree-count" id="v2cityCount"></span></div>
@@ -331,7 +332,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div class="fitem"><label>督导</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="v2supTrigger">全部督导</div>
+          <div class="tree-trigger" id="v2supTrigger"><span id="v2supTriggerTxt">全部督导</span></div>
           <div class="tree-panel" id="v2supPanel">
             <div class="tree-hd">
               <div><b>督导（可多选）</b> <span class="tree-count" id="v2supCount"></span></div>
@@ -364,7 +365,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div class="fitem"><label>平台</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="v2platformTrigger">全部平台</div>
+          <div class="tree-trigger" id="v2platformTrigger"><span id="v2platformTriggerTxt">全部平台</span></div>
           <div class="tree-panel" id="v2platformPanel">
             <div class="tree-hd">
               <div><b>平台（可多选）</b> <span class="tree-count" id="v2platformCount"></span></div>
@@ -405,7 +406,7 @@ HTML = r'''<!DOCTYPE html>
     <div class="filters">
       <div class="fitem"><label>区域</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="v3regionTrigger">全部区域</div>
+          <div class="tree-trigger" id="v3regionTrigger"><span id="v3regionTriggerTxt">全部区域</span></div>
           <div class="tree-panel" id="v3regionPanel">
             <div class="tree-hd">
               <div><b>区域（可多选）</b> <span class="tree-count" id="v3regionCount"></span></div>
@@ -420,7 +421,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div class="fitem"><label>督导</label>
         <div class="tree-dropdown">
-          <div class="tree-trigger" id="v3supTrigger">全部督导</div>
+          <div class="tree-trigger" id="v3supTrigger"><span id="v3supTriggerTxt">全部督导</span></div>
           <div class="tree-panel" id="v3supPanel">
             <div class="tree-hd">
               <div><b>督导（可多选）</b> <span class="tree-count" id="v3supCount"></span></div>
@@ -654,6 +655,12 @@ const SUB_MT=['mt_goods_sat','mt_pack_sat','mt_repeat_score','mt_food_safe','mt_
 const SUB_SG=['sg_taste_sat','sg_pack_sat','sg_repeat_score','sg_food_safe','sg_reply_score','sg_service_fb'];
 const SUB_OF={'mt_score':SUB_MT,'sg_score':SUB_SG};   // 评分指标可展开的二级指标
 // ---- 通用门店树形多选组件（视图2/视图3 复用）----
+// 触发器（选项卡）文案：直接显示当前选中的选项，超过 3 项时截断为「前 2 项 等 N 项」
+function trigLabel(labels,allText,unit){
+  if(!labels.length) return allText;
+  if(labels.length>3) return labels.slice(0,2).join('、')+' 等 '+labels.length+' '+(unit||'项');
+  return labels.join('、');
+}
 function makeStoreTree(cfg){
   // cfg: {box, count, trigTxt, panel, getAvailable, onChange}
   let treeData=[];
@@ -690,7 +697,14 @@ function makeStoreTree(cfg){
     const total=cfg.getAvailable().length;
     const checked=getCheckedStoreNames().length;
     const cnt=$(cfg.count); if(cnt) cnt.textContent='已选 '+checked+' / '+total+' 家门店';
-    const trig=$(cfg.trigTxt); if(trig) trig.textContent=checked===total?'⌕ 请输入门店名称':'⌕ 已选 '+checked+' 家门店';
+    const trig=$(cfg.trigTxt);
+    if(trig){
+      const names=getCheckedStoreNames();
+      if(checked===0) trig.textContent='⌕ 未选门店';
+      else if(checked===total) trig.textContent='⌕ 全部门店（'+total+' 家）';
+      else if(checked<=2) trig.textContent='⌕ '+names.join('、');
+      else trig.textContent='⌕ 已选 '+checked+' 家：'+names.slice(0,2).join('、')+'…';
+    }
   }
   function renderTree(){const box=$(cfg.box);box.innerHTML='';treeData.forEach(n=>box.appendChild(renderNode(n,0)));updateTreeCount();}
   function build(){
@@ -766,7 +780,7 @@ function makeCityTree(cfg){
     const total=getCities().length;
     const checked=getChecked().length;
     const cnt=$(cfg.count); if(cnt) cnt.textContent='共 '+total+' 个城市';
-    const trig=$(cfg.trigger); if(trig) trig.textContent=checked===0?'全部城市':('已选 '+checked+' 城');
+    const trig=$(cfg.trigger); if(trig) trig.textContent=(checked===0||checked===total)?'全部城市':trigLabel(getChecked(),'全部城市','城');
   }
   function renderTree(){const box=$(cfg.box);box.innerHTML='';treeData.forEach(n=>box.appendChild(renderNode(n,0)));updateCount();}
   function rebuild(){
@@ -816,7 +830,9 @@ function makeCheckTree(cfg){
   }
   function updateTrigger(){
     const n=checkedSet.size;
-    const trig=$(cfg.trigger); if(trig) trig.textContent = n===0 ? cfg.allText : '已选 '+n+' 项';
+    const labels=options.filter(o=>checkedSet.has(o.value)).map(o=>o.label);
+    const trig=$(cfg.trigger);
+    if(trig) trig.textContent = (n===0 || n===options.length) ? cfg.allText : trigLabel(labels,cfg.allText,'项');
     const cnt=$(cfg.count); if(cnt) cnt.textContent='共 '+options.length+' 项';
   }
   function rebuild(arr,checked){
@@ -834,14 +850,14 @@ function makeCheckTree(cfg){
 }
 const REGION_OPTS=[{value:'华南一区',label:'华南一区'},{value:'华南二区',label:'华南二区'}];
 const PLATFORM_OPTS=[{value:'美团',label:'美团'},{value:'闪购',label:'闪购'}];
-const b3RegTree=makeCheckTree({box:'b3regionBox',count:'b3regionCount',trigger:'b3regionTrigger',panel:'b3regionPanel',allText:'全部区域',onChange:()=>{b3CityTree.rebuild();renderBottom3();}});
-const v2RegTree=makeCheckTree({box:'v2regionBox',count:'v2regionCount',trigger:'v2regionTrigger',panel:'v2regionPanel',allText:'全部区域',onChange:()=>{fillSups();v2CityTree.rebuild();v2Tree.build();v2Tree.render();renderStore();}});
-const v2SupTree=makeCheckTree({box:'v2supBox',count:'v2supCount',trigger:'v2supTrigger',panel:'v2supPanel',allText:'全部督导',onChange:()=>{v2CityTree.rebuild();v2Tree.build();v2Tree.render();renderStore();}});
-const v2PlatTree=makeCheckTree({box:'v2platformBox',count:'v2platformCount',trigger:'v2platformTrigger',panel:'v2platformPanel',allText:'全部平台',onChange:()=>{fillMetrics();renderStore();}});
-const v3RegTree=makeCheckTree({box:'v3regionBox',count:'v3regionCount',trigger:'v3regionTrigger',panel:'v3regionPanel',allText:'全部区域',onChange:()=>{fillV3Sups();v3Tree.build();v3Tree.render();renderSup();}});
-const v3SupTree=makeCheckTree({box:'v3supBox',count:'v3supCount',trigger:'v3supTrigger',panel:'v3supPanel',allText:'全部督导',onChange:()=>{v3Tree.build();v3Tree.render();renderSup();}});
+const b3RegTree=makeCheckTree({box:'b3regionBox',count:'b3regionCount',trigger:'b3regionTriggerTxt',panel:'b3regionPanel',allText:'全部区域',onChange:()=>{b3CityTree.rebuild();renderBottom3();}});
+const v2RegTree=makeCheckTree({box:'v2regionBox',count:'v2regionCount',trigger:'v2regionTriggerTxt',panel:'v2regionPanel',allText:'全部区域',onChange:()=>{fillSups();v2CityTree.rebuild();v2Tree.build();v2Tree.render();renderStore();}});
+const v2SupTree=makeCheckTree({box:'v2supBox',count:'v2supCount',trigger:'v2supTriggerTxt',panel:'v2supPanel',allText:'全部督导',onChange:()=>{v2CityTree.rebuild();v2Tree.build();v2Tree.render();renderStore();}});
+const v2PlatTree=makeCheckTree({box:'v2platformBox',count:'v2platformCount',trigger:'v2platformTriggerTxt',panel:'v2platformPanel',allText:'全部平台',onChange:()=>{fillMetrics();renderStore();}});
+const v3RegTree=makeCheckTree({box:'v3regionBox',count:'v3regionCount',trigger:'v3regionTriggerTxt',panel:'v3regionPanel',allText:'全部区域',onChange:()=>{fillV3Sups();v3Tree.build();v3Tree.render();renderSup();}});
+const v3SupTree=makeCheckTree({box:'v3supBox',count:'v3supCount',trigger:'v3supTriggerTxt',panel:'v3supPanel',allText:'全部督导',onChange:()=>{v3Tree.build();v3Tree.render();renderSup();}});
 const b3CityTree=makeCityTree({
-  box:'b3cityBox',count:'b3cityCount',trigger:'b3cityTrigger',panel:'b3cityPanel',
+  box:'b3cityBox',count:'b3cityCount',trigger:'b3cityTriggerTxt',panel:'b3cityPanel',
   getCities:()=>{
     const regs=b3RegTree.getChecked();
     return [...new Set(DATA.stores.filter(s=>s.status==='营业中'&&(regs.length===0||regs.includes(s.region))).map(s=>s.city))].sort();
@@ -849,7 +865,7 @@ const b3CityTree=makeCityTree({
   onChange:renderBottom3
 });
 const v2CityTree=makeCityTree({
-  box:'v2cityBox',count:'v2cityCount',trigger:'v2cityTrigger',panel:'v2cityPanel',
+  box:'v2cityBox',count:'v2cityCount',trigger:'v2cityTriggerTxt',panel:'v2cityPanel',
   getCities:()=>{
     const regs=v2RegTree.getChecked();
     const sups=v2SupTree.getChecked();
@@ -952,8 +968,7 @@ function updateMetricTrigger(){
   const txt=document.getElementById('metricTriggerTxt');
   cnt.textContent='已选 '+v2SelMets.length+' 项';
   if(v2SelMets.length===0){ txt.textContent='请选择指标'; return; }
-  if(v2SelMets.length<=2){ txt.textContent=v2SelMets.map(m=>METRICS[m].name).join('、'); }
-  else { txt.textContent=v2SelMets.length+' 项指标'; }
+  txt.textContent=trigLabel(v2SelMets.map(m=>METRICS[m].name),'请选择指标','项指标');
 }
 function getFiltered(mets){
   const regs=v2RegTree.getChecked();
