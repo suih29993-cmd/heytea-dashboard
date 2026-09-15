@@ -41,6 +41,7 @@ HTML = r'''<!DOCTYPE html>
     --th-bg:#F1F0EC;       /* 表头背景 */
     --font-sans:"Noto Sans SC","PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
     --font-num:"Inter","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    --num-size:15px;       /* 表格里的本期数值字号（下面小字=环比，保持 12px） */
   }
   *{box-sizing:border-box}
   html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
@@ -118,8 +119,8 @@ HTML = r'''<!DOCTYPE html>
   table.tbl{width:100%;table-layout:fixed;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}
   table.tbl th{background:var(--th-bg);color:var(--ink);text-align:center;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle;overflow-wrap:anywhere}
   table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);text-align:center;vertical-align:middle;overflow-wrap:anywhere}
-  table.tbl td.num,table.tbl td .num{font-family:var(--font-num);font-variant-numeric:tabular-nums}
-  table.tbl td b.num{font-family:var(--font-num)}
+  table.tbl td.num,table.tbl td .num{font-family:var(--font-num);font-variant-numeric:tabular-nums;font-size:var(--num-size);line-height:1.25}
+  table.tbl td b.num{font-family:var(--font-num);font-size:var(--num-size);line-height:1.25}
   table.tbl tr:last-child td{border-bottom:none}
   table.tbl tbody tr:hover{background:#FAF9F6}
   table.tbl tbody tr:hover td{background:#FAF9F6}
@@ -214,6 +215,7 @@ HTML = r'''<!DOCTYPE html>
     .tree-trigger{width:100%;min-width:0}
     .tree-panel{left:0;right:auto;width:100%;max-width:100%}
     table.tbl{min-width:660px;font-size:12px}
+    :root{--num-size:13.5px}
     table.tbl th, table.tbl td{padding:7px 8px}
     .dtext{font-size:11px}
     .legend{font-size:11.5px}

@@ -179,6 +179,7 @@ python -X utf8 server.py [--port 8080] [--no-open]            # 本地实时服�
   | `--accent` | `#45684A` | 品牌茶绿（仅 Tab / 当前导航 / 少量强调 / 正向变化） |
   | `--good` / `--bad` / `--neu` | `#5E7E5A` / `#BE554B` / `#A3A09A` | 改善 / 恶化 / 无变化 |
   | `--warn-bg` / `--th-bg` | `#F9EFEC` / `#F1F0EC` | 异常单元格 / 表头 |
+  | `--num-size` | `15px`（手机端 `13.5px`） | 表格里的**本期数值**字号（下面小字=环比，仍 `12px` / `11px`） |
 
 - 字体：正文 `Noto Sans SC`，数字 `Inter`，品牌标题 `Noto Serif SC`（`--font-sans` / `--font-num`）。
 - 设计原则：暖白 + 白 + 墨黑 + 低饱和茶绿；**不加渐变、插画、复杂阴影、装饰性图标**；表头不要用绿色。
