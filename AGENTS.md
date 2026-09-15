@@ -132,7 +132,8 @@ python -X utf8 server.py [--port 8080] [--no-open]            # 本地实时服�
 | `REGION_METRICS` | 区域总览 KPI 卡（7 张）：美团 = 总评分 + 商品质量分 + 服务体验分；闪购 = 总评分 + 商品质量分 + 服务体验分 + 商责取消率 |
 | `BOTTOM_METRICS` | Bottom 5 表（9 项）：美团 = 总评分 + 商品质量分 + 服务体验分 + 消息回复率；闪购 = 总评分 + 商品质量分 + 服务体验分 + 消息回复率 + 商责取消率（比 KPI 卡多两个消息回复率百分比） |
 
-- **KPI 卡片对齐**：`.kpi-grid` 的列数 = `REGION_METRICS.length`（`renderRegion()` 写入 `--kpi-cols`），`.kpi-label` 固定 `min-height:3em`（两行标签的高度），所以七张卡片的**标签 / 数值 / 环比逐行在同一水平线**，`≤760px` 两列时同理；新增 KPI 指标不用改 CSS。
+- **KPI 卡片对齐**：`.kpi-grid` 的列数 = `REGION_METRICS.length`（`renderRegion()` 写入 `--kpi-cols`），`.kpi-label` 固定 `min-height:3em`（两行标签的高度），所以七张卡片的**标签 / 数值 / 环比逐行在同一水平线**，`≤760px` 两列时同理；新增 KPI 指标不用改 CSS。卡片 `justify-content:center; align-items:center`（内容水平+垂直居中）。
+- **预警卡不能只给异常态加 padding**：`.kpi-val` 的 `line-height:1.2` + `padding:2px 6px` + `inline-block` 写在**基础规则**里，`.kpi.warn .kpi-val` **只加 `background`**。否则预警卡的数值盒子高一截，整张卡的内容会被顶偏，与未预警卡不在同一水平线（踩过坑）。
 - 区域总览的指标名走 `mLbl()`：拼上渠道前缀（`美团总评分` / `闪购商品质量分`），其中 `mt_score`/`sg_score` 显示为「总评分」，否则两张卡的「商品质量分」会重名。
 - **门店全景排名（视图2）表格列序**：`#`（名次）→ 督导 → 城市 → 门店 → 勾选的指标列（第一个指标是评分时可展开 6 列二级指标）；每个单元格都是「数值 + 环比小字」——**包括展开的二级指标列**，两者都走 `dtext()` + `isWarn()`；改列序时 `storeDetailRows()` 的 `<th>` 与 `<td>` 两处要同步改。
 - 所有表格用 `table.tbl{table-layout:fixed}` 让各列等宽（单元格 `overflow-wrap:anywhere` 兜底换行）；给某一列单独设宽会破坏等宽，改列宽前先确认这是需求。

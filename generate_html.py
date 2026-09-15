@@ -90,12 +90,13 @@ HTML = r'''<!DOCTYPE html>
   /* ============ KPI 卡片 ============ */
   /* KPI 卡片：所有卡片同排，标签 / 数值 / 环比 逐行水平对齐（列数 = 指标数，由 JS 写入 --kpi-cols） */
   .kpi-grid{display:grid;grid-template-columns:repeat(var(--kpi-cols,7),minmax(0,1fr));gap:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(23,23,23,.05)}
-  .kpi{padding:18px 20px;border-right:1px solid var(--line)}
+  .kpi{padding:18px 20px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
   .kpi:last-child{border-right:none}
-  .kpi-label{font-size:12.5px;color:#45423D;margin-bottom:12px;font-family:var(--font-sans);font-weight:500;letter-spacing:.2px;min-height:3em;display:flex;align-items:flex-end;text-align:left}
-  .kpi-val{font-size:32px;font-weight:600;line-height:1;font-family:var(--font-num);letter-spacing:-.5px;color:var(--ink);font-variant-numeric:tabular-nums}
+  .kpi-label{font-size:12.5px;color:#45423D;margin-bottom:12px;font-family:var(--font-sans);font-weight:500;letter-spacing:.2px;min-height:3em;display:flex;align-items:flex-end;justify-content:center;text-align:center}
+  /* 所有卡片数值盒模型一致（line-height + padding），预警卡只加底色，保证各行严格同水平线 */
+  .kpi-val{font-size:32px;font-weight:600;line-height:1.2;padding:2px 6px;border-radius:6px;display:inline-block;font-family:var(--font-num);letter-spacing:-.5px;color:var(--ink);font-variant-numeric:tabular-nums}
   .kpi-delta{font-size:12px;margin-top:9px;font-family:var(--font-num);font-weight:500;font-variant-numeric:tabular-nums}
-  .kpi.warn .kpi-val{background:var(--warn-bg);padding:2px 6px;border-radius:6px;display:inline-block;line-height:1.2}
+  .kpi.warn .kpi-val{background:var(--warn-bg)}
   .good{color:var(--good);font-weight:600}
   .bad{color:var(--bad);font-weight:600}
   .neu{color:var(--neu)}
