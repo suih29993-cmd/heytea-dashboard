@@ -152,6 +152,7 @@ python -X utf8 server.py [--port 8080] [--no-open]            # 本地实时服�
 ## 5. 改代码的约定
 
 - **只改视觉，不动数据与功能**——这是本项目反复出现的需求边界。改 CSS 时不要顺手改计算逻辑。
+- **面向使用者的说明在 `看板使用说明.md`**：改了指标口径、视图交互或更新流程，要同步改它；`python -X utf8 build_guide_docx.py` 会按 documents 预设（compact_reference_guide + 品牌茶绿标题）重新导出 `看板使用说明.docx`，两个文件内容保持一致。
 - 配色/字号等集中在 `generate_html.py` 的 `:root`，改主题只动这里：
 
   | 变量 | 值 | 用途 |

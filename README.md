@@ -64,6 +64,8 @@
 | `netlify.toml` | Netlify 自动构建配置 |
 | `data.json` | 已合并的多期数据（用于部署构建） |
 | `logo.png` | 喜茶图形 logo（favicon + 顶栏内嵌源图） |
+| `看板使用说明.md` | 面向使用者的说明（三个视图怎么用、指标口径、更新流程、常见问题） |
+| `build_guide_docx.py` | 把 `看板使用说明.md` 导出成可分发/打印的 `看板使用说明.docx` |
 
 ---
 
@@ -178,6 +180,7 @@ Netlify 会执行 `python generate_html.py` 生成 `dashboard.html`，再复制�
 python build_data.py      # 解析 Excel → data.json
 python generate_html.py   # data.json → dashboard.html
 python server.py          # 本地实时预览
+python -X utf8 build_guide_docx.py   # 使用说明.md → 使用说明.docx
 ```
 
 ---
