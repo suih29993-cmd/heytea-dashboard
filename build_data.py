@@ -279,6 +279,70 @@ def _composite(metrics, parts, denom=1.0):
             'delta': round(cur - prev, 4) if (cur is not None and prev is not None) else None}
 
 
+def _row_channel(row):
+    """行属于哪个渠道：由「有本期值的指标前缀」判断
+
+    城市层每个渠道各出一行（城市名会重复），主键必须带上渠道才不会串行；
+    区域行则是两个渠道合并在同一行。
+    """
+    metrics = row.get('metrics') or {}
+    for prefix, ch in (('mt_', '美团'), ('sg_', '闪购')):
+        for mk, mv in metrics.items():
+            if mk.startswith(prefix) and isinstance(mv, dict) and mv.get('cur') is not None:
+                return ch
+    return ''
+
+
+# 各级行的主键：门店/督导/区域用名字，城市用 (区域, 城市, 渠道)
+_LEVEL_KEYS = (('stores', lambda r: r['name']),
+               ('supervisor_summary', lambda r: r['name']),
+               ('city_summary', lambda r: (r['region'], r['city'], _row_channel(r))),
+               ('region_summary', lambda r: r['name']))
+
+
+def _fill_prev_from_previous(period, prev_period):
+    """用上一期的「本期值」补齐本期缺失的「上期值」
+
+    为什么需要：源表在门店/城市/区域层只给二级指标的「本期」一列（没给上期），
+    而这些二级指标算出来的商品质量分/服务体验分又要求 6 项齐全才算得出环比，
+    于是这些层级一直显示「—」。平台在督导层给的是「本期/上期/变化」三元组，不受影响。
+
+    只在两期窗口首尾相接时才补（本期 meta.prevPeriod == 上一期 meta.period），
+    否则（例如半月期、缺上一期）原样返回。只补 prev 为空的指标，
+    平台自带的上期列不覆盖；上一期没有的实体或指标仍为 None（前端显示「—」）。
+    """
+    a_meta, b_meta = period.get('meta') or {}, prev_period.get('meta') or {}
+    if not a_meta.get('prevPeriod') or a_meta.get('prevPeriod') != b_meta.get('period'):
+        return 0
+    filled = 0
+    for key, keyf in _LEVEL_KEYS:
+        srcs = {}
+        for row in prev_period.get(key) or []:
+            try:
+                srcs[keyf(row)] = row
+            except (KeyError, TypeError):
+                continue
+        for row in period.get(key) or []:
+            try:
+                src = srcs.get(keyf(row))
+            except (KeyError, TypeError):
+                continue
+            if not src:
+                continue
+            src_metrics = src.get('metrics') or {}
+            for mk, mv in (row.get('metrics') or {}).items():
+                if not isinstance(mv, dict) or mv.get('prev') is not None:
+                    continue
+                bv = src_metrics.get(mk)
+                bv = bv.get('cur') if isinstance(bv, dict) else None
+                if bv is None:
+                    continue
+                mv['prev'] = bv
+                mv['delta'] = round(mv['cur'] - bv, 4) if mv.get('cur') is not None else None
+                filled += 1
+    return filled
+
+
 def _apply_composites(period):
     """给某期各级（门店/督导/城市/区域）metrics 补齐派生指标
 
@@ -704,10 +768,18 @@ def merge():
     if not cache:
         raise SystemExit('没有可用的期缓存，请先全量构建。')
     order.sort(key=_period_key)
+    # 上期补数：源表在门店/城市/区域层没有二级指标的上期列，用上一期的本期值补上，
+    # 补完再重算派生指标，商品质量分/服务体验分 才能带上环比。
+    filled = 0
+    for i in range(1, len(order)):
+        filled += _fill_prev_from_previous(cache[order[i]], cache[order[i - 1]])
+    if filled:
+        for f in order:
+            _apply_composites(cache[f])
     out = {'defaultPeriod': order[-1], '_order': order, 'periods': cache}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print('merged periods=%d default=%s' % (len(order), order[-1]), flush=True)
+    print('merged periods=%d default=%s filled_prev=%d' % (len(order), order[-1], filled), flush=True)
 
 
 def main():
