@@ -72,10 +72,13 @@ ALL_M = (list(STORE_COLS['美团']['pair']) + list(STORE_COLS['美团']['single'
          + list(STORE_COLS['闪购']['pair']) + list(STORE_COLS['闪购']['single'])
          + ['mt_reply'])   # 美团消息回复率(%)：无固定列号，由（有公式）明细表聚合
 
-# 督导视图派生指标：由二级指标按平台公式加权求和 (指标名, 权重)
-# 商品质量分 = 满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%（满分 4 分）
-# 服务体验分 = 消息回复率×10% + 服务负反馈率×10%（满分 1 分）
-# 评分 = 商品质量分 + 服务体验分（满分 5 分），即各分项按权重直接相加，不做归一化。
+# 督导视图派生指标：由二级指标按平台公式加权求和 (指标名, 权重)，6 项权重合计 100%
+#   商品类 4 项合计 80%：满意度 30% + 包装满意度 10% + 复购率指标得分 20% + 食品安全负反馈率 20%
+#   服务类 2 项合计 20%：消息回复率 10% + 服务负反馈率 10%
+# 分类分要按「本维度总权重」归一化回 5 分制（商品除以 0.8、服务除以 0.2），不要再改回直接求和：
+#   商品质量分 =（商品 4 项加权和）÷ 0.8（满分 5 分）
+#   服务体验分 =（服务 2 项加权和）÷ 0.2（满分 5 分）
+#   综合体验分 = 商品质量分×80% + 服务体验分×20%（满分 5 分）＝ 平台给出的评分 mt_score / sg_score
 COMPOSITE = {
     'mt_quality': (('mt_goods_sat', 0.30), ('mt_pack_sat', 0.10),
                    ('mt_repeat_score', 0.20), ('mt_food_safe', 0.20)),
@@ -84,6 +87,8 @@ COMPOSITE = {
                    ('sg_repeat_score', 0.20), ('sg_food_safe', 0.20)),
     'sg_service': (('sg_reply_score', 0.10), ('sg_service_fb', 0.10)),
 }
+# 归一化除数 = 本维度子项权重合计
+COMPOSITE_DENOM = {'mt_quality': 0.8, 'mt_service': 0.2, 'sg_quality': 0.8, 'sg_service': 0.2}
 
 
 def _month_end(year, month):
@@ -257,8 +262,8 @@ def _wavg(rows, mk, which):
     return round(num / den, 4) if den else None
 
 
-def _composite(metrics, parts):
-    """按权重直接求和（商品质量分满分 4 分、服务体验分满分 1 分）；任一分项缺失则记 None"""
+def _composite(metrics, parts, denom=1.0):
+    """按权重加权求和后除以本维度总权重（归一化到 5 分制）；任一分项缺失则记 None"""
 
     def calc(which):
         total = 0.0
@@ -267,7 +272,7 @@ def _composite(metrics, parts):
             if v is None:
                 return None
             total += v * w
-        return round(total, 4)
+        return round(total / denom, 4) if denom else None
 
     cur, prev = calc('cur'), calc('prev')
     return {'cur': cur, 'prev': prev,
@@ -275,14 +280,18 @@ def _composite(metrics, parts):
 
 
 def _apply_composites(period):
-    """给某期各级（门店/督导/城市/区域）metrics 补齐派生指标"""
+    """给某期各级（门店/督导/城市/区域）metrics 补齐派生指标
+
+    顺序有讲究：先用 COMPOSITE 算出两个分类分（各自除以维度总权重归一化），
+    商品质量分/服务体验分才会出现在 metrics 里，供后面的加权平均使用。
+    """
     for s in period.get('stores', []):
         for mk, parts in COMPOSITE.items():
-            s['metrics'][mk] = _composite(s['metrics'], parts)
+            s['metrics'][mk] = _composite(s['metrics'], parts, COMPOSITE_DENOM.get(mk, 1.0))
     for key in ('supervisor_summary', 'city_summary', 'region_summary'):
         for row in period.get(key, []):
             for mk, parts in COMPOSITE.items():
-                row['metrics'][mk] = _composite(row['metrics'], parts)
+                row['metrics'][mk] = _composite(row['metrics'], parts, COMPOSITE_DENOM.get(mk, 1.0))
     return period
 
 
