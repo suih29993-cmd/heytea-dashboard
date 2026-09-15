@@ -387,7 +387,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
     </div>
 
-    <div class="legend">说明：评分 / 回复率 / 满意度类指标 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。</div>
+    <div class="legend">说明：评分 / 回复率 / 满意度类指标 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>：评分 / 商品质量分 / 服务体验分 / 满意度 &lt; 4.5；复购率指标得分 / 食品安全负反馈率 / 消息回复率得分 / 服务负反馈率 低于同期战区后 10%；商责取消率 &gt; 0.3%。</div>
     <h3>门店明细</h3>
     <div class="panel" id="storeView"></div>
   </section>
@@ -445,7 +445,7 @@ HTML = r'''<!DOCTYPE html>
         </div>
       </div>
     </div>
-    <div class="legend">说明：评分 / 商品质量分 / 服务体验分 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。<br>6 项底层指标权重合计 100%（商品类 4 项合计 80%、服务类 2 项合计 20%）。商品质量分 =（商品满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，服务体验分 =（消息回复率×10% + 服务负反馈率×10%）÷ 20%，两者归一化后都是 5 分制；综合体验分（即平台评分）= 商品质量分×80% + 服务体验分×20%（闪购取口味满意度）。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>。选择督导后可进一步勾选其下属门店查看明细。</div>
+    <div class="legend">说明：评分 / 商品质量分 / 服务体验分 <b class="good">越高越好</b>；商责取消率 <b class="good">越低越好</b>。<br>6 项底层指标权重合计 100%（商品类 4 项合计 80%、服务类 2 项合计 20%）。商品质量分 =（商品满意度×30% + 包装满意度×10% + 复购率指标得分×20% + 食品安全负反馈率×20%）÷ 80%，服务体验分 =（消息回复率×10% + 服务负反馈率×10%）÷ 20%，两者归一化后都是 5 分制；综合体验分（即平台评分）= 商品质量分×80% + 服务体验分×20%（闪购取口味满意度）。仅统计「营业中」门店。差值 <b class="good">改善</b> / <b class="bad">恶化</b> / <span class="neu">无变化</span>。单元格 <span style="padding:1px 6px;border-radius:4px;background:#FBF1EF">浅红=未达标预警</span>：评分 / 商品质量分 / 服务体验分 &lt; 4.5；商责取消率 &gt; 0.3%。选择督导后可进一步勾选其下属门店查看明细。</div>
     <h3>督导表现</h3>
     <div class="panel" id="supTable"></div>
     <div class="panel" id="supStoreTable" style="margin-top:18px;display:none"></div>
@@ -583,10 +583,9 @@ document.addEventListener('click',function(e){const h=e.target.closest('.help');
 // ---- 视图1 ----
 let v1RegionIdx=0; // 当前选中的区域 Tab 下标（默认第一个=战区总览）
 function kpiState(mk,cur,delta){
-  // 返回 KPI 卡片的预警状态：'warn' 未达标 → 当前值以 #FBF1EF 浅红高亮；'great' / '' 一律白底
-  // 异常优先：未达标（评分<4.5 / 回复率<0.9 / 商责取消率>0.003）
-  if(mk==='mt_score'||mk==='sg_score'){ if(cur!==null&&cur<4.5) return 'warn'; }
-  else if(mk==='sg_cancel'){ if(cur!==null&&cur>0.003) return 'warn'; }
+  // 返回 KPI 卡片的预警状态：'warn' 未达标 → 当前值以浅红高亮；'great' / '' 一律白底
+  // 异常优先：未达标判定统一走 isWarn()（见文件末尾规则表）
+  if(isWarn(mk,cur)) return 'warn';
   // 优秀：评分>=4.8
   if((mk==='mt_score'||mk==='sg_score')&&cur!==null&&cur>=4.8) return 'great';
   return '';
@@ -994,7 +993,7 @@ function storeDetailRows(arr,mets){
       const warn=isWarn(m,cur)?' class="warn"':'';
       h+='<td'+warn+'><span class="num">'+fmt(m,cur)+'</span><br>'+dtext(m,s.metrics[m].delta)+'</td>';
       if(mi===0 && subCols.length){
-        subCols.forEach(su=>{const w=isWarn(su,s.metrics[su].cur)?' class="warn"':'';h+='<td'+w+'><span class="num">'+fmt(su,s.metrics[su].cur)+'</span></td>';});
+        subCols.forEach(su=>{const w=isWarn(su,s.metrics[su].cur)?' class="warn"':'';h+='<td'+w+'><span class="num">'+fmt(su,s.metrics[su].cur)+'</span><br>'+dtext(su,s.metrics[su].delta)+'</td>';});
       }
     });
     h+='</tr>';
@@ -1023,12 +1022,31 @@ function fillV3Sups(){
   const sups=[...new Set(DATA.supervisor_summary.filter(s=>regs.length===0||regs.includes(s.region)).map(s=>s.name))].sort();
   v3SupTree.rebuild(sups.map(x=>({value:x,label:x})));
 }
-// 视图3 预警判定：按指标返回是否标红
-// 注意：pct 类指标底层存的是小数（0.92=92%），阈值需用小数：90%=0.9、100%=1.0、0.3%=0.003
+// 预警判定（视图1 KPI 卡、视图2 门店明细、视图3 督导表 / 门店明细共用）：返回该单元格是否未达标
+// 注意：pct 类指标底层存的是小数（0.92=92%），阈值需用小数：90%=0.9、0.3%=0.003
+// ① 5 分制”绝对分“（评分 / 商品质量分 / 服务体验分 / 满意度）：低于 4.5（满分 5 分的 90% 线）
+// ② 排名折算类得分（复购率指标得分 / 食品安全负反馈率 / 消息回复率得分 / 服务负反馈率）：
+//     这些分由平台按名次区间折算（0.1 分递减），分布天然偏低（同期中位数 3.8~4.4），绝对分数线会把大多数门店染红，
+//     因此改用相对线：低于同期同渠道战区分布的后 10% 分位（P10）
+// ③ 商责取消率：高于 0.3%（0.003）
+const WARN_ABS45=['mt_score','mt_quality','mt_service','sg_score','sg_quality','sg_service','mt_goods_sat','mt_pack_sat','sg_taste_sat','sg_pack_sat'];
+const WARN_RANK=['mt_repeat_score','mt_food_safe','mt_reply_score','mt_service_fb','sg_repeat_score','sg_food_safe','sg_reply_score','sg_service_fb'];
+const WARN_RANK_PCT=0.10;   // 排名折算类的预警线：战区后 10%
+let _warnThr={};
+function rankWarnThr(mk){
+  const key=CUR_PERIOD+'|'+mk;
+  if(Object.prototype.hasOwnProperty.call(_warnThr,key)) return _warnThr[key];
+  const vals=DATA.stores.filter(s=>s.status==='营业中'&&s.metrics[mk]&&s.metrics[mk].cur!==null).map(s=>s.metrics[mk].cur).sort((a,b)=>a-b);
+  let t=null;
+  if(vals.length) t=vals[Math.max(0,Math.ceil(WARN_RANK_PCT*vals.length)-1)];
+  _warnThr[key]=t;
+  return t;
+}
 function isWarn(mk,cur){
   if(cur===null || cur===undefined) return false;
-  if(mk==='mt_score'||mk==='sg_score') return cur<4.5;
   if(mk==='sg_cancel') return cur>0.003;
+  if(WARN_ABS45.indexOf(mk)>=0) return cur<4.5;
+  if(WARN_RANK.indexOf(mk)>=0){ const t=rankWarnThr(mk); return t!==null && cur<=t; }
   return false;
 }
 
