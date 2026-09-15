@@ -132,10 +132,11 @@ python -X utf8 server.py [--port 8080] [--no-open]            # 本地实时服�
 | `REGION_METRICS` | 区域总览 KPI 卡（7 张）：美团 = 总评分 + 商品质量分 + 服务体验分；闪购 = 总评分 + 商品质量分 + 服务体验分 + 商责取消率 |
 | `BOTTOM_METRICS` | Bottom 5 表（9 项）：美团 = 总评分 + 商品质量分 + 服务体验分 + 消息回复率；闪购 = 总评分 + 商品质量分 + 服务体验分 + 消息回复率 + 商责取消率（比 KPI 卡多两个消息回复率百分比） |
 
+- **KPI 卡片对齐**：`.kpi-grid` 的列数 = `REGION_METRICS.length`（`renderRegion()` 写入 `--kpi-cols`），`.kpi-label` 固定 `min-height:3em`（两行标签的高度），所以七张卡片的**标签 / 数值 / 环比逐行在同一水平线**，`≤760px` 两列时同理；新增 KPI 指标不用改 CSS。
 - 区域总览的指标名走 `mLbl()`：拼上渠道前缀（`美团总评分` / `闪购商品质量分`），其中 `mt_score`/`sg_score` 显示为「总评分」，否则两张卡的「商品质量分」会重名。
 - **门店全景排名（视图2）表格列序**：`#`（名次）→ 督导 → 城市 → 门店 → 勾选的指标列（第一个指标是评分时可展开 6 列二级指标）；每个单元格都是「数值 + 环比小字」——**包括展开的二级指标列**，两者都走 `dtext()` + `isWarn()`；改列序时 `storeDetailRows()` 的 `<th>` 与 `<td>` 两处要同步改。
 - 所有表格用 `table.tbl{table-layout:fixed}` 让各列等宽（单元格 `overflow-wrap:anywhere` 兜底换行）；给某一列单独设宽会破坏等宽，改列宽前先确认这是需求。
-- **响应式断点在 `generate_html.py` 的 `@media`**：`≤1024px` 平板（筛选栏换行、KPI `auto-fit`、面板 `overflow-x:auto`、表格 `min-width:560px`）、`≤760px` 手机（Header/KPI/筛选栏改纵向堆叠、KPI 两列、下拉与输入框全宽、表格 `min-width:660px`）、`≤420px` 小屏（字号与表格 `min-width` 再收窄）。窄屏的宽表靠 `min-width` + 面板横滑解决，**不要为了适配手机去删列或单独改某列宽度**（会破坏等宽约定）。
+- **响应式断点在 `generate_html.py` 的 `@media`**：`≤1024px` 平板（筛选栏换行、KPI 仍七张一排但收窄 padding 与数值字号、面板 `overflow-x:auto`、表格 `min-width:560px`）、`≤760px` 手机（Header/KPI/筛选栏改纵向堆叠、KPI 两列、下拉与输入框全宽、表格 `min-width:660px`）、`≤420px` 小屏（字号与表格 `min-width` 再收窄）。窄屏的宽表靠 `min-width` + 面板横滑解决，**不要为了适配手机去删列或单独改某列宽度**（会破坏等宽约定）。
 | `V3_MT_ORDER` / `V3_SG_ORDER` | 督导视图（督导表现表 + 门店明细，两张表列一致）：美团 = 评分 + 商品质量分 + 服务体验分；闪购 = 评分 + 商品质量分 + 服务体验分 + 商责取消率 |
 | `SUB_MT` / `SUB_SG` | 门店明细里点击展开的二级指标 |
 

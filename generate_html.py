@@ -88,10 +88,11 @@ HTML = r'''<!DOCTYPE html>
   .region-tabs button.active::after{background:var(--accent)}
 
   /* ============ KPI 卡片 ============ */
-  .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(23,23,23,.05)}
+  /* KPI 卡片：所有卡片同排，标签 / 数值 / 环比 逐行水平对齐（列数 = 指标数，由 JS 写入 --kpi-cols） */
+  .kpi-grid{display:grid;grid-template-columns:repeat(var(--kpi-cols,7),minmax(0,1fr));gap:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(23,23,23,.05)}
   .kpi{padding:18px 20px;border-right:1px solid var(--line)}
   .kpi:last-child{border-right:none}
-  .kpi-label{font-size:12.5px;color:#45423D;margin-bottom:12px;font-family:var(--font-sans);font-weight:500;letter-spacing:.2px}
+  .kpi-label{font-size:12.5px;color:#45423D;margin-bottom:12px;font-family:var(--font-sans);font-weight:500;letter-spacing:.2px;min-height:3em;display:flex;align-items:flex-end;text-align:left}
   .kpi-val{font-size:32px;font-weight:600;line-height:1;font-family:var(--font-num);letter-spacing:-.5px;color:var(--ink);font-variant-numeric:tabular-nums}
   .kpi-delta{font-size:12px;margin-top:9px;font-family:var(--font-num);font-weight:500;font-variant-numeric:tabular-nums}
   .kpi.warn .kpi-val{background:var(--warn-bg);padding:2px 6px;border-radius:6px;display:inline-block;line-height:1.2}
@@ -183,7 +184,8 @@ HTML = r'''<!DOCTYPE html>
     .filters{flex-wrap:wrap;gap:8px 10px}
     .fitem{flex:0 1 auto;min-width:0}
     .fitem .tree-dropdown,.fitem .search-wrap{max-width:100%}
-    .kpi-grid{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+    .kpi{padding:14px 12px}
+    .kpi-val{font-size:26px}
     .panel, .panel-tight{overflow-x:auto}
     table.tbl{min-width:560px}
     .help-tip{max-width:calc(100vw - 24px)}
@@ -208,7 +210,7 @@ HTML = r'''<!DOCTYPE html>
     .kpi{padding:14px 14px;border-bottom:1px solid var(--line)}
     .kpi:nth-child(2n), .kpi:last-child{border-right:none}
     .kpi:last-child{border-bottom:none}
-    .kpi-label{margin-bottom:8px}
+    .kpi-label{margin-bottom:8px;min-height:2.6em}
     .kpi-val{font-size:24px}
     .filters{padding-bottom:10px}
     .fitem{flex:1 1 100%;min-width:0}
@@ -629,7 +631,7 @@ function renderRegion(){
       '<div class="kpi-val">'+fmt(mk,mm.cur)+'</div>'+
       '<div class="kpi-delta">'+dtext(mk,mm.delta)+'</div></div>';
   });
-  wrap.innerHTML='<div class="kpi-grid">'+cards+'</div>';
+  wrap.innerHTML='<div class="kpi-grid" style="--kpi-cols:'+REGION_METRICS.length+'">'+cards+'</div>';
 }
 function renderBottom3(){
   const regs=b3RegTree.getChecked();
