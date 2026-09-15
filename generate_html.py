@@ -120,7 +120,7 @@ HTML = r'''<!DOCTYPE html>
   table.tbl th{background:var(--th-bg);color:var(--ink);text-align:center;padding:10px 12px;font-weight:600;border-bottom:1px solid var(--line);font-family:var(--font-sans);vertical-align:middle;overflow-wrap:anywhere}
   table.tbl td{padding:10px 12px;border-bottom:1px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--font-sans);text-align:center;vertical-align:middle;overflow-wrap:anywhere}
   table.tbl td.num,table.tbl td .num{font-family:var(--font-num);font-variant-numeric:tabular-nums;font-size:var(--num-size);line-height:1.25}
-  table.tbl td b.num{font-family:var(--font-num);font-size:var(--num-size);line-height:1.25}
+  table.tbl td b.num{font-family:var(--font-num)}   /* Bottom 5 表：本期数值保持原字号 */
   table.tbl tr:last-child td{border-bottom:none}
   table.tbl tbody tr:hover{background:#FAF9F6}
   table.tbl tbody tr:hover td{background:#FAF9F6}
@@ -133,6 +133,8 @@ HTML = r'''<!DOCTYPE html>
   .tbl th.sg-col{background:var(--th-bg);color:var(--ink)}
   .tbl th.mt-last{border-right:2px solid #C7C4BE !important}
   .tbl td.mt-last{border-right:2px solid #C7C4BE !important}
+  /* 督导视图（督导表现 + 门店明细）：正文字号与本期数值一致；环比小字仍走 .dtext */
+  #supTable table.tbl,#supStoreTable table.tbl{font-size:var(--num-size)}
   /* 异常：仅预警单元格使用浅红底；其余默认白底 */
   .tbl td.warn{background:var(--warn-bg) !important}
   .dtext{font-size:12px;font-weight:600;white-space:nowrap;font-family:var(--font-num);font-variant-numeric:tabular-nums}
