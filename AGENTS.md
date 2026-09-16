@@ -200,7 +200,7 @@ print(subprocess.run(['node', '--check', '_chk.js'], capture_output=True, text=T
 
 ## 6. 上线流程
 
-`push` 到 `main` → Netlify 自动构建并更新固定链接。
+`push` 到 `main` → 托管平台自动构建并更新固定链接。**主推 Cloudflare Pages**（免费版不限带宽/请求，500 次构建/月），Netlify 降为备用：**Netlify 免费版按 credits 计量，额度用尽后生产部署会被暂停**（站点仍在线但 `git push` 不再更新线上，要等下个计费周期）。Cloudflare 的构建命令 = `python3 -X utf8 generate_html.py && cp dashboard.html 部署_Netlify/index.html`，输出目录 = `部署_Netlify`；完整步骤见 `CloudflarePages部署步骤.md`。
 
 ```bash
 python -X utf8 build_data.py
@@ -213,7 +213,10 @@ git add -A && git commit -m "..." && git push origin main
 
 `推送更新.bat` 只 `git add data.json`，**不会**提交代码改动；改了代码请手动 `git add -A`。
 
-其他部署方式见 `README.md`；腾讯云 COS 见 `腾讯云COS部署步骤.md`。
+- `部署_Netlify/`（发布目录）里的 `robots.txt` + `_headers`（`X-Robots-Tag: noindex, nofollow`）是防止看板被搜索引擎收录/被爬虫反复抓取消耗额度用的，两个平台都认，**别删**。
+- 发布目录的形状：`部署_Netlify/index.html` 被 `.gitignore` 忽略（构建期生成），但目录里有 `README_上传说明.txt`，所以目录本身在仓库中存在——Cloudflare/Netlify 的构建都是「先 `cp` 生成 index.html，再把这个目录当产物发布」。
+
+其他部署方式见 `README.md`；Cloudflare Pages 见 `CloudflarePages部署步骤.md`；腾讯云 COS 见 `腾讯云COS部署步骤.md`。
 
 ---
 

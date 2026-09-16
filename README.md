@@ -47,7 +47,7 @@
 - 数据：`data.json`（构建期由 Excel 汇总，页面内联）
 - 字体：正文 `Noto Sans SC`，数字 `Inter`，品牌标题 `Noto Serif SC`
 - 配色：暖白 `#F9F8F6` + 白 `#FFFFFF` + 墨黑 `#1A1A1A` + 低饱和茶绿 `#45684A`，改善 `#5E7E5A` / 恶化 `#BE554B` / 无变化 `#A3A09A`
-- 部署：Git + Netlify 自动构建
+- 部署：Git + Cloudflare Pages 自动构建（免费不限带宽；Netlify 保留为备用）
 
 ---
 
@@ -61,7 +61,8 @@
 | `启动看板.bat` | 一键启动本地服务并打开浏览器 |
 | `推送更新.bat` | 重建数据 → 生成页面 → 提交并推送 GitHub |
 | `发布_Netlify.bat` | 重建数据 → 生成页面 → 发布到 Netlify |
-| `netlify.toml` | Netlify 自动构建配置 |
+| `netlify.toml` | Netlify 自动构建配置（备用托管） |
+| `CloudflarePages部署步骤.md` | 换到 Cloudflare Pages 的部署步骤（含防爬虫配置） |
 | `data.json` | 已合并的多期数据（用于部署构建） |
 | `logo.png` | 喜茶图形 logo（favicon + 顶栏内嵌源图） |
 | `看板使用说明.md` | 面向使用者的说明（三个视图怎么用、指标口径、更新流程、常见问题） |
@@ -140,9 +141,9 @@ python server.py --no-open     # 不自动打开浏览器
 
 ## 部署
 
-### 方式一：Git + Netlify（推荐，链接固定）
+### 方式一：Git + Cloudflare Pages（推荐，链接固定、不限流量）
 
-仓库已通过网络钩子接入 Netlify，`push` 到 `main` 即自动构建：
+仓库接入 Cloudflare Pages 后，`push` 到 `main` 即自动构建：
 
 ```bash
 git add -A
@@ -150,11 +151,13 @@ git commit -m "更新看板"
 git push origin main
 ```
 
-Netlify 会执行 `python generate_html.py` 生成 `dashboard.html`，再复制到 `部署_Netlify/index.html` 作为发布目录。
+构建命令 `python3 -X utf8 generate_html.py && cp dashboard.html 部署_Netlify/index.html`，输出目录 `部署_Netlify`。
+**Netlify 免费版按 credits 计量，额度用尽后生产部署会被暂停**（站点仍在线但不再更新），所以主推 Cloudflare Pages。
+完整步骤见 [`CloudflarePages部署步骤.md`](CloudflarePages部署步骤.md)。
 
 也可以双击 `推送更新.bat` 一键完成“重建 + 提交 + 推送”。
 
-### 方式二：Netlify CLI / 拖拽
+### 方式二：Netlify（备用，链接固定）
 
 双击 `发布_Netlify.bat`：重建数据并复制 `dashboard.html` 到 `部署_Netlify/`，然后：
 

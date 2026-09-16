@@ -1,5 +1,10 @@
 【如何把看板发成链接】
 
+[2026-09 更新] Netlify 免费版改为按 credits 计量，额度用尽后"生产部署会被暂停"
+（站点仍在线，但再 push 也不会更新线上，要等下个计费周期或升级付费）。
+推荐改用 Cloudflare Pages（免费版不限带宽/请求）：步骤见仓库根目录
+《CloudflarePages部署步骤.md》。下面的 Netlify 方案仍可继续用，作为备用。
+
 方式一：Netlify Drop（免代码，最快，但每次是“新链接”）
 1. 打开 https://app.netlify.com/drop
 2. 把整个「部署_Netlify」文件夹拖进网页（或只拖 index.html）。
