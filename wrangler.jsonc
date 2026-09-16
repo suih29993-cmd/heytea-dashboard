@@ -1,0 +1,10 @@
+{
+  // 供「Workers 项目 + wrangler deploy」这条路使用：把发布目录当作 Worker 静态资源
+  // 注意：部署_Netlify/index.html 被 .gitignore 忽略，构建期必须先跑 Build command 生成它，
+  //       否则这里会发布一个空的资源目录。
+  "name": "heytea-dashboard",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./部署_Netlify"
+  }
+}

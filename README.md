@@ -62,7 +62,8 @@
 | `推送更新.bat` | 重建数据 → 生成页面 → 提交并推送 GitHub |
 | `发布_Netlify.bat` | 重建数据 → 生成页面 → 发布到 Netlify |
 | `netlify.toml` | Netlify 自动构建配置（备用托管） |
-| `CloudflarePages部署步骤.md` | 换到 Cloudflare Pages 的部署步骤（含防爬虫配置） |
+| `CloudflarePages部署步骤.md` | 换到 Cloudflare Pages 的部署步骤（含排错、防爬虫配置） |
+| `wrangler.jsonc` | 备用：已建成的 Workers 项目用它把 `部署_Netlify` 当静态资源发布 |
 | `data.json` | 已合并的多期数据（用于部署构建） |
 | `logo.png` | 喜茶图形 logo（favicon + 顶栏内嵌源图） |
 | `看板使用说明.md` | 面向使用者的说明（三个视图怎么用、指标口径、更新流程、常见问题） |

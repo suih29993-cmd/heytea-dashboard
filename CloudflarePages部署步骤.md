@@ -71,6 +71,38 @@ npx wrangler pages deploy 部署_Netlify --project-name=heytea-dashboard
 
 两个文件 Netlify 和 Cloudflare Pages 都认，不用改配置。
 
+## 排错：部署 12 秒就失败 / `Latest build failed`
+
+现象：Workers & Pages 里项目名 `heytea-dashboard`，构建卡在 **Deploying** 阶段失败，Build settings 显示
+`Deploy command = npx wrangler deploy`、`Build command = None`。
+
+原因：这个项目是 **Workers 项目**（Create 时选了 Workers → Import a repository），不是 Pages 项目。
+Workers 项目会执行 `npx wrangler deploy`，需要仓库里有 `wrangler.toml` / `wrangler.jsonc`；
+本项目是纯静态站点，原先没有该文件，所以必然失败。
+
+两种解法，任选其一：
+
+**解法 1（推荐）：改成 Pages 项目** —— 见上面的「方式 A」。
+新建时一定要在 **Pages** 这一栏点 `Connect to Git`（Workers 栏的 `Import a repository` 会再建出一个 Worker 项目）。
+建好 Pages 项目后，这个失败的 Worker 项目可以到 Settings → Delete project 删掉；名字若被占用，Pages 项目换个名字（如 `heytea-dashboard-pages`）即可。
+
+**解法 2：保留现有 Worker 项目**（少动一步，链接形如 `https://heytea-dashboard.<你的账号>.workers.dev`）：
+
+1. 仓库根目录已有 `wrangler.jsonc`（把 `部署_Netlify` 作为静态资源目录），**先 `git pull` 拉到最新**。
+2. 进入项目 → **Settings → Build**，把 **Build command** 从 `None` 改成：
+
+   ```bash
+   (python3 -X utf8 generate_html.py || python -X utf8 generate_html.py) && cp dashboard.html 部署_Netlify/index.html
+   ```
+
+   （`Deploy command` 保持 `npx wrangler deploy` 不动；`Root directory` 保持 `/`。）
+   注意 `Build command` 不能留空：发布目录里的 `index.html` 不在仓库里，是构建期生成的。
+3. 回到 **Deployments** → 右侧 `Retry deployment`（或重新 push 一次）。
+4. 构建日志里若报 `Cannot find module 'wrangler'`，把 Deploy command 改成 `npx --yes wrangler deploy`。
+
+> 两条路的产物是同一份 `部署_Netlify` 目录，只是「谁来托管」不同：Pages 走 `*.pages.dev`，Workers 静态资源走 `*.workers.dev`。
+> Cloudflare 免费版下两者都不收流量费。
+
 ## 常见坑
 
 - **`部署_Netlify` 目录必须存在于仓库里**：`.gitignore` 忽略了 `部署_Netlify/index.html`，但目录里有 `README_上传说明.txt`，所以目录本身在仓库中存在，构建时用 `cp` 生成 `index.html` 没问题。
