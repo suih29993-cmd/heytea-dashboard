@@ -142,6 +142,10 @@ python server.py --no-open     # 不自动打开浏览器
 
 ## 部署
 
+### 线上地址
+
+**<https://heytea-dashboard-5nw.pages.dev/>**（Cloudflare Pages，固定链接，推送即自动更新）
+
 ### 方式一：Git + Cloudflare Pages（推荐，链接固定、不限流量）
 
 仓库接入 Cloudflare Pages 后，`push` 到 `main` 即自动构建：

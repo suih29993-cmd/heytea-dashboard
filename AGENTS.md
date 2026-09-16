@@ -200,7 +200,7 @@ print(subprocess.run(['node', '--check', '_chk.js'], capture_output=True, text=T
 
 ## 6. 上线流程
 
-`push` 到 `main` → 托管平台自动构建并更新固定链接。**主推 Cloudflare Pages**（免费版不限带宽/请求，500 次构建/月），Netlify 降为备用：**Netlify 免费版按 credits 计量，额度用尽后生产部署会被暂停**（站点仍在线但 `git push` 不再更新线上，要等下个计费周期）。Cloudflare 的构建命令 = `python3 -X utf8 generate_html.py && cp dashboard.html 部署_Netlify/index.html`，输出目录 = `部署_Netlify`；完整步骤见 `CloudflarePages部署步骤.md`。
+线上地址：**https://heytea-dashboard-5nw.pages.dev/**（Cloudflare Pages 项目 `heytea-dashboard-5nw`，Git 集成）。`push` 到 `main` → 托管平台自动构建并更新固定链接。**主推 Cloudflare Pages**（免费版不限带宽/请求，500 次构建/月），Netlify 降为备用：**Netlify 免费版按 credits 计量，额度用尽后生产部署会被暂停**（站点仍在线但 `git push` 不再更新线上，要等下个计费周期）。Cloudflare 的构建命令 = `python3 -X utf8 generate_html.py && cp dashboard.html 部署_Netlify/index.html`，输出目录 = `部署_Netlify`；完整步骤见 `CloudflarePages部署步骤.md`。
 
 ```bash
 python -X utf8 build_data.py

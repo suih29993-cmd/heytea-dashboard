@@ -20,6 +20,8 @@ HTML = r'''<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<!-- build-marker: 2026-09-16-cloudflare-pages -->
 <title>喜茶华南区运营数据看板</title>
 <link rel="icon" href="__LOGO__">
 <link rel="preconnect" href="https://fonts.googleapis.com">
