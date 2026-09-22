@@ -11,9 +11,12 @@ r"""喜茶华南区数据看板 - 数据管道
 
 每期文件夹内（两种目录布局都兼容）：
   [评分数据\]全国评分数据*-美团.xlsx / *-闪购.xlsx  ← 门店级 / 督导级 / 区域·城市级 指标
-  [评分数据\]有公式\*（有公式）.xlsx               ← 补美团门店级「消息回复率 / 复购率」百分比，
-                                                    并给出该期「本期 / 上期」的准确日期区间
+  [评分数据\]有公式\*（有公式）.xlsx               ← 门店级明细：门店维度整列没有的指标、
+                                                    二级指标的「上期」，并给出该期准确的日期区间
   基础数据\<期>.xlsx 或 <期>.xlsx                  ← 仅用于补 门店ID / 门店类型（可选）
+
+整期只有「（有公式）」文件、且平铺在期文件夹根目录时（如 9.14-9.20评分数据\），
+该文件身兼两职：既是评分数据（含 华南门店维度 / 华南汇总 / 督导 全表），也是门店级明细。
 
 输出: data.json -> { defaultPeriod, _order, periods: {folder: 单期数据} }
 """
@@ -89,6 +92,11 @@ COMPOSITE = {
 }
 # 归一化除数 = 本维度子项权重合计
 COMPOSITE_DENOM = {'mt_quality': 0.8, 'mt_service': 0.2, 'sg_quality': 0.8, 'sg_service': 0.2}
+# 城市/战区层源表只给这些二级指标的「本期」一列，上期由旗下门店聚合补齐（见 build_period）
+_CITY_PREV = ('mt_goods_sat', 'mt_pack_sat', 'mt_repeat_score', 'mt_food_safe',
+              'mt_reply_score', 'mt_service_fb',
+              'sg_taste_sat', 'sg_pack_sat', 'sg_repeat_score', 'sg_food_safe',
+              'sg_reply_score', 'sg_service_fb')
 
 
 def _month_end(year, month):
@@ -372,35 +380,43 @@ def _first_dir(folder, *rels):
 def _rating_files(folder):
     """返回 {'美团': 路径, '闪购': 路径}
 
-    兼容 期文件夹\\评分数据\\*.xlsx 与 期文件夹\\*.xlsx 两种布局；跳过（有公式）文件。
+    兼容 期文件夹\\评分数据\\*.xlsx 与 期文件夹\\*.xlsx 两种布局。
+    第一轮只认不含「有公式」的文件名（有公式文件由 _formula_file() 单独定位）；平铺布局下
+    再补一轮认「（有公式）」文件——那种期整期只有一份有公式导出，它本身就含全套 sheet。
     """
     d = _first_dir(folder, ('评分数据',), ())
-    found = {}
     if not d:
-        return found
-    for fn in sorted(os.listdir(d)):
-        p = os.path.join(d, fn)
-        if not os.path.isfile(p) or not fn.lower().endswith('.xlsx'):
-            continue
-        if fn.startswith('~$') or fn.startswith('.'):   # 跳过 Excel 临时锁文件
-            continue
-        if '有公式' in fn:                              # 有公式文件单独由 _formula_file() 定位
-            continue
-        if '美团' in fn:
-            found.setdefault('美团', p)
-        elif '闪购' in fn:
-            found.setdefault('闪购', p)
+        return {}
+    flat = os.path.normcase(d) == os.path.normcase(os.path.join(BASE, folder))
+    found = {}
+    for want_formula in (False, True):
+        if want_formula and not flat:                   # 折叠布局：有公式文件不是评分数据
+            break
+        for fn in sorted(os.listdir(d)):
+            if ('有公式' in fn) != want_formula:
+                continue
+            if not fn.lower().endswith('.xlsx'):
+                continue
+            if fn.startswith('~$') or fn.startswith('.'):   # 跳过 Excel 临时锁文件
+                continue
+            p = os.path.join(d, fn)
+            if not os.path.isfile(p):
+                continue
+            if '美团' in fn:
+                found.setdefault('美团', p)
+            elif '闪购' in fn:
+                found.setdefault('闪购', p)
     return found
 
 
 def _formula_file(folder, plat):
-    """「有公式」文件：兼容 评分数据\\有公式\\ 与 有公式\\ 两种布局"""
-    d = _first_dir(folder, ('评分数据', '有公式'), ('有公式',))
-    if not d:
-        return None
-    for fn in sorted(os.listdir(d)):
-        if fn.lower().endswith('.xlsx') and not fn.startswith('~$') and '有公式' in fn and plat in fn:
-            return os.path.join(d, fn)
+    """「有公式」文件：兼容 评分数据\\有公式\\、有公式\\ 与平铺在期文件夹根目录三种布局"""
+    for d in (_first_dir(folder, ('评分数据', '有公式'), ('有公式',)), _first_dir(folder, ())):
+        if not d:
+            continue
+        for fn in sorted(os.listdir(d)):
+            if fn.lower().endswith('.xlsx') and not fn.startswith('~$') and '有公式' in fn and plat in fn:
+                return os.path.join(d, fn)
     return None
 
 
@@ -447,58 +463,81 @@ def _norm_store(s):
     return (m.group(1) if m else t).strip()
 
 
-# 美团（有公式）明细表列号（0 基）：日期 4、门店名称 5、门店id 6、复购率 16、消息回复率 18
-_MT_DETAIL_COLS = {'mt_repeat': 16, 'mt_reply': 18}
+# 「有公式」文件里的门店明细表（0 基列号）
+#   美团：门店×日期明细（表名 全国本期/全国上期，另有「日期」列可反推该期区间）
+#   闪购：一店一行（表名 本期/上期，没有日期列）；华南最新一期平铺导出时表名也是 本期/上期
+# cols 里既有门店维度整列没有的指标，也有「只给本期一列」的二级指标——后者的上期全靠「上期」表
+_DETAIL = {
+    '美团': {'cur': ('全国本期', '本期'), 'prev': ('全国上期', '上期'),
+             'name': 5, 'sid': 6, 'date': 4, 'frame': True,
+             'cols': {'mt_score': 10, 'mt_goods_sat': 13, 'mt_pack_sat': 14,
+                      'mt_repeat_score': 15, 'mt_repeat': 16, 'mt_reply_score': 17,
+                      'mt_reply': 18, 'mt_service_fb': 19, 'mt_food_safe': 20}},
+    '闪购': {'cur': ('本期',), 'prev': ('上期',),
+             'name': 4, 'sid': 5, 'date': None, 'frame': False,
+             'cols': {'sg_score': 8, 'sg_taste_sat': 9, 'sg_pack_sat': 10,
+                      'sg_repeat_score': 11, 'sg_food_safe': 12, 'sg_reply_score': 13,
+                      'sg_service_fb': 14, 'sg_reply': 15, 'sg_cancel': 16}},
+}
 # 「战区框架表」列号（0 基）：美团外卖ID 9、门店名称 15
 _MT_FRAME_NAME, _MT_FRAME_ID = 15, 9
 
 
-def _read_mt_detail(folder, info, need):
-    """美团「有公式」文件里的门店×日期明细 → 补门店级百分比指标 + 该期准确的日期区间
+def _read_detail(folder, plat, info):
+    """「有公式」文件里的门店明细 → 门店级指标 + 该期准确的日期区间
 
     返回 (per_store, ranges)：
-      per_store[门店名][指标] = {'cur':…, 'prev':…, 'delta':…}，指标见 _MT_DETAIL_COLS，
-        口径与文件自身公式一致：对门店所有日期取平均（已核对：门店维度的评分/满意度/复购率
-        = 全国本期同列均值）。
-      ranges = (本期(起,止), 上期(起,止))，取自明细「日期」列，比文件夹名更准，用于页面上的
-        「数据周期 / 上一周期」文案；读不到就返回 None。
+      per_store[门店名][指标] = {'cur':…, 'prev':…, 'delta':…}，指标见 _DETAIL[plat]['cols']，
+        口径与文件自身公式一致：对门店的全部日期取平均（已核对：门店维度的本期值 = 明细本期均值）。
+      ranges = (本期(起,止), 上期(起,止))，取自美团明细的「日期」列，比文件夹名更准，用于页面上的
+        「数据周期 / 上一周期」文案；闪购明细没有日期列，返回 (None, None)。
 
     明细表门店名带「喜茶(...)」外壳，先按规范化名称匹配；对不上时用「战区框架表」的
     门店名称 → 美团外卖ID 反查 ID，再按 ID 匹配。
     """
-    path = _formula_file(folder, '美团')
+    cfg = _DETAIL[plat]
+    path = _formula_file(folder, plat)
     if not path:
-        return {}, None
+        return {}, (None, None)
     try:
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
 
+        def pick(names):
+            for n in names:
+                if n in wb.sheetnames:
+                    return n
+            return None
+
         def collect(sheet):
             by_name, by_id, days = {}, {}, []
+            if not sheet:
+                return by_name, by_id, days
             for r in wb[sheet].iter_rows(min_row=2, values_only=True):
-                if r[5]:
-                    nk, sid = _norm_store(r[5]), str(r[6]).strip()
-                    for mk in need:
-                        v = _num(r[_MT_DETAIL_COLS[mk]])
+                if len(r) > cfg['name'] and r[cfg['name']]:
+                    nk, sid = _norm_store(r[cfg['name']]), str(r[cfg['sid']]).strip()
+                    for mk, i in cfg['cols'].items():
+                        v = _num(r[i]) if len(r) > i else None
                         if v is None:
                             continue
                         by_name.setdefault((nk, mk), []).append(v)
                         by_id.setdefault((sid, mk), []).append(v)
-                d = _txt(r[4])
-                if len(d) == 8 and d.isdigit():
-                    days.append(d)
+                if cfg['date'] is not None and len(r) > cfg['date']:
+                    d = _txt(r[cfg['date']])
+                    if len(d) == 8 and d.isdigit():
+                        days.append(d)
             days.sort()
             return by_name, by_id, days
 
-        cur, prev = collect('全国本期'), collect('全国上期')
+        cur, prev = collect(pick(cfg['cur'])), collect(pick(cfg['prev']))
         frame = {}
-        if '战区框架表' in wb.sheetnames:
+        if cfg['frame'] and '战区框架表' in wb.sheetnames:
             for r in wb['战区框架表'].iter_rows(min_row=2, values_only=True):
-                if r[1] and r[_MT_FRAME_NAME] and r[_MT_FRAME_ID]:
+                if len(r) > _MT_FRAME_NAME and r[1] and r[_MT_FRAME_NAME] and r[_MT_FRAME_ID]:
                     frame[_norm_store(r[_MT_FRAME_NAME])] = str(r[_MT_FRAME_ID]).strip()
         wb.close()
     except Exception as e:
-        print('   （美团（有公式）读取失败，忽略明细补数：%s）' % e, flush=True)
-        return {}, None
+        print('   （%s（有公式）读取失败，忽略明细补数：%s）' % (plat, e), flush=True)
+        return {}, (None, None)
 
     def mean(src, name, sid, mk):
         seq = src[0].get((name, mk)) or (src[1].get((sid, mk)) if sid else None)
@@ -509,7 +548,7 @@ def _read_mt_detail(folder, info, need):
         nk = _norm_store(name)
         ik = str((info.get(name) or {}).get('id') or '').strip() or frame.get(nk, '')
         rec = {}
-        for mk in need:
+        for mk in cfg['cols']:
             c, pv = mean(cur, nk, ik, mk), mean(prev, nk, ik, mk)
             if c is None and pv is None:
                 continue
@@ -622,11 +661,11 @@ def build_period(folder):
 
     # ---------- 1. 门店级 ----------
     store_rec = {}
-    mt_names = set()          # 美团门店维度里出现的门店（消息回复率只补这些门店）
+    plat_names = {}           # 各渠道「华南门店维度」里的门店（明细只给这些门店补数）
     for plat, path in rating.items():
-        for name, rec in _read_rating_stores(path, plat).items():
-            if plat == '美团':
-                mt_names.add(name)
+        recs = _read_rating_stores(path, plat)
+        plat_names[plat] = set(recs)
+        for name, rec in recs.items():
             tgt = store_rec.setdefault(name, {
                 'region': rec['region'], 'province': rec['province'],
                 'city': rec['city'], 'supervisor': rec['supervisor'], 'metrics': {}})
@@ -636,18 +675,40 @@ def build_period(folder):
 
     info = _store_info(folder)
     # 门店名以美团「华南门店维度」为准，底表只用来提供门店 ID（可能缺）
-    # 美团门店维度缺哪些百分比列（8 月缺消息回复率、9 月起缺复购率），就从（有公式）明细补哪些
-    mt_have = {mk for n in mt_names for mk in store_rec[n]['metrics']}
-    mt_need = [mk for mk in ('mt_reply', 'mt_repeat') if mk not in mt_have]
-    mt_detail, ranges = _read_mt_detail(folder, {n: info.get(n, {}) for n in mt_names}, mt_need)
-    for name, rec in store_rec.items():
-        rec['metrics'].update(mt_detail.get(name) or {})
-    # 「有公式」明细的日期列是这一期最准的区间，用它覆盖文件夹名推出来的文案
+    #（有公式）明细补两件事：门店维度整列没有的指标（美团 8 月缺消息回复率、9 月起缺复购率），
+    # 以及门店维度只给「本期」一列的二级指标的上期（明细自带「上期」表）。
+    detail, ranges = {}, (None, None)
+    for plat in rating:
+        det, rng = _read_detail(folder, plat,
+                                {n: info.get(n, {}) for n in plat_names.get(plat, ())})
+        for name, dv in (det or {}).items():
+            detail.setdefault(name, {}).update(dv)
+        if rng and rng[0]:
+            ranges = rng
     cur_r, prev_r = ranges or (None, None)
+    # 明细的「上期」是紧邻的上一小段（平铺那期是 9/07–9/13），和「上一期文件夹」的区间
+    # （_period_str 推出来的 prev/prev_end）对不上时，门店/城市层就没有别的上期来源，只能靠明细补；
+    # 对得上（8 月、9 月这两期）就保持原样，留给 merge() 的 _fill_prev_from_previous 补。
+    use_detail_prev = bool(prev_r) and prev_r != (prev, prev_end)
+    # 「有公式」明细的日期列是这一期最准的区间，用它覆盖文件夹名推出来的文案
     if cur_r:
         period, period_end = cur_r
     if prev_r:
         prev, prev_end = prev_r
+    for name, rec in store_rec.items():
+        for mk, mv in (detail.get(name) or {}).items():
+            tgt = rec['metrics'].get(mk)
+            if tgt is None:                 # 门店维度整列没有该指标 → 整条照搬明细
+                rec['metrics'][mk] = dict(mv)
+                continue
+            if not use_detail_prev:
+                continue                    # 门店维度自带的本期/上期优先，不覆盖
+            if tgt.get('cur') is None:
+                tgt['cur'] = mv.get('cur')
+            if tgt.get('prev') is None:
+                tgt['prev'] = mv.get('prev')
+            if tgt.get('cur') is not None and tgt.get('prev') is not None:
+                tgt['delta'] = round(tgt['cur'] - tgt['prev'], 4)
     blanks = {mk: {'cur': None, 'prev': None, 'delta': None} for mk in ALL_M}
     stores = []
     for name, rec in store_rec.items():
@@ -694,6 +755,17 @@ def build_period(folder):
     for r in city_rows:
         if r['plat'] == '美团' and r['metrics'].get('mt_reply', {}).get('cur') is None:
             r['metrics']['mt_reply'] = _agg(by_city.get(r['city'], []), 'mt_reply')
+        if not use_detail_prev:
+            continue
+        # 城市层只给这些二级指标的「本期」→ 上期由旗下门店聚合补齐；城市级本来就是旗下门店的
+        # 简单平均（已与「华南汇总」逐城市核对一致），所以两级的本期/上期是同一套口径。
+        for mk in _CITY_PREV:
+            mv = r['metrics'].get(mk)
+            if mv is None or mv.get('prev') is not None:
+                continue
+            mv['prev'] = _agg(by_city.get(r['city'], []), mk).get('prev')
+            if mv.get('prev') is not None and mv.get('cur') is not None:
+                mv['delta'] = round(mv['cur'] - mv['prev'], 4)
 
     city_summary = [{
         'region': r['region'], 'city': r['city'], 'storeCount': r['storeCount'],
@@ -707,6 +779,14 @@ def build_period(folder):
             m = top_metrics.get(mk)
             if m and m.get('cur') is not None:
                 tm[mk] = m
+                if use_detail_prev and m.get('prev') is None:
+                    # 战区行只给「本期」的二级指标 → 上期按城市行简单平均补齐
+                    #（源表 战区行就是「=AVERAGE(各城市)」，两期必须同一口径才可比）
+                    pv = [c['metrics'][mk]['prev'] for c in city_rows
+                          if c['metrics'].get(mk, {}).get('prev') is not None]
+                    if pv:
+                        m['prev'] = round(sum(pv) / len(pv), 4)
+                        m['delta'] = round(m['cur'] - m['prev'], 4)
             else:   # 战区行缺该指标（如闪购商责取消率）→ 按城市门店数加权补齐
                 cur, pv = _wavg(city_rows, mk, 'cur'), _wavg(city_rows, mk, 'prev')
                 tm[mk] = {'cur': cur, 'prev': pv,
